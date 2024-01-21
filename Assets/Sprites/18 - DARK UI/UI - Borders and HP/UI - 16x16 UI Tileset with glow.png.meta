@@ -1,0 +1,1341 @@
+fileFormatVersion: 2
+guid: 783923bda256c1c4ba64fd9483a3fed6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 247
+        width: 52
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7254ab82c0cff4746a0995602ccb9b9c
+      internalID: -2007766517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 248
+        width: 48
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891abda84a0880846a04a769616aea53
+      internalID: 1122051668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_2
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 247
+        width: 52
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64a0e892a7963d429e36fe6c6043051
+      internalID: -1787781121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_3
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 218
+        width: 70
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f884736166c50147bf27523a4be29f8
+      internalID: -1678419155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_4
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 221
+        width: 58
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178c0c0dfa2d6cb478d2554828853fd9
+      internalID: -262800117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_5
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 219
+        width: 68
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c0d126cb017af47a4f8ee99db499a3
+      internalID: -59934419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_6
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 162
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9091c0c5f3d1c384087e7d2594a77cf5
+      internalID: -201281133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_7
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 162
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219211550e29d2942b3efef1bdd056f1
+      internalID: 1449288107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_8
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 161
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d090ab1ea24ff914b9d668f12e2cf2f0
+      internalID: 409735150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_9
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 160
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e7b68ff7d5a9a44a52c91d126457db
+      internalID: -2071190857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_10
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 162
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24b0b75188509648a4508b4a907efac
+      internalID: 1918119911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_11
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 162
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b605aa11e931534d8f1335911a88fc9
+      internalID: -1492382079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_12
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 135
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18ca8998c0871741b7b840706fada49
+      internalID: -872656319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_13
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 88
+        width: 12
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89004d95c5782b2429debc7ba2fe5d04
+      internalID: 1384552036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_14
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 132
+        width: 42
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfc2926047a7c2438c35047fe008986
+      internalID: -430454212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_15
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 134
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d584fd59a621f7447b81a0e05911be58
+      internalID: -523213931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_16
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 133
+        width: 42
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca28e55de26d7e543b9020def0b9cd77
+      internalID: -721704310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_17
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 135
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5521050c555880644857f698d6207463
+      internalID: -900516579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 118
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391e21b267fe4ea4280923fa839069ce
+      internalID: -740669957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_19
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 96
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b85337215644d34681e9a1761a3dcf3
+      internalID: -806620590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_20
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 91
+        width: 8
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55b25954cfd5e04d944e51599d96f6e
+      internalID: 1787210371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_21
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 116
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cf046f6ed82df44a8af52cd99332fb
+      internalID: 1245539615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_22
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 117
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fae610164c82344b03caa486c94f51
+      internalID: -1253507558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_23
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 95
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c687b558c0496e14fb87bad1ad880a31
+      internalID: -422550631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_24
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 95
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4bc0d13f6b40042b3697d30ea5826e
+      internalID: 701313174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_25
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 95
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a896fcad0af5444a3a7777629d80bf
+      internalID: -1188270445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_26
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 96
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89815b1e046ba740ae9fe8d44bb7626
+      internalID: 84408136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_27
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 96
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92204e42cc4cac45bf0eb46deccdd7a
+      internalID: -102288593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_28
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 96
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f18c6e586b33704c88bda6b2e9cec9d
+      internalID: -969249682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_29
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 100
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1c41b3d384a5e4f9630ddc810fb30f
+      internalID: -1225613640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_30
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 101
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0c142401eb90449951308d3ba6fef7
+      internalID: 535359902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_31
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 84
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb73fd28895f9e24fb0b68994885dc73
+      internalID: 939266736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_32
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 85
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d4f6b04634adf4a8f204c8789d900f
+      internalID: -1009665138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_33
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 63
+        width: 5
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386b37fda1ebf0545acf90f665a74c49
+      internalID: -2100112294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_34
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 63
+        width: 5
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9564f902178de0744b0d718a4fb63286
+      internalID: 1579886820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_35
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 71
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7a482575d57b9488080526cf984bc4
+      internalID: 1334954271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_36
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 24
+        width: 12
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a359f18e0bbc90c4586ad5921a7881be
+      internalID: 355372402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_37
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 66
+        width: 48
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d30f2464cde71488e7c26d0500f4b3
+      internalID: 457965112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_38
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 67
+        width: 48
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0faea5b78e6d2d14db14e3eddebcf29e
+      internalID: -849811988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_39
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 27
+        width: 8
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5864bd41816e672458bd6fdfe847d446
+      internalID: -472107762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_40
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 50
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4200dfa4ef5bdc24e8081a7cc283b4a3
+      internalID: -641658480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_41
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 51
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b601765338ef10e44bb769d34c9bd1d2
+      internalID: -1984551188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_42
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 31
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418ae0de97f880445958f2be5a10f390
+      internalID: 286150777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_43
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 31
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66713923916341f409bca953a0f0649e
+      internalID: 2054190485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_44
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 31
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29031693087eca649881f328c991cb1e
+      internalID: -745646733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_45
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 32
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3800b40a765d0c4ea90038d72a08205
+      internalID: 1672938244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_46
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 32
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b95aeb9752559b49aeefcb8d72f6d5d
+      internalID: 1116999071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_47
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 32
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d38ab44fafa13846b195cca30da58cb
+      internalID: 1285898434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_48
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 34
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdbe591942ca104a94ddfb2811a2ba4
+      internalID: 2078135696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_49
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 35
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6837350ca9b546e45b5d14ec037c4376
+      internalID: -478778227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_50
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 38
+        width: 25
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac6c8222b7996148878e721b89111e4
+      internalID: -865843027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_51
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 18
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d0c92731e12ed4a9ad5c6722558491
+      internalID: -1650661599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_52
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 19
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc48009e6da69941a663781f9817fce
+      internalID: 2146097708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - 16x16 UI Tileset with glow_53
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 22
+        width: 25
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b33443e01968245a561ecb0dfd2fa7
+      internalID: -1612892797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      UI - 16x16 UI Tileset with glow_0: -2007766517
+      UI - 16x16 UI Tileset with glow_1: 1122051668
+      UI - 16x16 UI Tileset with glow_10: 1918119911
+      UI - 16x16 UI Tileset with glow_11: -1492382079
+      UI - 16x16 UI Tileset with glow_12: -872656319
+      UI - 16x16 UI Tileset with glow_13: 1384552036
+      UI - 16x16 UI Tileset with glow_14: -430454212
+      UI - 16x16 UI Tileset with glow_15: -523213931
+      UI - 16x16 UI Tileset with glow_16: -721704310
+      UI - 16x16 UI Tileset with glow_17: -900516579
+      UI - 16x16 UI Tileset with glow_18: -740669957
+      UI - 16x16 UI Tileset with glow_19: -806620590
+      UI - 16x16 UI Tileset with glow_2: -1787781121
+      UI - 16x16 UI Tileset with glow_20: 1787210371
+      UI - 16x16 UI Tileset with glow_21: 1245539615
+      UI - 16x16 UI Tileset with glow_22: -1253507558
+      UI - 16x16 UI Tileset with glow_23: -422550631
+      UI - 16x16 UI Tileset with glow_24: 701313174
+      UI - 16x16 UI Tileset with glow_25: -1188270445
+      UI - 16x16 UI Tileset with glow_26: 84408136
+      UI - 16x16 UI Tileset with glow_27: -102288593
+      UI - 16x16 UI Tileset with glow_28: -969249682
+      UI - 16x16 UI Tileset with glow_29: -1225613640
+      UI - 16x16 UI Tileset with glow_3: -1678419155
+      UI - 16x16 UI Tileset with glow_30: 535359902
+      UI - 16x16 UI Tileset with glow_31: 939266736
+      UI - 16x16 UI Tileset with glow_32: -1009665138
+      UI - 16x16 UI Tileset with glow_33: -2100112294
+      UI - 16x16 UI Tileset with glow_34: 1579886820
+      UI - 16x16 UI Tileset with glow_35: 1334954271
+      UI - 16x16 UI Tileset with glow_36: 355372402
+      UI - 16x16 UI Tileset with glow_37: 457965112
+      UI - 16x16 UI Tileset with glow_38: -849811988
+      UI - 16x16 UI Tileset with glow_39: -472107762
+      UI - 16x16 UI Tileset with glow_4: -262800117
+      UI - 16x16 UI Tileset with glow_40: -641658480
+      UI - 16x16 UI Tileset with glow_41: -1984551188
+      UI - 16x16 UI Tileset with glow_42: 286150777
+      UI - 16x16 UI Tileset with glow_43: 2054190485
+      UI - 16x16 UI Tileset with glow_44: -745646733
+      UI - 16x16 UI Tileset with glow_45: 1672938244
+      UI - 16x16 UI Tileset with glow_46: 1116999071
+      UI - 16x16 UI Tileset with glow_47: 1285898434
+      UI - 16x16 UI Tileset with glow_48: 2078135696
+      UI - 16x16 UI Tileset with glow_49: -478778227
+      UI - 16x16 UI Tileset with glow_5: -59934419
+      UI - 16x16 UI Tileset with glow_50: -865843027
+      UI - 16x16 UI Tileset with glow_51: -1650661599
+      UI - 16x16 UI Tileset with glow_52: 2146097708
+      UI - 16x16 UI Tileset with glow_53: -1612892797
+      UI - 16x16 UI Tileset with glow_6: -201281133
+      UI - 16x16 UI Tileset with glow_7: 1449288107
+      UI - 16x16 UI Tileset with glow_8: 409735150
+      UI - 16x16 UI Tileset with glow_9: -2071190857
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

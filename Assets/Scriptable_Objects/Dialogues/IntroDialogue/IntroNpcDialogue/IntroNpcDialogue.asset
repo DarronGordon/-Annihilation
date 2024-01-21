@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7b08410bd6e3b149a3e7050d682bf77, type: 3}
+  m_Name: IntroNpcDialogue
+  m_EditorClassIdentifier: 
+  name: 
+  dialogueList:
+  - {fileID: 11400000, guid: b7eee68e47e853c488e0c7738742bd5e, type: 2}
+  - {fileID: 11400000, guid: f67564778cd5d5749a0e4e6b4d319d9f, type: 2}
+  - {fileID: 11400000, guid: 6b55891f1e2534e45bd42e1766247f84, type: 2}
+  - {fileID: 11400000, guid: 7fa8352164fbc2848836a381bd77ecbc, type: 2}
+  - {fileID: 11400000, guid: 58c6be1c0a7ea734c84b2279d48443f4, type: 2}

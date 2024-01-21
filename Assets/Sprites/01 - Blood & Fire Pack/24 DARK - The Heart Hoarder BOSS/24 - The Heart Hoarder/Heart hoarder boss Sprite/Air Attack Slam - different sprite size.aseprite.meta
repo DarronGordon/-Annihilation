@@ -1,0 +1,976 @@
+fileFormatVersion: 2
+guid: 34f4c2b4c4b721a409c3cbcb15434ba0
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Air Attack Slam - different sprite size_Frame_0
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.9666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 105
+      y: 724
+      width: 68
+      height: 60
+    spriteID: af71bc29d36bd6340b9929d00659899f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 105, y: 724}
+  - name: Air Attack Slam - different sprite size_Frame_1
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.9206349}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 105
+      y: 440
+      width: 68
+      height: 63
+    spriteID: 50d08d9a5b000fb409e8f1e65032337c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 105, y: 440}
+  - name: Air Attack Slam - different sprite size_Frame_2
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.9206349}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 105
+      y: 511
+      width: 68
+      height: 63
+    spriteID: 138ac01bd9d3b534798557b9ab81e2bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 105, y: 511}
+  - name: Air Attack Slam - different sprite size_Frame_3
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.9206349}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 105
+      y: 582
+      width: 68
+      height: 63
+    spriteID: a6cec9e1bb8824a4faffc84786842329
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 105, y: 582}
+  - name: Air Attack Slam - different sprite size_Frame_4
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.9206349}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 105
+      y: 653
+      width: 68
+      height: 63
+    spriteID: d94f6006283a13e47b7ee5bcbb9a06f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 105, y: 653}
+  - name: Air Attack Slam - different sprite size_Frame_5
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.29545453}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 930
+      width: 68
+      height: 88
+    spriteID: cb451202cb46ea84caccb144a36d78ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 930}
+  - name: Air Attack Slam - different sprite size_Frame_6
+    originalName: 
+    pivot: {x: 0.50684935, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 433
+      y: 590
+      width: 73
+      height: 90
+    spriteID: 02fd5564b01dc2041b1e3b6bd7b12c67
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 433, y: 590}
+  - name: Air Attack Slam - different sprite size_Frame_7
+    originalName: 
+    pivot: {x: 0.5128205, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 832
+      width: 78
+      height: 90
+    spriteID: 6489cc7eab9d9854c840456e588273df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 832}
+  - name: Air Attack Slam - different sprite size_Frame_8
+    originalName: 
+    pivot: {x: 0.49999997, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 636
+      width: 84
+      height: 90
+    spriteID: f8a4b0f8384ab5441af42f20b9d3f06d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 636}
+  - name: Air Attack Slam - different sprite size_Frame_9
+    originalName: 
+    pivot: {x: 0.45238096, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 734
+      width: 84
+      height: 90
+    spriteID: f7d8d5db816b2004180a384da1ecc14e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 734}
+  - name: Air Attack Slam - different sprite size_Frame_10
+    originalName: 
+    pivot: {x: 0.46666664, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 440
+      width: 90
+      height: 90
+    spriteID: 18d96fdd537b8f14e85777b207cd2820
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 440}
+  - name: Air Attack Slam - different sprite size_Frame_11
+    originalName: 
+    pivot: {x: 0.47474748, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 408
+      y: 688
+      width: 99
+      height: 90
+    spriteID: 9a7de9bca3d015e479fe5b11d9a4d16a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 408, y: 688}
+  - name: Air Attack Slam - different sprite size_Frame_12
+    originalName: 
+    pivot: {x: 0.5454545, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 538
+      width: 88
+      height: 90
+    spriteID: 58cdb3dcc7c8d9c4d81cd4ce11978dbf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 538}
+  - name: Air Attack Slam - different sprite size_Frame_13
+    originalName: 
+    pivot: {x: 0.54838717, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 342
+      width: 93
+      height: 90
+    spriteID: 2ff976e1270f8ee45b57a6271b288ed3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 342}
+  - name: Air Attack Slam - different sprite size_Frame_14
+    originalName: 
+    pivot: {x: 0.49999997, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 105
+      y: 342
+      width: 64
+      height: 90
+    spriteID: d2e4ff5f53f97f542b2a9a5146aded8f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 105, y: 342}
+  - name: Air Attack Slam - different sprite size_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 234
+      y: 688
+      width: 166
+      height: 90
+    spriteID: 2240498b861e2c543a58eb46c9c29c87
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 234, y: 688}
+  - name: Air Attack Slam - different sprite size_Frame_16
+    originalName: 
+    pivot: {x: 0.5026178, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 234
+      y: 590
+      width: 191
+      height: 90
+    spriteID: 79c1b5df5033665438fa7896af8c2222
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 234, y: 590}
+  - name: Air Attack Slam - different sprite size_Frame_17
+    originalName: 
+    pivot: {x: 0.5147059, y: 0.07216495}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 234
+      y: 485
+      width: 204
+      height: 97
+    spriteID: 57e46801ea84bf04c848f3a147603c93
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 234, y: 485}
+  - name: Air Attack Slam - different sprite size_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.07216495}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 237
+      width: 222
+      height: 97
+    spriteID: 88fa5d5172f8f7b42b64b8dabbcc9deb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 237}
+  - name: Air Attack Slam - different sprite size_Frame_19
+    originalName: 
+    pivot: {x: 0.50450456, y: 0.06481481}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 222
+      height: 108
+    spriteID: b3cb497aecf4be7428459dbc7a963fe9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Air Attack Slam - different sprite size_Frame_20
+    originalName: 
+    pivot: {x: 0.47488585, y: 0.06422018}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 120
+      width: 219
+      height: 109
+    spriteID: b55c6f6609007bc4dbe32e9bdfe9603a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 120}
+  - name: Air Attack Slam - different sprite size_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.07446808}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 234
+      y: 4
+      width: 242
+      height: 94
+    spriteID: 62779deee428e554ea5a2d3fbfa48bf1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 234, y: 4}
+  - name: Air Attack Slam - different sprite size_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.07777777}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 234
+      y: 106
+      width: 244
+      height: 90
+    spriteID: 6fced283e31aa214aab55b9a049bdfbd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 234, y: 106}
+  - name: Air Attack Slam - different sprite size_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: 0.08045977}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 234
+      y: 204
+      width: 246
+      height: 87
+    spriteID: cf86d5bfd287bee4aa0e1d7c9bbe14c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 234, y: 204}
+  - name: Air Attack Slam - different sprite size_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: 0.08235294}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 234
+      y: 392
+      width: 240
+      height: 85
+    spriteID: 0300806471d47a240ad219f466a7e6c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 234, y: 392}
+  - name: Air Attack Slam - different sprite size_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: 0.08235294}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 234
+      y: 299
+      width: 242
+      height: 85
+    spriteID: 812d005db8f863f4eb5ca0a758fe044c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 234, y: 299}
+  - name: Air Attack Slam - different sprite size_Frame_26
+    originalName: 
+    pivot: {x: 0.49775785, y: 0.11666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 234
+      y: 786
+      width: 223
+      height: 60
+    spriteID: 548c430e09757c9418e084a59f71227d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 234, y: 786}
+  - name: Air Attack Slam - different sprite size_Frame_27
+    originalName: 
+    pivot: {x: 0.49775785, y: 0.1627907}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 234
+      y: 854
+      width: 223
+      height: 43
+    spriteID: 03c5d7ffb68d5ed4ebd8a20c5d2d2d6d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 234, y: 854}
+  - name: Air Attack Slam - different sprite size_Frame_28
+    originalName: 
+    pivot: {x: 0.49775785, y: 0.1627907}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 234
+      y: 905
+      width: 223
+      height: 43
+    spriteID: 861b09a53cc462f4884eb4c9d008d652
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 234, y: 905}
+  - name: Air Attack Slam - different sprite size_Frame_29
+    originalName: 
+    pivot: {x: 0.49775785, y: 0.1627907}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 234
+      y: 956
+      width: 223
+      height: 43
+    spriteID: b95e706c1ec7c7e478d6883cdaf6de70
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 234, y: 956}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1804981619
+    name: Air Attack Slam - different sprite size
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Air Attack Slam - different sprite size_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 89
+        y: 58
+        width: 68
+        height: 60
+      spriteId: af71bc29d36bd6340b9929d00659899f
+    - name: Air Attack Slam - different sprite size_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 89
+        y: 58
+        width: 68
+        height: 63
+      spriteId: 50d08d9a5b000fb409e8f1e65032337c
+    - name: Air Attack Slam - different sprite size_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 89
+        y: 58
+        width: 68
+        height: 63
+      spriteId: 138ac01bd9d3b534798557b9ab81e2bd
+    - name: Air Attack Slam - different sprite size_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 89
+        y: 58
+        width: 68
+        height: 63
+      spriteId: a6cec9e1bb8824a4faffc84786842329
+    - name: Air Attack Slam - different sprite size_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 89
+        y: 58
+        width: 68
+        height: 63
+      spriteId: d94f6006283a13e47b7ee5bcbb9a06f9
+    - name: Air Attack Slam - different sprite size_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 89
+        y: 26
+        width: 68
+        height: 88
+      spriteId: cb451202cb46ea84caccb144a36d78ff
+    - name: Air Attack Slam - different sprite size_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 86
+        y: 0
+        width: 73
+        height: 90
+      spriteId: 02fd5564b01dc2041b1e3b6bd7b12c67
+    - name: Air Attack Slam - different sprite size_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 83
+        y: 0
+        width: 78
+        height: 90
+      spriteId: 6489cc7eab9d9854c840456e588273df
+    - name: Air Attack Slam - different sprite size_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 81
+        y: 0
+        width: 84
+        height: 90
+      spriteId: f8a4b0f8384ab5441af42f20b9d3f06d
+    - name: Air Attack Slam - different sprite size_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 85
+        y: 0
+        width: 84
+        height: 90
+      spriteId: f7d8d5db816b2004180a384da1ecc14e
+    - name: Air Attack Slam - different sprite size_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 81
+        y: 0
+        width: 90
+        height: 90
+      spriteId: 18d96fdd537b8f14e85777b207cd2820
+    - name: Air Attack Slam - different sprite size_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 76
+        y: 0
+        width: 99
+        height: 90
+      spriteId: 9a7de9bca3d015e479fe5b11d9a4d16a
+    - name: Air Attack Slam - different sprite size_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 75
+        y: 0
+        width: 88
+        height: 90
+      spriteId: 58cdb3dcc7c8d9c4d81cd4ce11978dbf
+    - name: Air Attack Slam - different sprite size_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 72
+        y: 0
+        width: 93
+        height: 90
+      spriteId: 2ff976e1270f8ee45b57a6271b288ed3
+    - name: Air Attack Slam - different sprite size_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 91
+        y: 0
+        width: 64
+        height: 90
+      spriteId: d2e4ff5f53f97f542b2a9a5146aded8f
+    - name: Air Attack Slam - different sprite size_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 40
+        y: 0
+        width: 166
+        height: 90
+      spriteId: 2240498b861e2c543a58eb46c9c29c87
+    - name: Air Attack Slam - different sprite size_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 27
+        y: 0
+        width: 191
+        height: 90
+      spriteId: 79c1b5df5033665438fa7896af8c2222
+    - name: Air Attack Slam - different sprite size_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 18
+        y: -7
+        width: 204
+        height: 97
+      spriteId: 57e46801ea84bf04c848f3a147603c93
+    - name: Air Attack Slam - different sprite size_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 12
+        y: -7
+        width: 222
+        height: 97
+      spriteId: 88fa5d5172f8f7b42b64b8dabbcc9deb
+    - name: Air Attack Slam - different sprite size_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 11
+        y: -7
+        width: 222
+        height: 108
+      spriteId: b3cb497aecf4be7428459dbc7a963fe9
+    - name: Air Attack Slam - different sprite size_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 19
+        y: -7
+        width: 219
+        height: 109
+      spriteId: b55c6f6609007bc4dbe32e9bdfe9603a
+    - name: Air Attack Slam - different sprite size_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 2
+        y: -7
+        width: 242
+        height: 94
+      spriteId: 62779deee428e554ea5a2d3fbfa48bf1
+    - name: Air Attack Slam - different sprite size_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 1
+        y: -7
+        width: 244
+        height: 90
+      spriteId: 6fced283e31aa214aab55b9a049bdfbd
+    - name: Air Attack Slam - different sprite size_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 0
+        y: -7
+        width: 246
+        height: 87
+      spriteId: cf86d5bfd287bee4aa0e1d7c9bbe14c5
+    - name: Air Attack Slam - different sprite size_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 3
+        y: -7
+        width: 240
+        height: 85
+      spriteId: 0300806471d47a240ad219f466a7e6c9
+    - name: Air Attack Slam - different sprite size_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 2
+        y: -7
+        width: 242
+        height: 85
+      spriteId: 812d005db8f863f4eb5ca0a758fe044c
+    - name: Air Attack Slam - different sprite size_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 12
+        y: -7
+        width: 223
+        height: 60
+      spriteId: 548c430e09757c9418e084a59f71227d
+    - name: Air Attack Slam - different sprite size_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 12
+        y: -7
+        width: 223
+        height: 43
+      spriteId: 03c5d7ffb68d5ed4ebd8a20c5d2d2d6d
+    - name: Air Attack Slam - different sprite size_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 12
+        y: -7
+        width: 223
+        height: 43
+      spriteId: 861b09a53cc462f4884eb4c9d008d652
+    - name: Air Attack Slam - different sprite size_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 12
+        y: -7
+        width: 223
+        height: 43
+      spriteId: b95e706c1ec7c7e478d6883cdaf6de70
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 246, y: 121}

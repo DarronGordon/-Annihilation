@@ -1,0 +1,752 @@
+fileFormatVersion: 2
+guid: 987afd7fa4dda374383cb89adbdfb97c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Crow Sprite Sheet_Frame_0
+    originalName: 
+    pivot: {x: 0.03571429, y: 0.81739134}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 492
+      width: 126
+      height: 115
+    spriteID: 3ba89867b428a8e43ad603b18a193713
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 492}
+  - name: Crow Sprite Sheet_Frame_1
+    originalName: 
+    pivot: {x: 0.03571429, y: 0.81739134}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 615
+      width: 126
+      height: 115
+    spriteID: bee3e795eaf21df449cb3b95142be126
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 615}
+  - name: Crow Sprite Sheet_Frame_2
+    originalName: 
+    pivot: {x: 0.03571429, y: 0.81739134}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 738
+      width: 126
+      height: 115
+    spriteID: 234ef57e94cd98c49a581820d4f91279
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 738}
+  - name: Crow Sprite Sheet_Frame_3
+    originalName: 
+    pivot: {x: 0.03571429, y: 0.81739134}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 861
+      width: 126
+      height: 115
+    spriteID: 45d5c03f1b4fa464ba5977474c33842d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 861}
+  - name: Crow Sprite Sheet_Frame_4
+    originalName: 
+    pivot: {x: 0.03571429, y: 0.81739134}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 4
+      width: 126
+      height: 115
+    spriteID: 740aa1509e1dd7d4883cf00794d16c6e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 4}
+  - name: Crow Sprite Sheet_Frame_5
+    originalName: 
+    pivot: {x: 0.03571429, y: 0.81739134}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 127
+      width: 126
+      height: 115
+    spriteID: 4579f1079f537cb45af5ecba30d42936
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 127}
+  - name: Crow Sprite Sheet_Frame_6
+    originalName: 
+    pivot: {x: 0.03571429, y: 0.81739134}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 250
+      width: 126
+      height: 115
+    spriteID: 6a529f135a73af14db20b6652a1f946e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 250}
+  - name: Crow Sprite Sheet_Frame_7
+    originalName: 
+    pivot: {x: 0.03571429, y: 0.81739134}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 373
+      width: 126
+      height: 115
+    spriteID: a092b43faa0fbf04395b41328447c42c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 373}
+  - name: Crow Sprite Sheet_Frame_8
+    originalName: 
+    pivot: {x: 0.03571429, y: 0.81739134}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 496
+      width: 126
+      height: 115
+    spriteID: 5392238e91a9d6e4aa15e6d03692395b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 496}
+  - name: Crow Sprite Sheet_Frame_9
+    originalName: 
+    pivot: {x: 0.03571429, y: 0.81739134}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 619
+      width: 126
+      height: 115
+    spriteID: 0e20fd5fa2d6db74591f831b22c40652
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 619}
+  - name: Crow Sprite Sheet_Frame_10
+    originalName: 
+    pivot: {x: 0.03571429, y: 0.81739134}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 742
+      width: 126
+      height: 115
+    spriteID: 5bed596844856af43aa445357839d2e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 742}
+  - name: Crow Sprite Sheet_Frame_11
+    originalName: 
+    pivot: {x: 0.03571429, y: 0.81739134}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 865
+      width: 126
+      height: 115
+    spriteID: 2a479521c2b5215418e8428a7f80eeba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 865}
+  - name: Crow Sprite Sheet_Frame_12
+    originalName: 
+    pivot: {x: 0.06538462, y: 0.81739134}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 130
+      height: 115
+    spriteID: 963a4ee2810879f4389d94c6a955d59f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Crow Sprite Sheet_Frame_13
+    originalName: 
+    pivot: {x: 0.06538462, y: 0.81739134}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 127
+      width: 130
+      height: 115
+    spriteID: 8764d28101099b147b6bc5917b3332a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 127}
+  - name: Crow Sprite Sheet_Frame_14
+    originalName: 
+    pivot: {x: 0.06538462, y: 0.83185846}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 250
+      width: 130
+      height: 113
+    spriteID: 598445a654da5ec438c4d0b347e615a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 250}
+  - name: Crow Sprite Sheet_Frame_15
+    originalName: 
+    pivot: {x: 0.06538462, y: 0.83185846}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 371
+      width: 130
+      height: 113
+    spriteID: e29a0f8483ba3ff4882e132b0c606354
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 371}
+  - name: Crow Sprite Sheet_Frame_16
+    originalName: 
+    pivot: {x: 0.35714284, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 239
+      y: 988
+      width: 7
+      height: 7
+    spriteID: 133de1f1be9257842874b479a5f1acd6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 239, y: 988}
+  - name: Crow Sprite Sheet_Frame_17
+    originalName: 
+    pivot: {x: 0.38888887, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 988
+      width: 9
+      height: 7
+    spriteID: c4ae29d0a3ea0614288aa13a4dd0afa9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 988}
+  - name: Crow Sprite Sheet_Frame_18
+    originalName: 
+    pivot: {x: 0.4090909, y: -1.5000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 203
+      y: 988
+      width: 11
+      height: 8
+    spriteID: 709edbb3f9f10b24b97d68cf20bdd8fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 203, y: 988}
+  - name: Crow Sprite Sheet_Frame_19
+    originalName: 
+    pivot: {x: 0.4090909, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 163
+      y: 988
+      width: 11
+      height: 9
+    spriteID: 29474ea58c2108741892a52a77af43e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 163, y: 988}
+  - name: Crow Sprite Sheet_Frame_20
+    originalName: 
+    pivot: {x: 0.42307693, y: -0.99999994}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 988
+      width: 13
+      height: 10
+    spriteID: 2471b22f661f6ca4b8e41ac69ab67bde
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 988}
+  - name: Crow Sprite Sheet_Frame_21
+    originalName: 
+    pivot: {x: 0.34615386, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 182
+      y: 988
+      width: 13
+      height: 7
+    spriteID: 349204b0a66fc0047b9519184e7d1891
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 182, y: 988}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -106400797
+    name: Crow Sprite Sheet
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Crow Sprite Sheet_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 4
+        y: -94
+        width: 126
+        height: 115
+      spriteId: 3ba89867b428a8e43ad603b18a193713
+    - name: Crow Sprite Sheet_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 4
+        y: -94
+        width: 126
+        height: 115
+      spriteId: bee3e795eaf21df449cb3b95142be126
+    - name: Crow Sprite Sheet_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 4
+        y: -94
+        width: 126
+        height: 115
+      spriteId: 234ef57e94cd98c49a581820d4f91279
+    - name: Crow Sprite Sheet_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 4
+        y: -94
+        width: 126
+        height: 115
+      spriteId: 45d5c03f1b4fa464ba5977474c33842d
+    - name: Crow Sprite Sheet_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 4
+        y: -94
+        width: 126
+        height: 115
+      spriteId: 740aa1509e1dd7d4883cf00794d16c6e
+    - name: Crow Sprite Sheet_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 4
+        y: -94
+        width: 126
+        height: 115
+      spriteId: 4579f1079f537cb45af5ecba30d42936
+    - name: Crow Sprite Sheet_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 4
+        y: -94
+        width: 126
+        height: 115
+      spriteId: 6a529f135a73af14db20b6652a1f946e
+    - name: Crow Sprite Sheet_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 4
+        y: -94
+        width: 126
+        height: 115
+      spriteId: a092b43faa0fbf04395b41328447c42c
+    - name: Crow Sprite Sheet_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 4
+        y: -94
+        width: 126
+        height: 115
+      spriteId: 5392238e91a9d6e4aa15e6d03692395b
+    - name: Crow Sprite Sheet_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 4
+        y: -94
+        width: 126
+        height: 115
+      spriteId: 0e20fd5fa2d6db74591f831b22c40652
+    - name: Crow Sprite Sheet_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 4
+        y: -94
+        width: 126
+        height: 115
+      spriteId: 5bed596844856af43aa445357839d2e3
+    - name: Crow Sprite Sheet_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 4
+        y: -94
+        width: 126
+        height: 115
+      spriteId: 2a479521c2b5215418e8428a7f80eeba
+    - name: Crow Sprite Sheet_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: -94
+        width: 130
+        height: 115
+      spriteId: 963a4ee2810879f4389d94c6a955d59f
+    - name: Crow Sprite Sheet_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: -94
+        width: 130
+        height: 115
+      spriteId: 8764d28101099b147b6bc5917b3332a3
+    - name: Crow Sprite Sheet_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: -94
+        width: 130
+        height: 113
+      spriteId: 598445a654da5ec438c4d0b347e615a6
+    - name: Crow Sprite Sheet_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: -94
+        width: 130
+        height: 113
+      spriteId: e29a0f8483ba3ff4882e132b0c606354
+    - name: Crow Sprite Sheet_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 6
+        y: 12
+        width: 7
+        height: 7
+      spriteId: 133de1f1be9257842874b479a5f1acd6
+    - name: Crow Sprite Sheet_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 5
+        y: 12
+        width: 9
+        height: 7
+      spriteId: c4ae29d0a3ea0614288aa13a4dd0afa9
+    - name: Crow Sprite Sheet_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 4
+        y: 12
+        width: 11
+        height: 8
+      spriteId: 709edbb3f9f10b24b97d68cf20bdd8fa
+    - name: Crow Sprite Sheet_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 4
+        y: 11
+        width: 11
+        height: 9
+      spriteId: 29474ea58c2108741892a52a77af43e1
+    - name: Crow Sprite Sheet_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 3
+        y: 10
+        width: 13
+        height: 10
+      spriteId: 2471b22f661f6ca4b8e41ac69ab67bde
+    - name: Crow Sprite Sheet_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 4
+        y: 12
+        width: 13
+        height: 7
+      spriteId: 349204b0a66fc0047b9519184e7d1891
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 17, y: 21}

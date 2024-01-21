@@ -1,0 +1,4812 @@
+fileFormatVersion: 2
+guid: 0cf795b74e54c14449edf853e61114c8
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: The Heart Hoarder_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.017241381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 758
+      y: 143
+      width: 68
+      height: 58
+    spriteID: 5aca717bcedb6614b81d6babcd615241
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 758, y: 143}
+  - name: The Heart Hoarder_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.017241381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 834
+      y: 143
+      width: 68
+      height: 58
+    spriteID: 27b0e6d2632b589469d2b5271a137a80
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 834, y: 143}
+  - name: The Heart Hoarder_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.016949154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 232
+      y: 143
+      width: 68
+      height: 59
+    spriteID: 56f7f0b247274fa4aada25800fc783a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 232, y: 143}
+  - name: The Heart Hoarder_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.016949154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 308
+      y: 143
+      width: 68
+      height: 59
+    spriteID: bd1636555cfc5b7478a71a588a8f22cc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 308, y: 143}
+  - name: The Heart Hoarder_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.034482762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 910
+      y: 143
+      width: 68
+      height: 58
+    spriteID: bc42df285ae1b9240864f3dc9898be70
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 910, y: 143}
+  - name: The Heart Hoarder_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.034482762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 211
+      width: 68
+      height: 58
+    spriteID: 1307c254fb0504345a59fdfd49f6ed9a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 211}
+  - name: The Heart Hoarder_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.03508772}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 343
+      width: 68
+      height: 57
+    spriteID: 79e67c58c0e058f419411527ba7cfb12
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 448, y: 343}
+  - name: The Heart Hoarder_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.017241381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 211
+      width: 68
+      height: 58
+    spriteID: 80182ea03666c4b40b0d85f541bd11ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 211}
+  - name: The Heart Hoarder_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.017241381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 156
+      y: 211
+      width: 68
+      height: 58
+    spriteID: b30337c9dcb0dba43b98e898c1573616
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 156, y: 211}
+  - name: The Heart Hoarder_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.017241381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 232
+      y: 211
+      width: 68
+      height: 58
+    spriteID: a7559f63254d77b43bb4c29bf34dce71
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 232, y: 211}
+  - name: The Heart Hoarder_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: -0.01818182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 226
+      y: 476
+      width: 68
+      height: 55
+    spriteID: 5abbb99b82d1fe04da84082e58d272d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 226, y: 476}
+  - name: The Heart Hoarder_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: -0.01818182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 606
+      y: 476
+      width: 66
+      height: 55
+    spriteID: 989ea093bc85f5e4e92f427d6bbffbad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 606, y: 476}
+  - name: The Heart Hoarder_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: -0.017241381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 752
+      y: 343
+      width: 66
+      height: 58
+    spriteID: 2b170735f77af2d49a0ac30718d507e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 752, y: 343}
+  - name: The Heart Hoarder_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: -0.016949154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 343
+      width: 66
+      height: 59
+    spriteID: 703216420e0d19f4599d2d9eeecda9be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 343}
+  - name: The Heart Hoarder_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: -0.03389831}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 343
+      width: 66
+      height: 59
+    spriteID: 8ea628d852e0f4746b99e838d5a64278
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 343}
+  - name: The Heart Hoarder_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: -0.033333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 536
+      y: 143
+      width: 66
+      height: 60
+    spriteID: 65e5528466e4918469ba62e1ab59e22a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 536, y: 143}
+  - name: The Heart Hoarder_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: -0.034482762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 826
+      y: 343
+      width: 66
+      height: 58
+    spriteID: ed9fed19da363054ba48f6d6132dc01b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 826, y: 343}
+  - name: The Heart Hoarder_Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: -0.017241381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 900
+      y: 343
+      width: 66
+      height: 58
+    spriteID: a53ccb8d53fc4a048b2380c38fb6b11b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 900, y: 343}
+  - name: The Heart Hoarder_Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: -0.01754386}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 476
+      width: 66
+      height: 57
+    spriteID: 1d4924328ea2984419591e06aa7f148a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 476}
+  - name: The Heart Hoarder_Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: -0.017857144}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 596
+      y: 410
+      width: 68
+      height: 56
+    spriteID: 5454232c08f3ba84586fbdfaa41e88ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 596, y: 410}
+  - name: The Heart Hoarder_Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: -0.017241381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 398
+      y: 277
+      width: 66
+      height: 58
+    spriteID: a27d109af4ae91c40bc16b13831084cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 398, y: 277}
+  - name: The Heart Hoarder_Frame_39
+    originalName: 
+    pivot: {x: 0.5, y: -0.016949154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 343
+      width: 66
+      height: 59
+    spriteID: e40ed69bbe28852459953c3e596d6e3e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 343}
+  - name: The Heart Hoarder_Frame_40
+    originalName: 
+    pivot: {x: 0.5, y: -0.03389831}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 226
+      y: 343
+      width: 66
+      height: 59
+    spriteID: 3a7679aa4664da74993626c6d5376855
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 226, y: 343}
+  - name: The Heart Hoarder_Frame_41
+    originalName: 
+    pivot: {x: 0.5, y: -0.033333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 610
+      y: 143
+      width: 66
+      height: 60
+    spriteID: 0191a33432770ea4e8fbaccc905279fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 610, y: 143}
+  - name: The Heart Hoarder_Frame_42
+    originalName: 
+    pivot: {x: 0.5, y: -0.034482762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 472
+      y: 277
+      width: 66
+      height: 58
+    spriteID: 3cfd792d34c4aad468f33d2a548ab39b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 472, y: 277}
+  - name: The Heart Hoarder_Frame_43
+    originalName: 
+    pivot: {x: 0.5, y: -0.017241381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 546
+      y: 277
+      width: 66
+      height: 58
+    spriteID: 57a914df99e2ebc4e82a972757388784
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 546, y: 277}
+  - name: The Heart Hoarder_Frame_44
+    originalName: 
+    pivot: {x: 0.5, y: -0.01754386}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 476
+      width: 66
+      height: 57
+    spriteID: 9dea514b8139c57489ec9e06eb22e8f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 476}
+  - name: The Heart Hoarder_Frame_45
+    originalName: 
+    pivot: {x: 0.5, y: -0.017857144}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 672
+      y: 410
+      width: 68
+      height: 56
+    spriteID: 01eb2b35216415642b19c1beb7b9c13c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 672, y: 410}
+  - name: The Heart Hoarder_Frame_46
+    originalName: 
+    pivot: {x: 0.74999994, y: -0.25531915}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 878
+      y: 605
+      width: 48
+      height: 47
+    spriteID: f999b416f96c3604f8f84786d2edbb8a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 878, y: 605}
+  - name: The Heart Hoarder_Frame_47
+    originalName: 
+    pivot: {x: 0.73913044, y: -0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 974
+      y: 343
+      width: 46
+      height: 50
+    spriteID: 6fb4ee9f9a901a04ba26236b0bebbb89
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 974, y: 343}
+  - name: The Heart Hoarder_Frame_48
+    originalName: 
+    pivot: {x: 0.4927536, y: -0.10909092}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 824
+      y: 410
+      width: 69
+      height: 55
+    spriteID: 93f046d9b91448843b00eee87791c858
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 824, y: 410}
+  - name: The Heart Hoarder_Frame_49
+    originalName: 
+    pivot: {x: 0.4354838, y: -0.0877193}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 828
+      y: 476
+      width: 62
+      height: 57
+    spriteID: 24236dbf92af92b4baac95e730030844
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 828, y: 476}
+  - name: The Heart Hoarder_Frame_50
+    originalName: 
+    pivot: {x: 0.42857137, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 541
+      width: 63
+      height: 56
+    spriteID: f13f9b8a591a8114bbe65b34fdfce460
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 541}
+  - name: The Heart Hoarder_Frame_51
+    originalName: 
+    pivot: {x: 0.42424247, y: -0.07272728}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 680
+      y: 476
+      width: 66
+      height: 55
+    spriteID: 8d9e959ac5637ee4d8be6bc0f8132c6a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 680, y: 476}
+  - name: The Heart Hoarder_Frame_52
+    originalName: 
+    pivot: {x: 0.42647064, y: -0.074074075}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 302
+      y: 476
+      width: 68
+      height: 54
+    spriteID: c0e6d6cf42dedc44e947354fdfda8215
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 302, y: 476}
+  - name: The Heart Hoarder_Frame_53
+    originalName: 
+    pivot: {x: 0.46666667, y: -0.09615385}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 232
+      y: 277
+      width: 75
+      height: 52
+    spriteID: d2cfe2a1dd4d7fc48b67334089cacfdd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 232, y: 277}
+  - name: The Heart Hoarder_Frame_54
+    originalName: 
+    pivot: {x: 0.73333335, y: -0.25531915}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 664
+      width: 45
+      height: 47
+    spriteID: b692bf65152f9884aa98a3d74899ea3f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 664}
+  - name: The Heart Hoarder_Frame_55
+    originalName: 
+    pivot: {x: 0.47826087, y: -0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 146
+      y: 541
+      width: 69
+      height: 50
+    spriteID: e7e8468986a2dad4fa55bba18807dcc2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 146, y: 541}
+  - name: The Heart Hoarder_Frame_56
+    originalName: 
+    pivot: {x: 0.4193548, y: -0.19607843}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 230
+      y: 605
+      width: 62
+      height: 51
+    spriteID: 6f3496a05fedda846beb867d93dfdab7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 230, y: 605}
+  - name: The Heart Hoarder_Frame_57
+    originalName: 
+    pivot: {x: 0.42187494, y: -0.16981134}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 541
+      width: 64
+      height: 53
+    spriteID: 45649b7aaa8608a419ebc4800f7dfa36
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 541}
+  - name: The Heart Hoarder_Frame_58
+    originalName: 
+    pivot: {x: 0.40909085, y: -0.1764706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 892
+      y: 541
+      width: 66
+      height: 51
+    spriteID: fba37a91803303647b6bd17e11e73b81
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 892, y: 541}
+  - name: The Heart Hoarder_Frame_59
+    originalName: 
+    pivot: {x: 0.41176474, y: -0.18000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 596
+      y: 541
+      width: 68
+      height: 50
+    spriteID: 29685347bbe21b24da646992fb016d43
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 596, y: 541}
+  - name: The Heart Hoarder_Frame_60
+    originalName: 
+    pivot: {x: 0.41428578, y: -0.18367349}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 541
+      width: 70
+      height: 49
+    spriteID: 2b4585cbadc61fb42bf50c8539f9b168
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 541}
+  - name: The Heart Hoarder_Frame_61
+    originalName: 
+    pivot: {x: 0.73999995, y: -0.18750001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 966
+      y: 541
+      width: 50
+      height: 48
+    spriteID: 52adfb06630f24e41984192eddf77f80
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 966, y: 541}
+  - name: The Heart Hoarder_Frame_62
+    originalName: 
+    pivot: {x: 0.74999994, y: -0.25531915}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 934
+      y: 605
+      width: 48
+      height: 47
+    spriteID: 0dc4c23f785327f4f9ca4409af9c6241
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 934, y: 605}
+  - name: The Heart Hoarder_Frame_63
+    originalName: 
+    pivot: {x: 0.73913044, y: -0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 824
+      y: 605
+      width: 46
+      height: 50
+    spriteID: a1a448dea6e15924ea61b45b0ed48bda
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 824, y: 605}
+  - name: The Heart Hoarder_Frame_64
+    originalName: 
+    pivot: {x: 0.4927536, y: -0.10909092}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 901
+      y: 410
+      width: 69
+      height: 55
+    spriteID: ffeb711f6339e9844ad0ddb3ca18c967
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 901, y: 410}
+  - name: The Heart Hoarder_Frame_65
+    originalName: 
+    pivot: {x: 0.4354838, y: -0.0877193}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 898
+      y: 476
+      width: 62
+      height: 57
+    spriteID: edf2e85f0a760f645bb3aaf295708245
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 898, y: 476}
+  - name: The Heart Hoarder_Frame_66
+    originalName: 
+    pivot: {x: 0.42857137, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 75
+      y: 541
+      width: 63
+      height: 56
+    spriteID: 494b16bfb1633a344b58d9b586f58fc3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 75, y: 541}
+  - name: The Heart Hoarder_Frame_67
+    originalName: 
+    pivot: {x: 0.42424247, y: -0.07272728}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 754
+      y: 476
+      width: 66
+      height: 55
+    spriteID: 9933a0d58d3c9ee448d05359816bc2c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 754, y: 476}
+  - name: The Heart Hoarder_Frame_68
+    originalName: 
+    pivot: {x: 0.42647064, y: -0.074074075}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 378
+      y: 476
+      width: 68
+      height: 54
+    spriteID: 0ac6428b03d2add4ab5f75de018bb868
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 378, y: 476}
+  - name: The Heart Hoarder_Frame_69
+    originalName: 
+    pivot: {x: 0.46666667, y: -0.09615385}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 315
+      y: 277
+      width: 75
+      height: 52
+    spriteID: db2443b64430ca84ead40bd6235cb260
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 315, y: 277}
+  - name: The Heart Hoarder_Frame_70
+    originalName: 
+    pivot: {x: 0.73333335, y: -0.25531915}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 57
+      y: 664
+      width: 45
+      height: 47
+    spriteID: 1177363d2b7808042bb2dce212070d50
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 57, y: 664}
+  - name: The Heart Hoarder_Frame_71
+    originalName: 
+    pivot: {x: 0.47826087, y: -0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 223
+      y: 541
+      width: 69
+      height: 50
+    spriteID: ee21daeff71757e4cafb23cdc642e874
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 223, y: 541}
+  - name: The Heart Hoarder_Frame_72
+    originalName: 
+    pivot: {x: 0.4193548, y: -0.19607843}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 605
+      width: 62
+      height: 51
+    spriteID: f951b526e243b92459221b3511bbc99e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 605}
+  - name: The Heart Hoarder_Frame_73
+    originalName: 
+    pivot: {x: 0.42187494, y: -0.16981134}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 820
+      y: 541
+      width: 64
+      height: 53
+    spriteID: 43afc98d5ba79eb42bff747ec4145165
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 820, y: 541}
+  - name: The Heart Hoarder_Frame_74
+    originalName: 
+    pivot: {x: 0.40909085, y: -0.1764706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 605
+      width: 66
+      height: 51
+    spriteID: 296a0e0ef76ceb24b8ed81c5793537fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 605}
+  - name: The Heart Hoarder_Frame_75
+    originalName: 
+    pivot: {x: 0.41176474, y: -0.18000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 672
+      y: 541
+      width: 68
+      height: 50
+    spriteID: e228a17f2b83535419aedc722521e43c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 672, y: 541}
+  - name: The Heart Hoarder_Frame_76
+    originalName: 
+    pivot: {x: 0.41428578, y: -0.18367349}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 378
+      y: 541
+      width: 70
+      height: 49
+    spriteID: 71b43b44efa3e5146a925222cf2dd378
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 378, y: 541}
+  - name: The Heart Hoarder_Frame_77
+    originalName: 
+    pivot: {x: 0.73999995, y: -0.18750001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 968
+      y: 476
+      width: 50
+      height: 48
+    spriteID: 8746dd48a1230e747bb21b1fe89c2495
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 968, y: 476}
+  - name: The Heart Hoarder_Frame_78
+    originalName: 
+    pivot: {x: 0.5, y: -0.034482762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 620
+      y: 277
+      width: 66
+      height: 58
+    spriteID: 5546e44d78209cd4a8881eb385edc5f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 620, y: 277}
+  - name: The Heart Hoarder_Frame_79
+    originalName: 
+    pivot: {x: 0.5, y: -0.034482762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 694
+      y: 277
+      width: 66
+      height: 58
+    spriteID: d614ef18a35704d4aa40cc6feff7b18d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 694, y: 277}
+  - name: The Heart Hoarder_Frame_80
+    originalName: 
+    pivot: {x: 0.5, y: -0.034482762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 768
+      y: 277
+      width: 66
+      height: 58
+    spriteID: 64f76acc4253a2a4d87cb0e22c3365a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 768, y: 277}
+  - name: The Heart Hoarder_Frame_82
+    originalName: 
+    pivot: {x: 0.5, y: -0.034482762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 842
+      y: 277
+      width: 66
+      height: 58
+    spriteID: f5aa36d3f07eb474d9ecf20dae7a543c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 842, y: 277}
+  - name: The Heart Hoarder_Frame_83
+    originalName: 
+    pivot: {x: 0.5, y: -0.034482762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 916
+      y: 277
+      width: 66
+      height: 58
+    spriteID: 7349719746ffee047b029793c5a9e83d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 916, y: 277}
+  - name: The Heart Hoarder_Frame_84
+    originalName: 
+    pivot: {x: 0.5, y: -0.034482762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 410
+      width: 66
+      height: 58
+    spriteID: 3b4eba9dc9865f5438d385b48af3b564
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 410}
+  - name: The Heart Hoarder_Frame_86
+    originalName: 
+    pivot: {x: 0.5, y: -0.017241381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 308
+      y: 211
+      width: 68
+      height: 58
+    spriteID: a01eb83721cc26d42b68d36e6e86890b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 308, y: 211}
+  - name: The Heart Hoarder_Frame_96
+    originalName: 
+    pivot: {x: 0.5, y: -0.068965524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 211
+      width: 68
+      height: 58
+    spriteID: 14a44165c38dac64086813da8b0f358b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 384, y: 211}
+  - name: The Heart Hoarder_Frame_97
+    originalName: 
+    pivot: {x: 0.5, y: -0.06779662}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 143
+      width: 68
+      height: 59
+    spriteID: 5d9cb5a2eaf810642889d7f63851e681
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 384, y: 143}
+  - name: The Heart Hoarder_Frame_98
+    originalName: 
+    pivot: {x: 0.5, y: -0.06779662}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 460
+      y: 143
+      width: 68
+      height: 59
+    spriteID: 89131c812f9b1c549b79ead123f71e01
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 460, y: 143}
+  - name: The Heart Hoarder_Frame_99
+    originalName: 
+    pivot: {x: 0.5, y: -0.0862069}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 460
+      y: 211
+      width: 68
+      height: 58
+    spriteID: 7b3e3770bef74af4980e506755e70f8a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 460, y: 211}
+  - name: The Heart Hoarder_Frame_100
+    originalName: 
+    pivot: {x: 0.5, y: -0.0862069}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 536
+      y: 211
+      width: 68
+      height: 58
+    spriteID: fe8cb889e3e09a14fa767aa9aca7b44c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 536, y: 211}
+  - name: The Heart Hoarder_Frame_101
+    originalName: 
+    pivot: {x: 0.5, y: -0.0877193}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 524
+      y: 343
+      width: 68
+      height: 57
+    spriteID: 183068c5ef5661941b55285d67cbf9fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 524, y: 343}
+  - name: The Heart Hoarder_Frame_102
+    originalName: 
+    pivot: {x: 0.5, y: -0.068965524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 612
+      y: 211
+      width: 68
+      height: 58
+    spriteID: 2d9d69e7011d1b645b16447eae86e035
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 612, y: 211}
+  - name: The Heart Hoarder_Frame_103
+    originalName: 
+    pivot: {x: 0.5, y: -0.068965524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 688
+      y: 211
+      width: 68
+      height: 58
+    spriteID: 2167b8e647025a747afbf7d3b298801c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 688, y: 211}
+  - name: The Heart Hoarder_Frame_104
+    originalName: 
+    pivot: {x: 0.5, y: -0.068965524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 764
+      y: 211
+      width: 68
+      height: 58
+    spriteID: 7b7c9ec0b4fa4704d87530bf1a3897c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 764, y: 211}
+  - name: The Heart Hoarder_Frame_105
+    originalName: 
+    pivot: {x: 0.5, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 840
+      y: 211
+      width: 68
+      height: 58
+    spriteID: 94612aa5a8f7ec94682a0d1ba727c3ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 840, y: 211}
+  - name: The Heart Hoarder_Frame_106
+    originalName: 
+    pivot: {x: 0.5, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 410
+      width: 66
+      height: 58
+    spriteID: 0420c2fb5c992c54c8f1e02d8360b554
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 410}
+  - name: The Heart Hoarder_Frame_107
+    originalName: 
+    pivot: {x: 0.5, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 410
+      width: 66
+      height: 58
+    spriteID: 1dea6b1dc05b77a478011d627c715358
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 410}
+  - name: The Heart Hoarder_Frame_108
+    originalName: 
+    pivot: {x: 0.5, y: -0.9830509}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 343
+      width: 66
+      height: 59
+    spriteID: 592b805aa06fd454596c9308caa40369
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 343}
+  - name: The Heart Hoarder_Frame_109
+    originalName: 
+    pivot: {x: 0.5, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 374
+      y: 343
+      width: 66
+      height: 59
+    spriteID: ca250de838721134da8f1a72bc2db07c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 374, y: 343}
+  - name: The Heart Hoarder_Frame_110
+    originalName: 
+    pivot: {x: 0.5, y: -0.98333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 684
+      y: 143
+      width: 66
+      height: 60
+    spriteID: afde543637d407842b48cfe1fe74d374
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 684, y: 143}
+  - name: The Heart Hoarder_Frame_111
+    originalName: 
+    pivot: {x: 0.5, y: -1.0172414}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 226
+      y: 410
+      width: 66
+      height: 58
+    spriteID: b541caad7635c1649a9f90412ba1e579
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 226, y: 410}
+  - name: The Heart Hoarder_Frame_112
+    originalName: 
+    pivot: {x: 0.5, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 410
+      width: 66
+      height: 58
+    spriteID: 5d36107a5e1fb434e80c7f752b713436
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 410}
+  - name: The Heart Hoarder_Frame_113
+    originalName: 
+    pivot: {x: 0.5, y: -1.0175438}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 476
+      width: 66
+      height: 57
+    spriteID: 0a920a9eefcd3e742ac988a725c31814
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 476}
+  - name: The Heart Hoarder_Frame_114
+    originalName: 
+    pivot: {x: 0.5, y: -1.0357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 410
+      width: 68
+      height: 56
+    spriteID: 05a92da904f62b343a5821a423138bfc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 410}
+  - name: The Heart Hoarder_Frame_115
+    originalName: 
+    pivot: {x: 0.5, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 374
+      y: 410
+      width: 66
+      height: 58
+    spriteID: f5e9b60c0ae69af4b925dc22f083ae93
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 374, y: 410}
+  - name: The Heart Hoarder_Frame_116
+    originalName: 
+    pivot: {x: 0.5, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 410
+      width: 66
+      height: 58
+    spriteID: 06d378b83e1cafd40968debc5050fcd6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 448, y: 410}
+  - name: The Heart Hoarder_Frame_117
+    originalName: 
+    pivot: {x: 0.5, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 522
+      y: 410
+      width: 66
+      height: 58
+    spriteID: 14009554a30519c4c98245fcdbf885e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 522, y: 410}
+  - name: The Heart Hoarder_Frame_132
+    originalName: 
+    pivot: {x: 0.5, y: -0.01818182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 456
+      y: 541
+      width: 62
+      height: 55
+    spriteID: db5d1a2df3e79b74cb2870c4b8a0a15d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 456, y: 541}
+  - name: The Heart Hoarder_Frame_133
+    originalName: 
+    pivot: {x: 0.5, y: -0.01818182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 526
+      y: 541
+      width: 62
+      height: 55
+    spriteID: c3383638c673648448c327a75f503bee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 526, y: 541}
+  - name: The Heart Hoarder_Frame_10
+    originalName: 
+    pivot: {x: 0.5205479, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 928
+      y: 4
+      width: 73
+      height: 36
+    spriteID: 905d6af29a3239840a2a668db9955f88
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 928, y: 4}
+  - name: The Heart Hoarder_Frame_11
+    originalName: 
+    pivot: {x: 0.47928998, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 628
+      y: 99
+      width: 169
+      height: 36
+    spriteID: 832f67c0d68e08a4794b2f0a00f314f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 628, y: 99}
+  - name: The Heart Hoarder_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 428
+      y: 99
+      width: 192
+      height: 36
+    spriteID: cfa56c58a964edb4286b72f150e36c3f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 428, y: 99}
+  - name: The Heart Hoarder_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 55
+      width: 222
+      height: 36
+    spriteID: 06b5cd52fe7458842a62bb43bee689ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 55}
+  - name: The Heart Hoarder_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 234
+      y: 55
+      width: 222
+      height: 36
+    spriteID: e4c2dfa0a6638ee4a853b55055589a79
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 234, y: 55}
+  - name: The Heart Hoarder_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 464
+      y: 55
+      width: 222
+      height: 36
+    spriteID: 28cf05a829aa9ca41ade55570ecf6298
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 464, y: 55}
+  - name: The Heart Hoarder_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 694
+      y: 55
+      width: 212
+      height: 36
+    spriteID: 668e43e83ed3c6944bbd945849cc81dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 694, y: 55}
+  - name: The Heart Hoarder_Frame_17
+    originalName: 
+    pivot: {x: 0.49999997, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 99
+      width: 206
+      height: 36
+    spriteID: da9c4598253505b43a0defcc34c118f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 99}
+  - name: The Heart Hoarder_Frame_18
+    originalName: 
+    pivot: {x: 0.49999997, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 218
+      y: 99
+      width: 202
+      height: 36
+    spriteID: f21b4d9da92ae5e49ace4b48e056b7c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 218, y: 99}
+  - name: The Heart Hoarder_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 914
+      y: 55
+      width: 68
+      height: 36
+    spriteID: 3364f7d32127dab49942143bc2099e78
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 914, y: 55}
+  - name: The Heart Hoarder_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 805
+      y: 99
+      width: 68
+      height: 36
+    spriteID: 9a878c9e1426b284c97a591063daa795
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 805, y: 99}
+  - name: The Heart Hoarder_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 881
+      y: 99
+      width: 68
+      height: 36
+    spriteID: 6dce74f479da0bd468e275afb2dc2016
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 881, y: 99}
+  - name: The Heart Hoarder_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 370
+      y: 605
+      width: 68
+      height: 36
+    spriteID: 04c2f7e2014267a46a3eea66cdea6966
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 370, y: 605}
+  - name: The Heart Hoarder_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: -0.04081633}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 605
+      width: 68
+      height: 49
+    spriteID: 10d26bc3e4f3ade4fb5e000fddd42ecd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 605}
+  - name: The Heart Hoarder_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: -0.037037037}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 454
+      y: 476
+      width: 68
+      height: 54
+    spriteID: 9e0adac4cbdfba345a151b078cd4916e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 454, y: 476}
+  - name: The Heart Hoarder_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: -0.03508772}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 600
+      y: 343
+      width: 68
+      height: 57
+    spriteID: a889b1bb8e00fd149a45ce714e176364
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 600, y: 343}
+  - name: The Heart Hoarder_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: -0.017241381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 916
+      y: 211
+      width: 68
+      height: 58
+    spriteID: 40b7a4655170f2349aad33a25e3dbd37
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 916, y: 211}
+  - name: The Heart Hoarder_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: -0.017241381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 277
+      width: 68
+      height: 58
+    spriteID: ab951bada09777e42969cbd7f60aafdd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 277}
+  - name: The Heart Hoarder_Frame_81
+    originalName: 
+    pivot: {x: 0.5, y: -0.033333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 143
+      width: 68
+      height: 60
+    spriteID: cf3b85734cbe41449a02a457ad815036
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 143}
+  - name: The Heart Hoarder_Frame_85
+    originalName: 
+    pivot: {x: 0.5, y: -0.033333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 143
+      width: 68
+      height: 60
+    spriteID: 33dc35583de592b46ae3093a985d3fc4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 143}
+  - name: The Heart Hoarder_Frame_118
+    originalName: 
+    pivot: {x: 0.5, y: -0.9666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 156
+      y: 143
+      width: 68
+      height: 60
+    spriteID: d528aeb002db738418a835a4ef3bba5a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 156, y: 143}
+  - name: The Heart Hoarder_Frame_119
+    originalName: 
+    pivot: {x: 0.49775785, y: 0.16279069}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 223
+      height: 43
+    spriteID: 15860c6ed40b52c49be5aa6332c1b8f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: The Heart Hoarder_Frame_120
+    originalName: 
+    pivot: {x: 0.49775785, y: 0.16279069}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 235
+      y: 4
+      width: 223
+      height: 43
+    spriteID: 9ed498b9dcb9a7741899bbd7df3ad4a1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 235, y: 4}
+  - name: The Heart Hoarder_Frame_121
+    originalName: 
+    pivot: {x: 0.49775785, y: 0.16279069}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 466
+      y: 4
+      width: 223
+      height: 43
+    spriteID: e3482cc16ba10e142abfcc7bf05f072c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 466, y: 4}
+  - name: The Heart Hoarder_Frame_122
+    originalName: 
+    pivot: {x: 0.49775785, y: 0.16279069}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 697
+      y: 4
+      width: 223
+      height: 43
+    spriteID: c039d85c462a1c54baab700305cf6ab0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 697, y: 4}
+  - name: The Heart Hoarder_Frame_123
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 446
+      y: 605
+      width: 68
+      height: 36
+    spriteID: fa7ba1513e2ad5c4ab0676fb3081cf42
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 446, y: 605}
+  - name: The Heart Hoarder_Frame_124
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 522
+      y: 605
+      width: 68
+      height: 36
+    spriteID: 0bc0c4a605872064a984ae93dce4179d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 522, y: 605}
+  - name: The Heart Hoarder_Frame_125
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 598
+      y: 605
+      width: 68
+      height: 36
+    spriteID: 0fa1ed8db98fbfe43a0bd6c21e32bbcc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 598, y: 605}
+  - name: The Heart Hoarder_Frame_126
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 674
+      y: 605
+      width: 68
+      height: 36
+    spriteID: c821dcc2c847d56459bb9c9023f5df16
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 674, y: 605}
+  - name: The Heart Hoarder_Frame_127
+    originalName: 
+    pivot: {x: 0.5, y: -0.04081633}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 154
+      y: 605
+      width: 68
+      height: 49
+    spriteID: 4c7c06f818c731840a0d9a9c7ca90878
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 154, y: 605}
+  - name: The Heart Hoarder_Frame_128
+    originalName: 
+    pivot: {x: 0.5, y: -0.037037037}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 530
+      y: 476
+      width: 68
+      height: 54
+    spriteID: 1f74689e7eb4e1644b3927c85cf5cf11
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 530, y: 476}
+  - name: The Heart Hoarder_Frame_129
+    originalName: 
+    pivot: {x: 0.5, y: -0.03508772}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 676
+      y: 343
+      width: 68
+      height: 57
+    spriteID: e416c03d170bfe14b85f5ea7c02402d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 676, y: 343}
+  - name: The Heart Hoarder_Frame_130
+    originalName: 
+    pivot: {x: 0.5, y: -0.017241381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 277
+      width: 68
+      height: 58
+    spriteID: 6ecd0dbc58efe16498d1202964a14a18
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 277}
+  - name: The Heart Hoarder_Frame_131
+    originalName: 
+    pivot: {x: 0.5, y: -0.017241381}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 156
+      y: 277
+      width: 68
+      height: 58
+    spriteID: ef8d49c4dec564c4196feb9be2173a7c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 156, y: 277}
+  - name: The Heart Hoarder_Frame_134
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 750
+      y: 605
+      width: 66
+      height: 36
+    spriteID: 47a4196f2bc15c44cb881b97e65d2c3e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 750, y: 605}
+  - name: The Heart Hoarder_Frame_135
+    originalName: 
+    pivot: {x: 0.5094339, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 164
+      y: 664
+      width: 53
+      height: 36
+    spriteID: 80201bea62143de4c84ec81e2edb489f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 164, y: 664}
+  - name: The Heart Hoarder_Frame_136
+    originalName: 
+    pivot: {x: 0.5370371, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 957
+      y: 99
+      width: 54
+      height: 36
+    spriteID: 738ada3a77f3b714db545dbe21ff26b1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 957, y: 99}
+  - name: The Heart Hoarder_Frame_137
+    originalName: 
+    pivot: {x: 0.5384616, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 279
+      y: 664
+      width: 52
+      height: 36
+    spriteID: 3139e071a4549ed4794c6c93b38eb254
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 279, y: 664}
+  - name: The Heart Hoarder_Frame_138
+    originalName: 
+    pivot: {x: 0.53999996, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 664
+      width: 50
+      height: 36
+    spriteID: 6ce6904ba3c90b547a951a2560a432da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 664}
+  - name: The Heart Hoarder_Frame_139
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 640
+      y: 719
+      width: 46
+      height: 36
+    spriteID: c8b10543dd139d04da3d380e461e515a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 640, y: 719}
+  - name: The Heart Hoarder_Frame_140
+    originalName: 
+    pivot: {x: 0.47916666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 584
+      y: 719
+      width: 48
+      height: 36
+    spriteID: 97b7fecd615455e49aa1426527857646
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 584, y: 719}
+  - name: The Heart Hoarder_Frame_141
+    originalName: 
+    pivot: {x: 0.48, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 451
+      y: 664
+      width: 50
+      height: 36
+    spriteID: c88c93e79f6cb0e418e1352059650b63
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 451, y: 664}
+  - name: The Heart Hoarder_Frame_142
+    originalName: 
+    pivot: {x: 0.48, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 509
+      y: 664
+      width: 50
+      height: 36
+    spriteID: 89dfdb8788f4e894eb55105e13d93eb2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 509, y: 664}
+  - name: The Heart Hoarder_Frame_143
+    originalName: 
+    pivot: {x: 0.48, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 567
+      y: 664
+      width: 50
+      height: 36
+    spriteID: 227f61820fdba424e95f5d6aec786ffa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 567, y: 664}
+  - name: The Heart Hoarder_Frame_144
+    originalName: 
+    pivot: {x: 0.48, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 625
+      y: 664
+      width: 50
+      height: 36
+    spriteID: 392fbaee68a06e14b9b15ec5fd0c65de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 625, y: 664}
+  - name: The Heart Hoarder_Frame_145
+    originalName: 
+    pivot: {x: 0.48, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 683
+      y: 664
+      width: 50
+      height: 36
+    spriteID: 08b78d938db75ef4481d7a2580353a5b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 683, y: 664}
+  - name: The Heart Hoarder_Frame_146
+    originalName: 
+    pivot: {x: 0.48, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 741
+      y: 664
+      width: 50
+      height: 36
+    spriteID: cb3203d8d747dfe43bdcb2ba0198700a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 741, y: 664}
+  - name: The Heart Hoarder_Frame_147
+    originalName: 
+    pivot: {x: 0.48, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 799
+      y: 664
+      width: 50
+      height: 36
+    spriteID: 765680e1835c2dd4193e8c790713ebdf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 799, y: 664}
+  - name: The Heart Hoarder_Frame_148
+    originalName: 
+    pivot: {x: 0.48, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 857
+      y: 664
+      width: 50
+      height: 36
+    spriteID: fe1e4e84b30c9354e809f3d9646cc44f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 857, y: 664}
+  - name: The Heart Hoarder_Frame_149
+    originalName: 
+    pivot: {x: 0.48, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 915
+      y: 664
+      width: 50
+      height: 36
+    spriteID: e2eb80ac32332ba4bafbb30a962fcaf3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 915, y: 664}
+  - name: The Heart Hoarder_Frame_150
+    originalName: 
+    pivot: {x: 0.48, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 719
+      width: 50
+      height: 36
+    spriteID: 32766d623c9bdf94aaa8c3f5f4b223e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 719}
+  - name: The Heart Hoarder_Frame_151
+    originalName: 
+    pivot: {x: 0.48, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 719
+      width: 50
+      height: 36
+    spriteID: b4e304f13517a9147a8ce4c68a6d82a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 719}
+  - name: The Heart Hoarder_Frame_152
+    originalName: 
+    pivot: {x: 0.48, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 120
+      y: 719
+      width: 50
+      height: 36
+    spriteID: 5d13b9988eec2c64aa2ff17eca0e7396
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 120, y: 719}
+  - name: The Heart Hoarder_Frame_153
+    originalName: 
+    pivot: {x: 0.48, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 719
+      width: 50
+      height: 36
+    spriteID: 700aba3cc6e508442aef95d56a13ac74
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 719}
+  - name: The Heart Hoarder_Frame_154
+    originalName: 
+    pivot: {x: 0.48, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 236
+      y: 719
+      width: 50
+      height: 36
+    spriteID: 89692c026c5c5b64ca6bc53af102f7c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 236, y: 719}
+  - name: The Heart Hoarder_Frame_155
+    originalName: 
+    pivot: {x: 0.48, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 294
+      y: 719
+      width: 50
+      height: 36
+    spriteID: e96c588db7934824f979b4f6be1b542a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 294, y: 719}
+  - name: The Heart Hoarder_Frame_156
+    originalName: 
+    pivot: {x: 0.48, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 719
+      width: 50
+      height: 35
+    spriteID: 16b2222fe7ec6c1459c62584c49a3887
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 719}
+  - name: The Heart Hoarder_Frame_157
+    originalName: 
+    pivot: {x: 0.48, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 719
+      width: 50
+      height: 35
+    spriteID: 9d6d3407d6f8f374c881b22a68916dcb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 410, y: 719}
+  - name: The Heart Hoarder_Frame_158
+    originalName: 
+    pivot: {x: 0.48, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 468
+      y: 719
+      width: 50
+      height: 35
+    spriteID: 36f555f3669258d4c8eaf25a6ccd4e86
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 468, y: 719}
+  - name: The Heart Hoarder_Frame_159
+    originalName: 
+    pivot: {x: 0.48, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 526
+      y: 719
+      width: 50
+      height: 35
+    spriteID: 95517f2da99ed74448d6b38325f8d210
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 526, y: 719}
+  - name: The Heart Hoarder_Frame_160
+    originalName: 
+    pivot: {x: 0.5217391, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 719
+      width: 46
+      height: 35
+    spriteID: f2d799f0207e1904abdbdbcfb6c67dfd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 719}
+  - name: The Heart Hoarder_Frame_161
+    originalName: 
+    pivot: {x: 0.5217391, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 802
+      y: 719
+      width: 46
+      height: 35
+    spriteID: a11fd5d41e1625548bc66253d7e587e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 802, y: 719}
+  - name: The Heart Hoarder_Frame_162
+    originalName: 
+    pivot: {x: 0.5217391, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 856
+      y: 719
+      width: 46
+      height: 35
+    spriteID: 260297545f0304f40a72f4e8b3ff8cba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 856, y: 719}
+  - name: The Heart Hoarder_Frame_163
+    originalName: 
+    pivot: {x: 0.5217391, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 694
+      y: 719
+      width: 46
+      height: 36
+    spriteID: 3ade6f5f33b1ab040ab1db900aa41806
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 694, y: 719}
+  - name: The Heart Hoarder_Frame_164
+    originalName: 
+    pivot: {x: 0.5217391, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 763
+      width: 46
+      height: 38
+    spriteID: 6aa4d19465b535144843dd78903c6dfd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 763}
+  - name: The Heart Hoarder_Frame_165
+    originalName: 
+    pivot: {x: 0.5217391, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 973
+      y: 664
+      width: 46
+      height: 39
+    spriteID: cdad1910812c63b45b62c2a463404862
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 973, y: 664}
+  - name: The Heart Hoarder_Frame_166
+    originalName: 
+    pivot: {x: 0.5217391, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 339
+      y: 664
+      width: 46
+      height: 40
+    spriteID: 21b111c1a09ca5449a27259215a7c634
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 339, y: 664}
+  - name: The Heart Hoarder_Frame_167
+    originalName: 
+    pivot: {x: 0.5217391, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 225
+      y: 664
+      width: 46
+      height: 41
+    spriteID: 4a4d7b873eb2fb34c82b72e92130c00f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 225, y: 664}
+  - name: The Heart Hoarder_Frame_168
+    originalName: 
+    pivot: {x: 0.5217391, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 664
+      width: 46
+      height: 42
+    spriteID: dee908bee9f860a4ca6e0c1a49ca5bf0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 664}
+  - name: The Heart Hoarder_Frame_169
+    originalName: 
+    pivot: {x: 0.5217391, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 910
+      y: 719
+      width: 46
+      height: 19
+    spriteID: 505390ce016602b40be99662e1c55c86
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 910, y: 719}
+  - name: The Heart Hoarder_Frame_87
+    originalName: 
+    pivot: {x: 0.48148143, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 809
+      width: 27
+      height: 61
+    spriteID: a34a0e7f96d6d504ca23a9e0aff0dfb4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 809}
+  - name: The Heart Hoarder_Frame_88
+    originalName: 
+    pivot: {x: 0.5384615, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 878
+      width: 26
+      height: 62
+    spriteID: d9c409024aba98940a5bc8f9cc3696fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 878}
+  - name: The Heart Hoarder_Frame_89
+    originalName: 
+    pivot: {x: 0.55555546, y: -0.032786887}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 39
+      y: 809
+      width: 27
+      height: 61
+    spriteID: 37b8270f5a483284f87b367dc764bac7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 39, y: 809}
+  - name: The Heart Hoarder_Frame_90
+    originalName: 
+    pivot: {x: 0.7499999, y: -0.15517242}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 992
+      y: 211
+      width: 20
+      height: 58
+    spriteID: 9b4e2d485a869e7418588e30c5fe8935
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 992, y: 211}
+  - name: The Heart Hoarder_Frame_91
+    originalName: 
+    pivot: {x: 0.6875, y: -0.36000004}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 990
+      y: 605
+      width: 16
+      height: 50
+    spriteID: 74f97febb7fda444b8d62565a0499038
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 990, y: 605}
+  - name: The Heart Hoarder_Frame_92
+    originalName: 
+    pivot: {x: 0.66666675, y: -0.64285713}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 990
+      y: 277
+      width: 15
+      height: 42
+    spriteID: 3c6fe91a7e4d43c43941d6ca55706508
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 990, y: 277}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -396100704
+    name: The Heart Hoarder
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: The Heart Hoarder_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 77
+        y: 1
+        width: 68
+        height: 58
+      spriteId: 5aca717bcedb6614b81d6babcd615241
+    - name: The Heart Hoarder_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 77
+        y: 1
+        width: 68
+        height: 58
+      spriteId: 27b0e6d2632b589469d2b5271a137a80
+    - name: The Heart Hoarder_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 77
+        y: 1
+        width: 68
+        height: 59
+      spriteId: 56f7f0b247274fa4aada25800fc783a8
+    - name: The Heart Hoarder_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 77
+        y: 1
+        width: 68
+        height: 59
+      spriteId: bd1636555cfc5b7478a71a588a8f22cc
+    - name: The Heart Hoarder_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 77
+        y: 2
+        width: 68
+        height: 58
+      spriteId: bc42df285ae1b9240864f3dc9898be70
+    - name: The Heart Hoarder_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 77
+        y: 2
+        width: 68
+        height: 58
+      spriteId: 1307c254fb0504345a59fdfd49f6ed9a
+    - name: The Heart Hoarder_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 77
+        y: 2
+        width: 68
+        height: 57
+      spriteId: 79e67c58c0e058f419411527ba7cfb12
+    - name: The Heart Hoarder_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 77
+        y: 1
+        width: 68
+        height: 58
+      spriteId: 80182ea03666c4b40b0d85f541bd11ab
+    - name: The Heart Hoarder_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 77
+        y: 1
+        width: 68
+        height: 58
+      spriteId: b30337c9dcb0dba43b98e898c1573616
+    - name: The Heart Hoarder_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 77
+        y: 1
+        width: 68
+        height: 58
+      spriteId: a7559f63254d77b43bb4c29bf34dce71
+    - name: The Heart Hoarder_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 77
+        y: 1
+        width: 68
+        height: 55
+      spriteId: 5abbb99b82d1fe04da84082e58d272d6
+    - name: The Heart Hoarder_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 78
+        y: 1
+        width: 66
+        height: 55
+      spriteId: 989ea093bc85f5e4e92f427d6bbffbad
+    - name: The Heart Hoarder_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 78
+        y: 1
+        width: 66
+        height: 58
+      spriteId: 2b170735f77af2d49a0ac30718d507e7
+    - name: The Heart Hoarder_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 78
+        y: 1
+        width: 66
+        height: 59
+      spriteId: 703216420e0d19f4599d2d9eeecda9be
+    - name: The Heart Hoarder_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 78
+        y: 2
+        width: 66
+        height: 59
+      spriteId: 8ea628d852e0f4746b99e838d5a64278
+    - name: The Heart Hoarder_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 78
+        y: 2
+        width: 66
+        height: 60
+      spriteId: 65e5528466e4918469ba62e1ab59e22a
+    - name: The Heart Hoarder_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 78
+        y: 2
+        width: 66
+        height: 58
+      spriteId: ed9fed19da363054ba48f6d6132dc01b
+    - name: The Heart Hoarder_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 78
+        y: 1
+        width: 66
+        height: 58
+      spriteId: a53ccb8d53fc4a048b2380c38fb6b11b
+    - name: The Heart Hoarder_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 78
+        y: 1
+        width: 66
+        height: 57
+      spriteId: 1d4924328ea2984419591e06aa7f148a
+    - name: The Heart Hoarder_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 77
+        y: 1
+        width: 68
+        height: 56
+      spriteId: 5454232c08f3ba84586fbdfaa41e88ae
+    - name: The Heart Hoarder_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 78
+        y: 1
+        width: 66
+        height: 58
+      spriteId: a27d109af4ae91c40bc16b13831084cb
+    - name: The Heart Hoarder_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 78
+        y: 1
+        width: 66
+        height: 59
+      spriteId: e40ed69bbe28852459953c3e596d6e3e
+    - name: The Heart Hoarder_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 78
+        y: 2
+        width: 66
+        height: 59
+      spriteId: 3a7679aa4664da74993626c6d5376855
+    - name: The Heart Hoarder_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 78
+        y: 2
+        width: 66
+        height: 60
+      spriteId: 0191a33432770ea4e8fbaccc905279fe
+    - name: The Heart Hoarder_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 78
+        y: 2
+        width: 66
+        height: 58
+      spriteId: 3cfd792d34c4aad468f33d2a548ab39b
+    - name: The Heart Hoarder_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 78
+        y: 1
+        width: 66
+        height: 58
+      spriteId: 57a914df99e2ebc4e82a972757388784
+    - name: The Heart Hoarder_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 78
+        y: 1
+        width: 66
+        height: 57
+      spriteId: 9dea514b8139c57489ec9e06eb22e8f8
+    - name: The Heart Hoarder_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 77
+        y: 1
+        width: 68
+        height: 56
+      spriteId: 01eb2b35216415642b19c1beb7b9c13c
+    - name: The Heart Hoarder_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 75
+        y: 12
+        width: 48
+        height: 47
+      spriteId: f999b416f96c3604f8f84786d2edbb8a
+    - name: The Heart Hoarder_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 77
+        y: 10
+        width: 46
+        height: 50
+      spriteId: 6fb4ee9f9a901a04ba26236b0bebbb89
+    - name: The Heart Hoarder_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 77
+        y: 6
+        width: 69
+        height: 55
+      spriteId: 93f046d9b91448843b00eee87791c858
+    - name: The Heart Hoarder_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 84
+        y: 5
+        width: 62
+        height: 57
+      spriteId: 24236dbf92af92b4baac95e730030844
+    - name: The Heart Hoarder_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 84
+        y: 4
+        width: 63
+        height: 56
+      spriteId: f13f9b8a591a8114bbe65b34fdfce460
+    - name: The Heart Hoarder_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 83
+        y: 4
+        width: 66
+        height: 55
+      spriteId: 8d9e959ac5637ee4d8be6bc0f8132c6a
+    - name: The Heart Hoarder_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 82
+        y: 4
+        width: 68
+        height: 54
+      spriteId: c0e6d6cf42dedc44e947354fdfda8215
+    - name: The Heart Hoarder_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 76
+        y: 5
+        width: 75
+        height: 52
+      spriteId: d2cfe2a1dd4d7fc48b67334089cacfdd
+    - name: The Heart Hoarder_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 78
+        y: 12
+        width: 45
+        height: 47
+      spriteId: b692bf65152f9884aa98a3d74899ea3f
+    - name: The Heart Hoarder_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 78
+        y: 10
+        width: 69
+        height: 50
+      spriteId: e7e8468986a2dad4fa55bba18807dcc2
+    - name: The Heart Hoarder_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 85
+        y: 10
+        width: 62
+        height: 51
+      spriteId: 6f3496a05fedda846beb867d93dfdab7
+    - name: The Heart Hoarder_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 84
+        y: 9
+        width: 64
+        height: 53
+      spriteId: 45649b7aaa8608a419ebc4800f7dfa36
+    - name: The Heart Hoarder_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 84
+        y: 9
+        width: 66
+        height: 51
+      spriteId: fba37a91803303647b6bd17e11e73b81
+    - name: The Heart Hoarder_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 83
+        y: 9
+        width: 68
+        height: 50
+      spriteId: 29685347bbe21b24da646992fb016d43
+    - name: The Heart Hoarder_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 82
+        y: 9
+        width: 70
+        height: 49
+      spriteId: 2b4585cbadc61fb42bf50c8539f9b168
+    - name: The Heart Hoarder_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 74
+        y: 9
+        width: 50
+        height: 48
+      spriteId: 52adfb06630f24e41984192eddf77f80
+    - name: The Heart Hoarder_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 75
+        y: 12
+        width: 48
+        height: 47
+      spriteId: 0dc4c23f785327f4f9ca4409af9c6241
+    - name: The Heart Hoarder_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 77
+        y: 10
+        width: 46
+        height: 50
+      spriteId: a1a448dea6e15924ea61b45b0ed48bda
+    - name: The Heart Hoarder_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 77
+        y: 6
+        width: 69
+        height: 55
+      spriteId: ffeb711f6339e9844ad0ddb3ca18c967
+    - name: The Heart Hoarder_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 84
+        y: 5
+        width: 62
+        height: 57
+      spriteId: edf2e85f0a760f645bb3aaf295708245
+    - name: The Heart Hoarder_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 84
+        y: 4
+        width: 63
+        height: 56
+      spriteId: 494b16bfb1633a344b58d9b586f58fc3
+    - name: The Heart Hoarder_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 83
+        y: 4
+        width: 66
+        height: 55
+      spriteId: 9933a0d58d3c9ee448d05359816bc2c7
+    - name: The Heart Hoarder_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 82
+        y: 4
+        width: 68
+        height: 54
+      spriteId: 0ac6428b03d2add4ab5f75de018bb868
+    - name: The Heart Hoarder_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 76
+        y: 5
+        width: 75
+        height: 52
+      spriteId: db2443b64430ca84ead40bd6235cb260
+    - name: The Heart Hoarder_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 78
+        y: 12
+        width: 45
+        height: 47
+      spriteId: 1177363d2b7808042bb2dce212070d50
+    - name: The Heart Hoarder_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 78
+        y: 10
+        width: 69
+        height: 50
+      spriteId: ee21daeff71757e4cafb23cdc642e874
+    - name: The Heart Hoarder_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 85
+        y: 10
+        width: 62
+        height: 51
+      spriteId: f951b526e243b92459221b3511bbc99e
+    - name: The Heart Hoarder_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 84
+        y: 9
+        width: 64
+        height: 53
+      spriteId: 43afc98d5ba79eb42bff747ec4145165
+    - name: The Heart Hoarder_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 84
+        y: 9
+        width: 66
+        height: 51
+      spriteId: 296a0e0ef76ceb24b8ed81c5793537fc
+    - name: The Heart Hoarder_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 83
+        y: 9
+        width: 68
+        height: 50
+      spriteId: e228a17f2b83535419aedc722521e43c
+    - name: The Heart Hoarder_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 82
+        y: 9
+        width: 70
+        height: 49
+      spriteId: 71b43b44efa3e5146a925222cf2dd378
+    - name: The Heart Hoarder_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 74
+        y: 9
+        width: 50
+        height: 48
+      spriteId: 8746dd48a1230e747bb21b1fe89c2495
+    - name: The Heart Hoarder_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 78
+        y: 2
+        width: 66
+        height: 58
+      spriteId: 5546e44d78209cd4a8881eb385edc5f3
+    - name: The Heart Hoarder_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 78
+        y: 2
+        width: 66
+        height: 58
+      spriteId: d614ef18a35704d4aa40cc6feff7b18d
+    - name: The Heart Hoarder_Frame_80
+      frameIndex: 80
+      cellRect:
+        x: 78
+        y: 2
+        width: 66
+        height: 58
+      spriteId: 64f76acc4253a2a4d87cb0e22c3365a4
+    - name: The Heart Hoarder_Frame_82
+      frameIndex: 82
+      cellRect:
+        x: 78
+        y: 2
+        width: 66
+        height: 58
+      spriteId: f5aa36d3f07eb474d9ecf20dae7a543c
+    - name: The Heart Hoarder_Frame_83
+      frameIndex: 83
+      cellRect:
+        x: 78
+        y: 2
+        width: 66
+        height: 58
+      spriteId: 7349719746ffee047b029793c5a9e83d
+    - name: The Heart Hoarder_Frame_84
+      frameIndex: 84
+      cellRect:
+        x: 78
+        y: 2
+        width: 66
+        height: 58
+      spriteId: 3b4eba9dc9865f5438d385b48af3b564
+    - name: The Heart Hoarder_Frame_86
+      frameIndex: 86
+      cellRect:
+        x: 77
+        y: 1
+        width: 68
+        height: 58
+      spriteId: a01eb83721cc26d42b68d36e6e86890b
+    - name: The Heart Hoarder_Frame_96
+      frameIndex: 96
+      cellRect:
+        x: 77
+        y: 4
+        width: 68
+        height: 58
+      spriteId: 14a44165c38dac64086813da8b0f358b
+    - name: The Heart Hoarder_Frame_97
+      frameIndex: 97
+      cellRect:
+        x: 77
+        y: 4
+        width: 68
+        height: 59
+      spriteId: 5d9cb5a2eaf810642889d7f63851e681
+    - name: The Heart Hoarder_Frame_98
+      frameIndex: 98
+      cellRect:
+        x: 77
+        y: 4
+        width: 68
+        height: 59
+      spriteId: 89131c812f9b1c549b79ead123f71e01
+    - name: The Heart Hoarder_Frame_99
+      frameIndex: 99
+      cellRect:
+        x: 77
+        y: 5
+        width: 68
+        height: 58
+      spriteId: 7b3e3770bef74af4980e506755e70f8a
+    - name: The Heart Hoarder_Frame_100
+      frameIndex: 100
+      cellRect:
+        x: 77
+        y: 5
+        width: 68
+        height: 58
+      spriteId: fe8cb889e3e09a14fa767aa9aca7b44c
+    - name: The Heart Hoarder_Frame_101
+      frameIndex: 101
+      cellRect:
+        x: 77
+        y: 5
+        width: 68
+        height: 57
+      spriteId: 183068c5ef5661941b55285d67cbf9fb
+    - name: The Heart Hoarder_Frame_102
+      frameIndex: 102
+      cellRect:
+        x: 77
+        y: 4
+        width: 68
+        height: 58
+      spriteId: 2d9d69e7011d1b645b16447eae86e035
+    - name: The Heart Hoarder_Frame_103
+      frameIndex: 103
+      cellRect:
+        x: 77
+        y: 4
+        width: 68
+        height: 58
+      spriteId: 2167b8e647025a747afbf7d3b298801c
+    - name: The Heart Hoarder_Frame_104
+      frameIndex: 104
+      cellRect:
+        x: 77
+        y: 4
+        width: 68
+        height: 58
+      spriteId: 7b7c9ec0b4fa4704d87530bf1a3897c3
+    - name: The Heart Hoarder_Frame_105
+      frameIndex: 105
+      cellRect:
+        x: 77
+        y: 58
+        width: 68
+        height: 58
+      spriteId: 94612aa5a8f7ec94682a0d1ba727c3ab
+    - name: The Heart Hoarder_Frame_106
+      frameIndex: 106
+      cellRect:
+        x: 78
+        y: 58
+        width: 66
+        height: 58
+      spriteId: 0420c2fb5c992c54c8f1e02d8360b554
+    - name: The Heart Hoarder_Frame_107
+      frameIndex: 107
+      cellRect:
+        x: 78
+        y: 58
+        width: 66
+        height: 58
+      spriteId: 1dea6b1dc05b77a478011d627c715358
+    - name: The Heart Hoarder_Frame_108
+      frameIndex: 108
+      cellRect:
+        x: 78
+        y: 58
+        width: 66
+        height: 59
+      spriteId: 592b805aa06fd454596c9308caa40369
+    - name: The Heart Hoarder_Frame_109
+      frameIndex: 109
+      cellRect:
+        x: 78
+        y: 59
+        width: 66
+        height: 59
+      spriteId: ca250de838721134da8f1a72bc2db07c
+    - name: The Heart Hoarder_Frame_110
+      frameIndex: 110
+      cellRect:
+        x: 78
+        y: 59
+        width: 66
+        height: 60
+      spriteId: afde543637d407842b48cfe1fe74d374
+    - name: The Heart Hoarder_Frame_111
+      frameIndex: 111
+      cellRect:
+        x: 78
+        y: 59
+        width: 66
+        height: 58
+      spriteId: b541caad7635c1649a9f90412ba1e579
+    - name: The Heart Hoarder_Frame_112
+      frameIndex: 112
+      cellRect:
+        x: 78
+        y: 58
+        width: 66
+        height: 58
+      spriteId: 5d36107a5e1fb434e80c7f752b713436
+    - name: The Heart Hoarder_Frame_113
+      frameIndex: 113
+      cellRect:
+        x: 78
+        y: 58
+        width: 66
+        height: 57
+      spriteId: 0a920a9eefcd3e742ac988a725c31814
+    - name: The Heart Hoarder_Frame_114
+      frameIndex: 114
+      cellRect:
+        x: 77
+        y: 58
+        width: 68
+        height: 56
+      spriteId: 05a92da904f62b343a5821a423138bfc
+    - name: The Heart Hoarder_Frame_115
+      frameIndex: 115
+      cellRect:
+        x: 78
+        y: 58
+        width: 66
+        height: 58
+      spriteId: f5e9b60c0ae69af4b925dc22f083ae93
+    - name: The Heart Hoarder_Frame_116
+      frameIndex: 116
+      cellRect:
+        x: 78
+        y: 58
+        width: 66
+        height: 58
+      spriteId: 06d378b83e1cafd40968debc5050fcd6
+    - name: The Heart Hoarder_Frame_117
+      frameIndex: 117
+      cellRect:
+        x: 78
+        y: 58
+        width: 66
+        height: 58
+      spriteId: 14009554a30519c4c98245fcdbf885e7
+    - name: The Heart Hoarder_Frame_132
+      frameIndex: 132
+      cellRect:
+        x: 80
+        y: 1
+        width: 62
+        height: 55
+      spriteId: db5d1a2df3e79b74cb2870c4b8a0a15d
+    - name: The Heart Hoarder_Frame_133
+      frameIndex: 133
+      cellRect:
+        x: 80
+        y: 1
+        width: 62
+        height: 55
+      spriteId: c3383638c673648448c327a75f503bee
+    - name: The Heart Hoarder_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 73
+        y: 0
+        width: 73
+        height: 36
+      spriteId: 905d6af29a3239840a2a668db9955f88
+    - name: The Heart Hoarder_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 30
+        y: 0
+        width: 169
+        height: 36
+      spriteId: 832f67c0d68e08a4794b2f0a00f314f8
+    - name: The Heart Hoarder_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 15
+        y: 0
+        width: 192
+        height: 36
+      spriteId: cfa56c58a964edb4286b72f150e36c3f
+    - name: The Heart Hoarder_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 0
+        width: 222
+        height: 36
+      spriteId: 06b5cd52fe7458842a62bb43bee689ef
+    - name: The Heart Hoarder_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: 0
+        width: 222
+        height: 36
+      spriteId: e4c2dfa0a6638ee4a853b55055589a79
+    - name: The Heart Hoarder_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: 0
+        width: 222
+        height: 36
+      spriteId: 28cf05a829aa9ca41ade55570ecf6298
+    - name: The Heart Hoarder_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 5
+        y: 0
+        width: 212
+        height: 36
+      spriteId: 668e43e83ed3c6944bbd945849cc81dd
+    - name: The Heart Hoarder_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 8
+        y: 0
+        width: 206
+        height: 36
+      spriteId: da9c4598253505b43a0defcc34c118f5
+    - name: The Heart Hoarder_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 10
+        y: 0
+        width: 202
+        height: 36
+      spriteId: f21b4d9da92ae5e49ace4b48e056b7c7
+    - name: The Heart Hoarder_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 77
+        y: 0
+        width: 68
+        height: 36
+      spriteId: 3364f7d32127dab49942143bc2099e78
+    - name: The Heart Hoarder_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 77
+        y: 0
+        width: 68
+        height: 36
+      spriteId: 9a878c9e1426b284c97a591063daa795
+    - name: The Heart Hoarder_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 77
+        y: 0
+        width: 68
+        height: 36
+      spriteId: 6dce74f479da0bd468e275afb2dc2016
+    - name: The Heart Hoarder_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 77
+        y: 0
+        width: 68
+        height: 36
+      spriteId: 04c2f7e2014267a46a3eea66cdea6966
+    - name: The Heart Hoarder_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 77
+        y: 2
+        width: 68
+        height: 49
+      spriteId: 10d26bc3e4f3ade4fb5e000fddd42ecd
+    - name: The Heart Hoarder_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 77
+        y: 2
+        width: 68
+        height: 54
+      spriteId: 9e0adac4cbdfba345a151b078cd4916e
+    - name: The Heart Hoarder_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 77
+        y: 2
+        width: 68
+        height: 57
+      spriteId: a889b1bb8e00fd149a45ce714e176364
+    - name: The Heart Hoarder_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 77
+        y: 1
+        width: 68
+        height: 58
+      spriteId: 40b7a4655170f2349aad33a25e3dbd37
+    - name: The Heart Hoarder_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 77
+        y: 1
+        width: 68
+        height: 58
+      spriteId: ab951bada09777e42969cbd7f60aafdd
+    - name: The Heart Hoarder_Frame_81
+      frameIndex: 81
+      cellRect:
+        x: 77
+        y: 2
+        width: 68
+        height: 60
+      spriteId: cf3b85734cbe41449a02a457ad815036
+    - name: The Heart Hoarder_Frame_85
+      frameIndex: 85
+      cellRect:
+        x: 77
+        y: 2
+        width: 68
+        height: 60
+      spriteId: 33dc35583de592b46ae3093a985d3fc4
+    - name: The Heart Hoarder_Frame_118
+      frameIndex: 118
+      cellRect:
+        x: 77
+        y: 58
+        width: 68
+        height: 60
+      spriteId: d528aeb002db738418a835a4ef3bba5a
+    - name: The Heart Hoarder_Frame_119
+      frameIndex: 119
+      cellRect:
+        x: 0
+        y: -7
+        width: 223
+        height: 43
+      spriteId: 15860c6ed40b52c49be5aa6332c1b8f5
+    - name: The Heart Hoarder_Frame_120
+      frameIndex: 120
+      cellRect:
+        x: 0
+        y: -7
+        width: 223
+        height: 43
+      spriteId: 9ed498b9dcb9a7741899bbd7df3ad4a1
+    - name: The Heart Hoarder_Frame_121
+      frameIndex: 121
+      cellRect:
+        x: 0
+        y: -7
+        width: 223
+        height: 43
+      spriteId: e3482cc16ba10e142abfcc7bf05f072c
+    - name: The Heart Hoarder_Frame_122
+      frameIndex: 122
+      cellRect:
+        x: 0
+        y: -7
+        width: 223
+        height: 43
+      spriteId: c039d85c462a1c54baab700305cf6ab0
+    - name: The Heart Hoarder_Frame_123
+      frameIndex: 123
+      cellRect:
+        x: 77
+        y: 0
+        width: 68
+        height: 36
+      spriteId: fa7ba1513e2ad5c4ab0676fb3081cf42
+    - name: The Heart Hoarder_Frame_124
+      frameIndex: 124
+      cellRect:
+        x: 77
+        y: 0
+        width: 68
+        height: 36
+      spriteId: 0bc0c4a605872064a984ae93dce4179d
+    - name: The Heart Hoarder_Frame_125
+      frameIndex: 125
+      cellRect:
+        x: 77
+        y: 0
+        width: 68
+        height: 36
+      spriteId: 0fa1ed8db98fbfe43a0bd6c21e32bbcc
+    - name: The Heart Hoarder_Frame_126
+      frameIndex: 126
+      cellRect:
+        x: 77
+        y: 0
+        width: 68
+        height: 36
+      spriteId: c821dcc2c847d56459bb9c9023f5df16
+    - name: The Heart Hoarder_Frame_127
+      frameIndex: 127
+      cellRect:
+        x: 77
+        y: 2
+        width: 68
+        height: 49
+      spriteId: 4c7c06f818c731840a0d9a9c7ca90878
+    - name: The Heart Hoarder_Frame_128
+      frameIndex: 128
+      cellRect:
+        x: 77
+        y: 2
+        width: 68
+        height: 54
+      spriteId: 1f74689e7eb4e1644b3927c85cf5cf11
+    - name: The Heart Hoarder_Frame_129
+      frameIndex: 129
+      cellRect:
+        x: 77
+        y: 2
+        width: 68
+        height: 57
+      spriteId: e416c03d170bfe14b85f5ea7c02402d2
+    - name: The Heart Hoarder_Frame_130
+      frameIndex: 130
+      cellRect:
+        x: 77
+        y: 1
+        width: 68
+        height: 58
+      spriteId: 6ecd0dbc58efe16498d1202964a14a18
+    - name: The Heart Hoarder_Frame_131
+      frameIndex: 131
+      cellRect:
+        x: 77
+        y: 1
+        width: 68
+        height: 58
+      spriteId: ef8d49c4dec564c4196feb9be2173a7c
+    - name: The Heart Hoarder_Frame_134
+      frameIndex: 134
+      cellRect:
+        x: 78
+        y: 0
+        width: 66
+        height: 36
+      spriteId: 47a4196f2bc15c44cb881b97e65d2c3e
+    - name: The Heart Hoarder_Frame_135
+      frameIndex: 135
+      cellRect:
+        x: 84
+        y: 0
+        width: 53
+        height: 36
+      spriteId: 80201bea62143de4c84ec81e2edb489f
+    - name: The Heart Hoarder_Frame_136
+      frameIndex: 136
+      cellRect:
+        x: 82
+        y: 0
+        width: 54
+        height: 36
+      spriteId: 738ada3a77f3b714db545dbe21ff26b1
+    - name: The Heart Hoarder_Frame_137
+      frameIndex: 137
+      cellRect:
+        x: 83
+        y: 0
+        width: 52
+        height: 36
+      spriteId: 3139e071a4549ed4794c6c93b38eb254
+    - name: The Heart Hoarder_Frame_138
+      frameIndex: 138
+      cellRect:
+        x: 84
+        y: 0
+        width: 50
+        height: 36
+      spriteId: 6ce6904ba3c90b547a951a2560a432da
+    - name: The Heart Hoarder_Frame_139
+      frameIndex: 139
+      cellRect:
+        x: 88
+        y: 0
+        width: 46
+        height: 36
+      spriteId: c8b10543dd139d04da3d380e461e515a
+    - name: The Heart Hoarder_Frame_140
+      frameIndex: 140
+      cellRect:
+        x: 88
+        y: 0
+        width: 48
+        height: 36
+      spriteId: 97b7fecd615455e49aa1426527857646
+    - name: The Heart Hoarder_Frame_141
+      frameIndex: 141
+      cellRect:
+        x: 87
+        y: 0
+        width: 50
+        height: 36
+      spriteId: c88c93e79f6cb0e418e1352059650b63
+    - name: The Heart Hoarder_Frame_142
+      frameIndex: 142
+      cellRect:
+        x: 87
+        y: 0
+        width: 50
+        height: 36
+      spriteId: 89dfdb8788f4e894eb55105e13d93eb2
+    - name: The Heart Hoarder_Frame_143
+      frameIndex: 143
+      cellRect:
+        x: 87
+        y: 0
+        width: 50
+        height: 36
+      spriteId: 227f61820fdba424e95f5d6aec786ffa
+    - name: The Heart Hoarder_Frame_144
+      frameIndex: 144
+      cellRect:
+        x: 87
+        y: 0
+        width: 50
+        height: 36
+      spriteId: 392fbaee68a06e14b9b15ec5fd0c65de
+    - name: The Heart Hoarder_Frame_145
+      frameIndex: 145
+      cellRect:
+        x: 87
+        y: 0
+        width: 50
+        height: 36
+      spriteId: 08b78d938db75ef4481d7a2580353a5b
+    - name: The Heart Hoarder_Frame_146
+      frameIndex: 146
+      cellRect:
+        x: 87
+        y: 0
+        width: 50
+        height: 36
+      spriteId: cb3203d8d747dfe43bdcb2ba0198700a
+    - name: The Heart Hoarder_Frame_147
+      frameIndex: 147
+      cellRect:
+        x: 87
+        y: 0
+        width: 50
+        height: 36
+      spriteId: 765680e1835c2dd4193e8c790713ebdf
+    - name: The Heart Hoarder_Frame_148
+      frameIndex: 148
+      cellRect:
+        x: 87
+        y: 0
+        width: 50
+        height: 36
+      spriteId: fe1e4e84b30c9354e809f3d9646cc44f
+    - name: The Heart Hoarder_Frame_149
+      frameIndex: 149
+      cellRect:
+        x: 87
+        y: 0
+        width: 50
+        height: 36
+      spriteId: e2eb80ac32332ba4bafbb30a962fcaf3
+    - name: The Heart Hoarder_Frame_150
+      frameIndex: 150
+      cellRect:
+        x: 87
+        y: 0
+        width: 50
+        height: 36
+      spriteId: 32766d623c9bdf94aaa8c3f5f4b223e1
+    - name: The Heart Hoarder_Frame_151
+      frameIndex: 151
+      cellRect:
+        x: 87
+        y: 0
+        width: 50
+        height: 36
+      spriteId: b4e304f13517a9147a8ce4c68a6d82a7
+    - name: The Heart Hoarder_Frame_152
+      frameIndex: 152
+      cellRect:
+        x: 87
+        y: 0
+        width: 50
+        height: 36
+      spriteId: 5d13b9988eec2c64aa2ff17eca0e7396
+    - name: The Heart Hoarder_Frame_153
+      frameIndex: 153
+      cellRect:
+        x: 87
+        y: 0
+        width: 50
+        height: 36
+      spriteId: 700aba3cc6e508442aef95d56a13ac74
+    - name: The Heart Hoarder_Frame_154
+      frameIndex: 154
+      cellRect:
+        x: 87
+        y: 0
+        width: 50
+        height: 36
+      spriteId: 89692c026c5c5b64ca6bc53af102f7c3
+    - name: The Heart Hoarder_Frame_155
+      frameIndex: 155
+      cellRect:
+        x: 87
+        y: 0
+        width: 50
+        height: 36
+      spriteId: e96c588db7934824f979b4f6be1b542a
+    - name: The Heart Hoarder_Frame_156
+      frameIndex: 156
+      cellRect:
+        x: 87
+        y: 0
+        width: 50
+        height: 35
+      spriteId: 16b2222fe7ec6c1459c62584c49a3887
+    - name: The Heart Hoarder_Frame_157
+      frameIndex: 157
+      cellRect:
+        x: 87
+        y: 0
+        width: 50
+        height: 35
+      spriteId: 9d6d3407d6f8f374c881b22a68916dcb
+    - name: The Heart Hoarder_Frame_158
+      frameIndex: 158
+      cellRect:
+        x: 87
+        y: 0
+        width: 50
+        height: 35
+      spriteId: 36f555f3669258d4c8eaf25a6ccd4e86
+    - name: The Heart Hoarder_Frame_159
+      frameIndex: 159
+      cellRect:
+        x: 87
+        y: 0
+        width: 50
+        height: 35
+      spriteId: 95517f2da99ed74448d6b38325f8d210
+    - name: The Heart Hoarder_Frame_160
+      frameIndex: 160
+      cellRect:
+        x: 87
+        y: 0
+        width: 46
+        height: 35
+      spriteId: f2d799f0207e1904abdbdbcfb6c67dfd
+    - name: The Heart Hoarder_Frame_161
+      frameIndex: 161
+      cellRect:
+        x: 87
+        y: 0
+        width: 46
+        height: 35
+      spriteId: a11fd5d41e1625548bc66253d7e587e7
+    - name: The Heart Hoarder_Frame_162
+      frameIndex: 162
+      cellRect:
+        x: 87
+        y: 0
+        width: 46
+        height: 35
+      spriteId: 260297545f0304f40a72f4e8b3ff8cba
+    - name: The Heart Hoarder_Frame_163
+      frameIndex: 163
+      cellRect:
+        x: 87
+        y: 0
+        width: 46
+        height: 36
+      spriteId: 3ade6f5f33b1ab040ab1db900aa41806
+    - name: The Heart Hoarder_Frame_164
+      frameIndex: 164
+      cellRect:
+        x: 87
+        y: 0
+        width: 46
+        height: 38
+      spriteId: 6aa4d19465b535144843dd78903c6dfd
+    - name: The Heart Hoarder_Frame_165
+      frameIndex: 165
+      cellRect:
+        x: 87
+        y: 0
+        width: 46
+        height: 39
+      spriteId: cdad1910812c63b45b62c2a463404862
+    - name: The Heart Hoarder_Frame_166
+      frameIndex: 166
+      cellRect:
+        x: 87
+        y: 0
+        width: 46
+        height: 40
+      spriteId: 21b111c1a09ca5449a27259215a7c634
+    - name: The Heart Hoarder_Frame_167
+      frameIndex: 167
+      cellRect:
+        x: 87
+        y: 0
+        width: 46
+        height: 41
+      spriteId: 4a4d7b873eb2fb34c82b72e92130c00f
+    - name: The Heart Hoarder_Frame_168
+      frameIndex: 168
+      cellRect:
+        x: 87
+        y: 0
+        width: 46
+        height: 42
+      spriteId: dee908bee9f860a4ca6e0c1a49ca5bf0
+    - name: The Heart Hoarder_Frame_169
+      frameIndex: 169
+      cellRect:
+        x: 87
+        y: 0
+        width: 46
+        height: 19
+      spriteId: 505390ce016602b40be99662e1c55c86
+    - name: The Heart Hoarder_Frame_87
+      frameIndex: 87
+      cellRect:
+        x: 98
+        y: 0
+        width: 27
+        height: 61
+      spriteId: a34a0e7f96d6d504ca23a9e0aff0dfb4
+    - name: The Heart Hoarder_Frame_88
+      frameIndex: 88
+      cellRect:
+        x: 97
+        y: 0
+        width: 26
+        height: 62
+      spriteId: d9c409024aba98940a5bc8f9cc3696fe
+    - name: The Heart Hoarder_Frame_89
+      frameIndex: 89
+      cellRect:
+        x: 96
+        y: 2
+        width: 27
+        height: 61
+      spriteId: 37b8270f5a483284f87b367dc764bac7
+    - name: The Heart Hoarder_Frame_90
+      frameIndex: 90
+      cellRect:
+        x: 96
+        y: 9
+        width: 20
+        height: 58
+      spriteId: 9b4e2d485a869e7418588e30c5fe8935
+    - name: The Heart Hoarder_Frame_91
+      frameIndex: 91
+      cellRect:
+        x: 100
+        y: 18
+        width: 16
+        height: 50
+      spriteId: 74f97febb7fda444b8d62565a0499038
+    - name: The Heart Hoarder_Frame_92
+      frameIndex: 92
+      cellRect:
+        x: 101
+        y: 27
+        width: 15
+        height: 42
+      spriteId: 3c6fe91a7e4d43c43941d6ca55706508
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 222, y: 119}

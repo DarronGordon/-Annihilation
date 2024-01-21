@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Floor
+  - Projectile
+  - Spikes
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Bg1
+  - Bg2
+  - BG3
+  - Ground
+  - Background
+  - Fog
+  - Spikes
+  - Enemy
+  - Player
+  - Projectile
+  - Invul
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BG0
+    uniqueID: 984799657
+    locked: 0
+  - name: BG1
+    uniqueID: 2860392905
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1166133697
+    locked: 0
+  - name: Background_Items#1
+    uniqueID: 4252899357
+    locked: 0
+  - name: Background_Items#2
+    uniqueID: 3525277825
+    locked: 0
+  - name: Fog
+    uniqueID: 1302239757
+    locked: 0
+  - name: Ground
+    uniqueID: 1445273309
+    locked: 0
+  - name: NPC
+    uniqueID: 1445569443
+    locked: 0
+  - name: Player
+    uniqueID: 599338993
+    locked: 0
