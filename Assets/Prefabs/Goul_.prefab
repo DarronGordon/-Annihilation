@@ -96,6 +96,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1409836224584752974}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6103046277685472420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 482052563089563199}
+  m_Layer: 17
+  m_Name: LedgeTransform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &482052563089563199
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6103046277685472420}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.94, y: -1.375, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9223076009046228558}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2943924929432687327
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -134,11 +165,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2762240520254096473, guid: e7a4e9a77a6222b4eaf01d58830c6158, type: 3}
       propertyPath: movementSpeed
-      value: 300
+      value: 400
       objectReference: {fileID: 0}
+    - target: {fileID: 2762240520254096473, guid: e7a4e9a77a6222b4eaf01d58830c6158, type: 3}
+      propertyPath: triggerObject
+      value: 
+      objectReference: {fileID: 482052563089563199}
     - target: {fileID: 2762240520254096473, guid: e7a4e9a77a6222b4eaf01d58830c6158, type: 3}
       propertyPath: attackDistance
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762240520254096473, guid: e7a4e9a77a6222b4eaf01d58830c6158, type: 3}
+      propertyPath: edgeTriggerSize.x
+      value: 0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762240520254096473, guid: e7a4e9a77a6222b4eaf01d58830c6158, type: 3}
+      propertyPath: edgeTriggerSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762240520254096473, guid: e7a4e9a77a6222b4eaf01d58830c6158, type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 512
       objectReference: {fileID: 0}
     - target: {fileID: 3468783294672431075, guid: e7a4e9a77a6222b4eaf01d58830c6158, type: 3}
       propertyPath: m_Name
@@ -194,7 +241,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6279177743315774609, guid: e7a4e9a77a6222b4eaf01d58830c6158, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 482052563089563199}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7a4e9a77a6222b4eaf01d58830c6158, type: 3}
 --- !u!4 &9223076009046228558 stripped

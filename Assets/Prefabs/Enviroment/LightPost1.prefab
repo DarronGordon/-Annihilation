@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 377466417502735208}
   - component: {fileID: 1246866029227317597}
   - component: {fileID: 7420059665659447318}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightPost1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,6 +102,7 @@ MonoBehaviour:
   lightAbsorbtionRate: 1
   light: {fileID: 6915175589295266545}
   absorbLight: 0
+  eternalLight: 0
 --- !u!61 &7420059665659447318
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -134,7 +135,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.009235382, y: -2.207901}
+  m_Offset: {x: -0.009235382, y: -0.23500133}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -145,7 +146,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.9545975, y: 1.021698}
+  m_Size: {x: 3.9545975, y: 4.9674973}
   m_EdgeRadius: 0
 --- !u!1 &5725546398039019536
 GameObject:
@@ -157,7 +158,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6881759415678325606}
   - component: {fileID: 6915175589295266545}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -213,8 +214,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.109349966, y: -0.37975, z: 0}
-    m_Extent: {x: 3.30055, y: 3.29335, z: 0}
+    m_Center: {x: 0.10944998, y: -0.37925005, z: 0}
+    m_Extent: {x: 3.3017502, y: 3.29285, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0

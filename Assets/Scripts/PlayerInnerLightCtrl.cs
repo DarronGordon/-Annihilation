@@ -15,8 +15,6 @@ public class PlayerInnerLightCtrl : MonoBehaviour, ILightAbsorber
     float maxInnerLight = 15f;
 
     PlayerMovementCtrl pmc;
-
-    float dmgTimer = 1;
     float dmgTimerCounter;
 
     private void Start()

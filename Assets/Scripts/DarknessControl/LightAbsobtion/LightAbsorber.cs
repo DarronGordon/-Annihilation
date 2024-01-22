@@ -10,7 +10,7 @@ public class LightAbsorber : MonoBehaviour
     [SerializeField]bool absorbLight;
     [SerializeField] bool eternalLight;
 
-    bool canAbsorb;
+    bool canAbsorb = true;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -51,6 +51,11 @@ public class LightAbsorber : MonoBehaviour
             float lerpedIntensity = Mathf.Lerp(light.intensity, 0f, lightAbsorbtionRate * Time.deltaTime);
 
             light.intensity = lerpedIntensity;
+        }
+
+        if(light.intensity <= .05f)
+        {
+            canAbsorb = false;
         }
     }
 }

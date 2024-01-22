@@ -22,7 +22,6 @@ public class CreepCtrl : MonoBehaviour
     [Header("CREEP")]
     [SerializeField] private Slider creepSliderDispaly;
     [SerializeField] private float creepSpeed;
-    float startingInnerLightAmount = 100f;
 
 
     private void LateUpdate()

@@ -25,11 +25,16 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
     [SerializeField] float attackDistance;
     [SerializeField] int dmg;
     float attackRateTimer;
-    bool isAttacking;
 
     [Header("--HEALTH--")]
     [SerializeField] int health;
 
+    [Header("--EDGE TRIGGER--")]
+    [SerializeField] Transform triggerObject;
+    [SerializeField] LayerMask whatIsGround;
+    [SerializeField] Vector2 edgeTriggerSize;
+    [SerializeField] float edgeTriggerDistance;
+    bool isLedge;
     #endregion
 
     private void Start()
@@ -55,19 +60,46 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
     {
         if (!canStartMoving)
         { return; }
+
         #region [[[ PATROL ]]] 
+        Debug.DrawRay(triggerObject.position, Vector2.down, Color.red,edgeTriggerDistance);
+
+        isLedge = Physics2D.Raycast(triggerObject.position, Vector2.down, edgeTriggerDistance,whatIsGround);
+
+        if(!isLedge)
+        {
+            Debug.Log("Am At Ledge");
+             if(currentPoint == wonderAreaB)
+            {
+                isChasingPlayer = false;
+                currentPoint = wonderAreaA.transform;
+            }
+            else
+            {
+                isChasingPlayer = false;
+                currentPoint = wonderAreaB.transform;
+            }
+        }
+        else{
+             
+
+            Debug.Log("I Am not At Ledge");
+        }
 
         Vector2 point = currentPoint.position - transform.position;
         if(currentPoint == wonderAreaB.transform && !isChasingPlayer) 
         {
             anim.SetBool("Run", true);
             rb.velocity = new Vector2(movementSpeed * Time.deltaTime, rb.velocity.y);
-            sr.flipX = false;
+
+            transform.rotation = Quaternion.Euler(0,0,0);
+
         }
         else if(currentPoint != wonderAreaB.transform && !isChasingPlayer)
         {
             rb.velocity = new Vector2(movementSpeed * Time.deltaTime * -1, rb.velocity.y);
-            sr.flipX = true;
+            
+            transform.rotation = Quaternion.Euler(0,180,0);
         }
       
         if (Vector2.Distance(transform.position, currentPoint.position) < 0.8f && currentPoint == wonderAreaB.transform && !isChasingPlayer) 
@@ -85,6 +117,7 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
         {
             ChasePlayer();
         }
+
     }
 
     #region [[[ ATTACK AND CHASE PLAYER ]]]
@@ -93,15 +126,15 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
 
         if (Vector2.Distance(transform.position, playerObject.transform.position) > chaseDistance && isChasingPlayer)
         {
-            if (transform.position.x > playerObject.transform.position.x)
+            if (transform.position.x > playerObject.transform.position.x )
             {
                 rb.velocity = new Vector2(movementSpeed * Time.deltaTime * -1, rb.velocity.y);
-                sr.flipX = true;
+               transform.rotation = Quaternion.Euler(0,0,0);
             }
             else
             {
                 rb.velocity = new Vector2(movementSpeed * Time.deltaTime, rb.velocity.y);
-                sr.flipX = false;
+                 transform.rotation = Quaternion.Euler(0,180,0);
             }
         }
         else if (Vector2.Distance(transform.position, playerObject.transform.position) < attackDistance)
@@ -113,7 +146,6 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
                 anim.SetTrigger("Attack");
                 attackRateTimer = attackRate;
                 rb.velocity = Vector2.zero;
-                isAttacking = true;
                 
                 playerObject.GetComponent<PlayerMovementCtrl>().ReceiveDamage(dmg);
 
@@ -138,6 +170,8 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
     {
         Gizmos.DrawWireSphere(wonderAreaA.transform.position, .3f);
         Gizmos.DrawWireSphere(wonderAreaB.transform.position, .3f);
+
+        Gizmos.DrawWireCube(triggerObject.position, edgeTriggerSize);
     }
 
     public void TakeDamage(int damage)
