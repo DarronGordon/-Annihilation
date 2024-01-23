@@ -15,6 +15,7 @@ public class Gun : MonoBehaviour
     {
         if(fireRateTimer <0)
         {
+            
             GameObject projectile = Instantiate(projectilePrefab, barrelPos.position, Quaternion.identity);
             projectile.GetComponent<Projectile>().Dir = shootdir;
             fireRateTimer = fireRate;

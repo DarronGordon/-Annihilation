@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class PlayerMovementCtrl : MonoBehaviour,IPlayerDamageReceiver
 {
@@ -28,14 +29,20 @@ public class PlayerMovementCtrl : MonoBehaviour,IPlayerDamageReceiver
     [Header("ROLLING & DASHING")]
     [SerializeField] bool isRolling;
     [SerializeField] float dashSpeed;
+    [SerializeField] LayerMask invulnerableLayer;
 
     [Header("--SHOOTING--")]
-    [SerializeField] GameObject gun;
+    [SerializeField] Gun gun;
+    [SerializeField] Animator gunAnim;
 
     [Header("--HEALTH--")]
     [SerializeField] int health = 100;
+    [SerializeField] int maxHealth= 100;
+    [SerializeField] HealthBar hbar;
+    [SerializeField] bool canTakeDmg = true;
 
-    [SerializeField] LayerMask invulnerableLayer;
+    [Header("Inner-Light")]
+    [SerializeField]Light2D playerLight;
     #endregion
 
     private void OnEnable()
@@ -57,11 +64,11 @@ public class PlayerMovementCtrl : MonoBehaviour,IPlayerDamageReceiver
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponentInChildren<SpriteRenderer>();
         anim = GetComponentInChildren<Animator>();
-    }
-    private void Update()
-    {
 
+        health = maxHealth;
+        UpdateHealthDisplay();
     }
+
     private void FixedUpdate()
     {
 
@@ -93,18 +100,13 @@ public class PlayerMovementCtrl : MonoBehaviour,IPlayerDamageReceiver
 
         #endregion
     }
-
+    #region [[ FACING DIRECTION ]]
     private void CheckFacingDirection()
     {
-        if (PlayerInputControl.Instance.XDir > 0)
-        {
-            sr.flipX = false;
-        }
-        else if (PlayerInputControl.Instance.XDir < 0)
-        {
-            sr.flipX = true;
-        }
+
     }
+#endregion
+
     #region [[[ JUMP CTRL ]]]
 
     void PlayerJumpInput(bool b)
@@ -140,11 +142,12 @@ public class PlayerMovementCtrl : MonoBehaviour,IPlayerDamageReceiver
         {
             if (isGrounded)
             {
+                gameObject.layer = 16;
+                canTakeDmg = false;
                 isRolling = true;
                 anim.SetBool("Idle", false);
                 anim.SetBool("Run", false);
                 anim.SetBool("Roll", true);
-                gameObject.layer = 16;
                 rb.AddForce(Vector2.right * dashSpeed * PlayerInputControl.Instance.XDir);
             }
 
@@ -156,8 +159,9 @@ public class PlayerMovementCtrl : MonoBehaviour,IPlayerDamageReceiver
         anim.SetBool("Roll", false);
         isRolling = false;
         gameObject.layer = 14;
+        Invoke("CanTakeDmgReset",.2f);
     }
-
+    void CanTakeDmgReset(){canTakeDmg = true;}
     #endregion
 
     #region [[[ SHOOT CTRL ]]]
@@ -165,35 +169,56 @@ public class PlayerMovementCtrl : MonoBehaviour,IPlayerDamageReceiver
     {
         if (b)
         {
-            gun.GetComponent<Gun>().Shoot();
+            gunAnim.SetTrigger("Fire");
+            gun.Shoot();
         }
     }
 
     #endregion
 
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.DrawWireCube(feet.transform.position, feetSize);
-    }
     #region [[[ HEALTH ]]]
+
+
 
     public void Heal(int _health)
     {
         health += _health;
+
+        UpdateHealthDisplay();
+    }
+
+    private void UpdateHealthDisplay()
+    {
+        hbar.UpdateHealthBar(health,maxHealth);
     }
 
     public void ReceiveDamage(int dmg)
     {
+        if(!canTakeDmg)
+        {return;}
+        anim.SetTrigger("TakeDmg");
         health -= dmg;
-
+        UpdateHealthDisplay();
         if (health <= 0)
         {
             health = 0;
-
+            UpdateHealthDisplay();
             anim.SetTrigger("Die");
         }
     }
 
     #endregion  
+
+    #region  [[[ INNER-LIGHT ]]]
+
+    public void SetInnerLight(float currentInnerLight)
+    {
+        playerLight.intensity = Mathf.FloorToInt(currentInnerLight/10);
+    }
+    #endregion
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireCube(feet.transform.position, feetSize);
+    }
+
 }

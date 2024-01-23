@@ -60,5 +60,6 @@ public class PlayerInnerLightCtrl : MonoBehaviour, ILightAbsorber
         }
         innerLightDisplay.value = currentInnerLight;
         creep.SetInnerLight(currentInnerLight);
+        pmc.SetInnerLight(currentInnerLight);
     }
 }

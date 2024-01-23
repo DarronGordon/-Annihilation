@@ -29,6 +29,8 @@ public class ShooterEnemy : MonoBehaviour
 
     [Header("--HEALTH--")]
     [SerializeField] int health;
+    [SerializeField] int maxHealth= 100;
+    [SerializeField] HealthBar hbar;
 
     [Header("--EDGE TRIGGER--")]
     [SerializeField] Transform triggerObject;
@@ -54,12 +56,14 @@ bool canFireProjectile;
         sr = GetComponent<SpriteRenderer>();
         currentPoint = wonderAreaB.transform;
         attackRateTimer = attackRate;
+        
 
     }
 
     private void OnEnable()
     {
         anim = GetComponent<Animator>();
+        ResetHealth();
     }
 
     private void Update()
@@ -72,17 +76,13 @@ bool canFireProjectile;
         if(Vector2.Distance(transform.position, playerObject.transform.position) < shootingRange)
         {
             isInRange = true;
-
-            Debug.Log("is in shooting range");
         }
         else{
-            Debug.Log("is not in shooting range");
             isInRange = false;
         }
 
         if(!isLedge)
         {
-            Debug.Log("Am At Ledge");
              if(currentPoint == wonderAreaB)
             {
                 isChasingPlayer = false;
@@ -96,14 +96,12 @@ bool canFireProjectile;
         }
         else{
              
-
-            Debug.Log("I Am not At Ledge");
         }
 
         Vector2 point = currentPoint.position - transform.position;
 
         if(!isInRange)
-        {Debug.Log(currentPoint);
+        {
             if(currentPoint == wonderAreaB.transform && !isChasingPlayer) 
             {
                anim.SetBool("Run", true);
@@ -180,16 +178,24 @@ bool canFireProjectile;
     {
 
         health -= damage;
-
+        UpdateHealthDisplay();
         if(health <= 0)
         {
             health = 0;
             anim.SetTrigger("Die");
-            
+            UpdateHealthDisplay();
         }
         anim.SetTrigger("TakeDmg");
     }
-
+        private void UpdateHealthDisplay()
+    {
+        hbar.UpdateHealthBar(health,maxHealth);
+    }
+    public void ResetHealth()
+    {
+        health = maxHealth;
+        UpdateHealthDisplay();
+    }
     public void DestroyGameObjectAfterAnim()
     {
 

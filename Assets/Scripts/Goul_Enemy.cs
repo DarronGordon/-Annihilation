@@ -28,6 +28,8 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
 
     [Header("--HEALTH--")]
     [SerializeField] int health;
+    [SerializeField] int maxHealth= 100;
+    [SerializeField] HealthBar hbar;
 
     [Header("--EDGE TRIGGER--")]
     [SerializeField] Transform triggerObject;
@@ -48,6 +50,7 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
     private void OnEnable()
     {
         anim = GetComponent<Animator>();
+        ResetHealth();
         anim.SetTrigger("Spawn");
     }
 
@@ -62,13 +65,10 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
         { return; }
 
         #region [[[ PATROL ]]] 
-        Debug.DrawRay(triggerObject.position, Vector2.down, Color.red,edgeTriggerDistance);
-
         isLedge = Physics2D.Raycast(triggerObject.position, Vector2.down, edgeTriggerDistance,whatIsGround);
 
         if(!isLedge)
         {
-            Debug.Log("Am At Ledge");
              if(currentPoint == wonderAreaB)
             {
                 isChasingPlayer = false;
@@ -129,12 +129,12 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
             if (transform.position.x > playerObject.transform.position.x )
             {
                 rb.velocity = new Vector2(movementSpeed * Time.deltaTime * -1, rb.velocity.y);
-               transform.rotation = Quaternion.Euler(0,0,0);
+               transform.rotation = Quaternion.Euler(0,180,0);
             }
             else
             {
                 rb.velocity = new Vector2(movementSpeed * Time.deltaTime, rb.velocity.y);
-                 transform.rotation = Quaternion.Euler(0,180,0);
+                 transform.rotation = Quaternion.Euler(0,0,0);
             }
         }
         else if (Vector2.Distance(transform.position, playerObject.transform.position) < attackDistance)
@@ -147,8 +147,7 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
                 attackRateTimer = attackRate;
                 rb.velocity = Vector2.zero;
                 
-                playerObject.GetComponent<PlayerMovementCtrl>().ReceiveDamage(dmg);
-
+                
             }
         }
     }
@@ -160,6 +159,18 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
         if(collision.gameObject.CompareTag("Player")) 
         {
             playerObject = collision.gameObject;
+
+            isChasingPlayer = true;
+
+        }
+    }
+
+        private void OnCollisionEnter2D(Collision2D other) {
+                if(other.gameObject.CompareTag("Player")) 
+        {
+            playerObject = other.gameObject;
+
+            playerObject.GetComponent<PlayerMovementCtrl>().ReceiveDamage(dmg);
 
             isChasingPlayer = true;
 
@@ -178,17 +189,27 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
     {
 
         health -= damage;
+        UpdateHealthDisplay();
 
         if(health <= 0)
         {
             health = 0;
             canStartMoving = false;
             anim.SetTrigger("Die");
-            
+            UpdateHealthDisplay();
         }
         anim.SetTrigger("TakeDmg");
     }
+    private void UpdateHealthDisplay()
+    {
+        hbar.UpdateHealthBar(health,maxHealth);
+    }
 
+    public void ResetHealth()
+    {
+        health = maxHealth;
+        UpdateHealthDisplay();
+    }
     public void DestroyGameObjectAfterAnim()
     {
 

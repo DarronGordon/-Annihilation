@@ -10,9 +10,11 @@ public class HealthBar : MonoBehaviour
     [SerializeField] private Transform target;
     [SerializeField] private Vector3 offset;
 
-    public void UpdateHealthBar(float _currentvalue, float _maxHealth)
+
+
+    public void UpdateHealthBar(int _currentvalue, int _maxHealth)
     {
-        healthBar.value = _currentvalue / _maxHealth;
+        healthBar.value = _currentvalue;
     }
     void Update()
     {

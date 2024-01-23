@@ -28,4 +28,5 @@ public class EventHandlerManager : MonoBehaviour
     {
             onPlayerCheckPointActivateEvent?.Invoke(id, position);
     }
+
 }

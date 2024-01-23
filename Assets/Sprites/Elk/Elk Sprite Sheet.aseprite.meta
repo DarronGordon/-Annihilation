@@ -1,0 +1,1480 @@
+fileFormatVersion: 2
+guid: 84df136323a760347b2dd8088417fe07
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Elk Sprite Sheet_Frame_0
+    originalName: 
+    pivot: {x: 0.56666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 262
+      width: 30
+      height: 34
+    spriteID: 383d281017e70224aa45afc3893f2193
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 262}
+  - name: Elk Sprite Sheet_Frame_1
+    originalName: 
+    pivot: {x: 0.5862069, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 109
+      width: 29
+      height: 23
+    spriteID: 58ad995d8b7f1354b8aa9d7c815b5ae5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 109}
+  - name: Elk Sprite Sheet_Frame_2
+    originalName: 
+    pivot: {x: 0.5862069, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 140
+      width: 29
+      height: 23
+    spriteID: f7f8f2da00f92df41a2331c6d9a79f3d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 140}
+  - name: Elk Sprite Sheet_Frame_3
+    originalName: 
+    pivot: {x: 0.5862069, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 171
+      width: 29
+      height: 23
+    spriteID: f5ac389f1b7395d408871539db2b6829
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 171}
+  - name: Elk Sprite Sheet_Frame_4
+    originalName: 
+    pivot: {x: 0.5862069, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 486
+      width: 29
+      height: 22
+    spriteID: ada6c97eebc0ec04da7bd921b9930ac1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 486}
+  - name: Elk Sprite Sheet_Frame_5
+    originalName: 
+    pivot: {x: 0.5862069, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 264
+      width: 29
+      height: 22
+    spriteID: dd7670c1723c5394dbfe1d0e80ea6757
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 264}
+  - name: Elk Sprite Sheet_Frame_6
+    originalName: 
+    pivot: {x: 0.5862069, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 294
+      width: 29
+      height: 22
+    spriteID: 14d9874eb11638941b6310ba2825e013
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 294}
+  - name: Elk Sprite Sheet_Frame_7
+    originalName: 
+    pivot: {x: 0.5862069, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 202
+      width: 29
+      height: 23
+    spriteID: c068234079f048e418293f81382c944d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 202}
+  - name: Elk Sprite Sheet_Frame_8
+    originalName: 
+    pivot: {x: 0.56666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 43
+      width: 30
+      height: 25
+    spriteID: 2e6f8071a66340d4daf84cc1250d7ff4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 43}
+  - name: Elk Sprite Sheet_Frame_9
+    originalName: 
+    pivot: {x: 0.56666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 418
+      width: 30
+      height: 26
+    spriteID: 3d9a16bd146c82a49b4d0da2ebdcea36
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 418}
+  - name: Elk Sprite Sheet_Frame_10
+    originalName: 
+    pivot: {x: 0.56666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 340
+      width: 30
+      height: 31
+    spriteID: 15044db4eab49f845b8cdeebeef8c7e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 340}
+  - name: Elk Sprite Sheet_Frame_11
+    originalName: 
+    pivot: {x: 0.56666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 30
+      height: 35
+    spriteID: f8a39e5735e6c5d47b5233e8847e6961
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Elk Sprite Sheet_Frame_12
+    originalName: 
+    pivot: {x: 0.56666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 304
+      width: 30
+      height: 34
+    spriteID: 9d0b215ff191e7a4e8cfc94c2d3ec7e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 304}
+  - name: Elk Sprite Sheet_Frame_13
+    originalName: 
+    pivot: {x: 0.56666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 346
+      width: 30
+      height: 34
+    spriteID: 2d70a6037d1a39b4d88713efce260ed3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 346}
+  - name: Elk Sprite Sheet_Frame_14
+    originalName: 
+    pivot: {x: 0.56666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 388
+      width: 30
+      height: 34
+    spriteID: 57d9a11f3bab4fb4eaa304635386e4a1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 388}
+  - name: Elk Sprite Sheet_Frame_15
+    originalName: 
+    pivot: {x: 0.56666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 430
+      width: 30
+      height: 34
+    spriteID: f3d1f9225ba0499489c2ce1de008de80
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 430}
+  - name: Elk Sprite Sheet_Frame_16
+    originalName: 
+    pivot: {x: 0.56666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 472
+      width: 30
+      height: 34
+    spriteID: d014f08966567e643bf0f7dba41204df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 472}
+  - name: Elk Sprite Sheet_Frame_17
+    originalName: 
+    pivot: {x: 0.56666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 4
+      width: 30
+      height: 34
+    spriteID: 75dbf7ed976589348a11cb31de562264
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 4}
+  - name: Elk Sprite Sheet_Frame_18
+    originalName: 
+    pivot: {x: 0.56666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 46
+      width: 30
+      height: 34
+    spriteID: a7551b9dd828dd1408a2e2dcb0a852d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 46}
+  - name: Elk Sprite Sheet_Frame_19
+    originalName: 
+    pivot: {x: 0.56666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 88
+      width: 30
+      height: 34
+    spriteID: e28e48c0c8119a74d92092bc48178bb2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 88}
+  - name: Elk Sprite Sheet_Frame_20
+    originalName: 
+    pivot: {x: 0.56666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 130
+      width: 30
+      height: 34
+    spriteID: 1f7efe8f2ab946742b73a56ebdf045d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 130}
+  - name: Elk Sprite Sheet_Frame_21
+    originalName: 
+    pivot: {x: 0.56666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 47
+      width: 30
+      height: 35
+    spriteID: 2e02ebb3b6d450c4392cf67f1f9e46e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 47}
+  - name: Elk Sprite Sheet_Frame_22
+    originalName: 
+    pivot: {x: 0.56666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 379
+      width: 30
+      height: 31
+    spriteID: 69249d14ba20d7b4a89692475620c836
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 379}
+  - name: Elk Sprite Sheet_Frame_23
+    originalName: 
+    pivot: {x: 0.56666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 452
+      width: 30
+      height: 26
+    spriteID: e67ab8ff431937348bab3aeb81a6d048
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 452}
+  - name: Elk Sprite Sheet_Frame_24
+    originalName: 
+    pivot: {x: 0.56666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 76
+      width: 30
+      height: 25
+    spriteID: ac0e7729bad478e41aac11932ad70b8d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 76}
+  - name: Elk Sprite Sheet_Frame_25
+    originalName: 
+    pivot: {x: 0.5862069, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 233
+      width: 29
+      height: 23
+    spriteID: 520184c1a0ab7494ba4da0909845fe22
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 233}
+  - name: Elk Sprite Sheet_Frame_26
+    originalName: 
+    pivot: {x: 0.56666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 172
+      width: 30
+      height: 34
+    spriteID: d8ba91a14b31e9c4da1225d263ac0918
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 172}
+  - name: Elk Sprite Sheet_Frame_27
+    originalName: 
+    pivot: {x: 0.56666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 214
+      width: 30
+      height: 34
+    spriteID: 2d7f036ed5a52bd4f903d86988072efc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 214}
+  - name: Elk Sprite Sheet_Frame_28
+    originalName: 
+    pivot: {x: 0.56666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 90
+      width: 30
+      height: 35
+    spriteID: 931810a86dd33e54ebd58e968a58b65f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 90}
+  - name: Elk Sprite Sheet_Frame_29
+    originalName: 
+    pivot: {x: 0.56666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 133
+      width: 30
+      height: 35
+    spriteID: e624b7e73bc33804fa6fa0fd2c170c03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 133}
+  - name: Elk Sprite Sheet_Frame_30
+    originalName: 
+    pivot: {x: 0.5517241, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 256
+      width: 29
+      height: 34
+    spriteID: a4d0242c66704a3499e801d1d3a18fd5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 256}
+  - name: Elk Sprite Sheet_Frame_31
+    originalName: 
+    pivot: {x: 0.5517241, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 298
+      width: 29
+      height: 34
+    spriteID: 31fa31bb387cc7d4e9bccfbedebba040
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 298}
+  - name: Elk Sprite Sheet_Frame_32
+    originalName: 
+    pivot: {x: 0.56666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 176
+      width: 30
+      height: 35
+    spriteID: 0948328138f926343b8aaf728c3e8d7f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 176}
+  - name: Elk Sprite Sheet_Frame_33
+    originalName: 
+    pivot: {x: 0.56666666, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 219
+      width: 30
+      height: 35
+    spriteID: f6fd91067b4f15e41907eed612df94ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 219}
+  - name: Elk Sprite Sheet_Frame_34
+    originalName: 
+    pivot: {x: 0.58064514, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 4
+      width: 31
+      height: 31
+    spriteID: a5f216fd091c1e84eb6840f43859d6fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 4}
+  - name: Elk Sprite Sheet_Frame_35
+    originalName: 
+    pivot: {x: 0.57142854, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 352
+      width: 28
+      height: 16
+    spriteID: 74aab731fed93464aa2d35954597507b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 352}
+  - name: Elk Sprite Sheet_Frame_36
+    originalName: 
+    pivot: {x: 0.5483871, y: -0.15}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 324
+      width: 31
+      height: 20
+    spriteID: 59242ba4f477f864782e661e094d9b0f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 324}
+  - name: Elk Sprite Sheet_Frame_37
+    originalName: 
+    pivot: {x: 0.54545456, y: -0.15}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 32
+      width: 33
+      height: 20
+    spriteID: 319331bc431287e4ebc154720a592b26
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 32}
+  - name: Elk Sprite Sheet_Frame_38
+    originalName: 
+    pivot: {x: 0.5263158, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 119
+      y: 4
+      width: 38
+      height: 20
+    spriteID: 87b2e3f8465769f4d8d57680ed1c7cf3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 119, y: 4}
+  - name: Elk Sprite Sheet_Frame_39
+    originalName: 
+    pivot: {x: 0.5121951, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 165
+      y: 4
+      width: 41
+      height: 13
+    spriteID: 567f29d2dc15b494ca44753036a3ac56
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 165, y: 4}
+  - name: Elk Sprite Sheet_Frame_40
+    originalName: 
+    pivot: {x: 0.52272725, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 165
+      y: 120
+      width: 44
+      height: 6
+    spriteID: 74492eeb60b7e3f4ca57d8b0f24304ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 165, y: 120}
+  - name: Elk Sprite Sheet_Frame_41
+    originalName: 
+    pivot: {x: 0.5208333, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 165
+      y: 25
+      width: 48
+      height: 7
+    spriteID: 99b5e6e283eee8841964aa94d6767b67
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 165, y: 25}
+  - name: Elk Sprite Sheet_Frame_42
+    originalName: 
+    pivot: {x: 0.50980395, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 165
+      y: 54
+      width: 51
+      height: 6
+    spriteID: 7aaf5b61d40375f42b0f1c8635598964
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 165, y: 54}
+  - name: Elk Sprite Sheet_Frame_43
+    originalName: 
+    pivot: {x: 0.509434, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 165
+      y: 40
+      width: 53
+      height: 6
+    spriteID: b18b6a888267c934db7396220a579188
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 165, y: 40}
+  - name: Elk Sprite Sheet_Frame_44
+    originalName: 
+    pivot: {x: 0.5090909, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 165
+      y: 107
+      width: 55
+      height: 5
+    spriteID: e372717fb022d3046bc18667e408dce9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 165, y: 107}
+  - name: Elk Sprite Sheet_Frame_45
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 165
+      y: 68
+      width: 56
+      height: 5
+    spriteID: 90ceeac00d8b7e343b3cbfe2bc1af65a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 165, y: 68}
+  - name: Elk Sprite Sheet_Frame_46
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 165
+      y: 81
+      width: 56
+      height: 5
+    spriteID: f9edb3211d116934b80852cd9063590a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 165, y: 81}
+  - name: Elk Sprite Sheet_Frame_47
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 165
+      y: 94
+      width: 56
+      height: 5
+    spriteID: 5dbd8cef19d37514fa40c6d268f6f0f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 165, y: 94}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 138026574
+    name: Elk Sprite Sheet
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Elk Sprite Sheet_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 11
+        y: 0
+        width: 30
+        height: 34
+      spriteId: 383d281017e70224aa45afc3893f2193
+    - name: Elk Sprite Sheet_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 11
+        y: 0
+        width: 29
+        height: 23
+      spriteId: 58ad995d8b7f1354b8aa9d7c815b5ae5
+    - name: Elk Sprite Sheet_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 11
+        y: 0
+        width: 29
+        height: 23
+      spriteId: f7f8f2da00f92df41a2331c6d9a79f3d
+    - name: Elk Sprite Sheet_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 11
+        y: 0
+        width: 29
+        height: 23
+      spriteId: f5ac389f1b7395d408871539db2b6829
+    - name: Elk Sprite Sheet_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 11
+        y: 0
+        width: 29
+        height: 22
+      spriteId: ada6c97eebc0ec04da7bd921b9930ac1
+    - name: Elk Sprite Sheet_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 11
+        y: 0
+        width: 29
+        height: 22
+      spriteId: dd7670c1723c5394dbfe1d0e80ea6757
+    - name: Elk Sprite Sheet_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 11
+        y: 0
+        width: 29
+        height: 22
+      spriteId: 14d9874eb11638941b6310ba2825e013
+    - name: Elk Sprite Sheet_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 11
+        y: 0
+        width: 29
+        height: 23
+      spriteId: c068234079f048e418293f81382c944d
+    - name: Elk Sprite Sheet_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 11
+        y: 0
+        width: 30
+        height: 25
+      spriteId: 2e6f8071a66340d4daf84cc1250d7ff4
+    - name: Elk Sprite Sheet_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 11
+        y: 0
+        width: 30
+        height: 26
+      spriteId: 3d9a16bd146c82a49b4d0da2ebdcea36
+    - name: Elk Sprite Sheet_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 11
+        y: 0
+        width: 30
+        height: 31
+      spriteId: 15044db4eab49f845b8cdeebeef8c7e5
+    - name: Elk Sprite Sheet_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 11
+        y: 0
+        width: 30
+        height: 35
+      spriteId: f8a39e5735e6c5d47b5233e8847e6961
+    - name: Elk Sprite Sheet_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 11
+        y: 0
+        width: 30
+        height: 34
+      spriteId: 9d0b215ff191e7a4e8cfc94c2d3ec7e1
+    - name: Elk Sprite Sheet_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 11
+        y: 0
+        width: 30
+        height: 34
+      spriteId: 2d70a6037d1a39b4d88713efce260ed3
+    - name: Elk Sprite Sheet_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 11
+        y: 0
+        width: 30
+        height: 34
+      spriteId: 57d9a11f3bab4fb4eaa304635386e4a1
+    - name: Elk Sprite Sheet_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 11
+        y: 0
+        width: 30
+        height: 34
+      spriteId: f3d1f9225ba0499489c2ce1de008de80
+    - name: Elk Sprite Sheet_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 11
+        y: 0
+        width: 30
+        height: 34
+      spriteId: d014f08966567e643bf0f7dba41204df
+    - name: Elk Sprite Sheet_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 11
+        y: 0
+        width: 30
+        height: 34
+      spriteId: 75dbf7ed976589348a11cb31de562264
+    - name: Elk Sprite Sheet_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 11
+        y: 0
+        width: 30
+        height: 34
+      spriteId: a7551b9dd828dd1408a2e2dcb0a852d0
+    - name: Elk Sprite Sheet_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 11
+        y: 0
+        width: 30
+        height: 34
+      spriteId: e28e48c0c8119a74d92092bc48178bb2
+    - name: Elk Sprite Sheet_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 11
+        y: 0
+        width: 30
+        height: 34
+      spriteId: 1f7efe8f2ab946742b73a56ebdf045d0
+    - name: Elk Sprite Sheet_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 11
+        y: 0
+        width: 30
+        height: 35
+      spriteId: 2e02ebb3b6d450c4392cf67f1f9e46e3
+    - name: Elk Sprite Sheet_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 11
+        y: 0
+        width: 30
+        height: 31
+      spriteId: 69249d14ba20d7b4a89692475620c836
+    - name: Elk Sprite Sheet_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 11
+        y: 0
+        width: 30
+        height: 26
+      spriteId: e67ab8ff431937348bab3aeb81a6d048
+    - name: Elk Sprite Sheet_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 11
+        y: 0
+        width: 30
+        height: 25
+      spriteId: ac0e7729bad478e41aac11932ad70b8d
+    - name: Elk Sprite Sheet_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 11
+        y: 0
+        width: 29
+        height: 23
+      spriteId: 520184c1a0ab7494ba4da0909845fe22
+    - name: Elk Sprite Sheet_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 11
+        y: 0
+        width: 30
+        height: 34
+      spriteId: d8ba91a14b31e9c4da1225d263ac0918
+    - name: Elk Sprite Sheet_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 11
+        y: 0
+        width: 30
+        height: 34
+      spriteId: 2d7f036ed5a52bd4f903d86988072efc
+    - name: Elk Sprite Sheet_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 11
+        y: 0
+        width: 30
+        height: 35
+      spriteId: 931810a86dd33e54ebd58e968a58b65f
+    - name: Elk Sprite Sheet_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 11
+        y: 0
+        width: 30
+        height: 35
+      spriteId: e624b7e73bc33804fa6fa0fd2c170c03
+    - name: Elk Sprite Sheet_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 12
+        y: 0
+        width: 29
+        height: 34
+      spriteId: a4d0242c66704a3499e801d1d3a18fd5
+    - name: Elk Sprite Sheet_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 12
+        y: 0
+        width: 29
+        height: 34
+      spriteId: 31fa31bb387cc7d4e9bccfbedebba040
+    - name: Elk Sprite Sheet_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 11
+        y: 0
+        width: 30
+        height: 35
+      spriteId: 0948328138f926343b8aaf728c3e8d7f
+    - name: Elk Sprite Sheet_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 11
+        y: 0
+        width: 30
+        height: 35
+      spriteId: f6fd91067b4f15e41907eed612df94ca
+    - name: Elk Sprite Sheet_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 10
+        y: 0
+        width: 31
+        height: 31
+      spriteId: a5f216fd091c1e84eb6840f43859d6fc
+    - name: Elk Sprite Sheet_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 12
+        y: 4
+        width: 28
+        height: 16
+      spriteId: 74aab731fed93464aa2d35954597507b
+    - name: Elk Sprite Sheet_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 11
+        y: 3
+        width: 31
+        height: 20
+      spriteId: 59242ba4f477f864782e661e094d9b0f
+    - name: Elk Sprite Sheet_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 10
+        y: 3
+        width: 33
+        height: 20
+      spriteId: 319331bc431287e4ebc154720a592b26
+    - name: Elk Sprite Sheet_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 8
+        y: 0
+        width: 38
+        height: 20
+      spriteId: 87b2e3f8465769f4d8d57680ed1c7cf3
+    - name: Elk Sprite Sheet_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 7
+        y: 0
+        width: 41
+        height: 13
+      spriteId: 567f29d2dc15b494ca44753036a3ac56
+    - name: Elk Sprite Sheet_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 5
+        y: 0
+        width: 44
+        height: 6
+      spriteId: 74492eeb60b7e3f4ca57d8b0f24304ca
+    - name: Elk Sprite Sheet_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 3
+        y: 0
+        width: 48
+        height: 7
+      spriteId: 99b5e6e283eee8841964aa94d6767b67
+    - name: Elk Sprite Sheet_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 2
+        y: 0
+        width: 51
+        height: 6
+      spriteId: 7aaf5b61d40375f42b0f1c8635598964
+    - name: Elk Sprite Sheet_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 1
+        y: 0
+        width: 53
+        height: 6
+      spriteId: b18b6a888267c934db7396220a579188
+    - name: Elk Sprite Sheet_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 0
+        y: 0
+        width: 55
+        height: 5
+      spriteId: e372717fb022d3046bc18667e408dce9
+    - name: Elk Sprite Sheet_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 0
+        y: 0
+        width: 56
+        height: 5
+      spriteId: 90ceeac00d8b7e343b3cbfe2bc1af65a
+    - name: Elk Sprite Sheet_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 0
+        y: 0
+        width: 56
+        height: 5
+      spriteId: f9edb3211d116934b80852cd9063590a
+    - name: Elk Sprite Sheet_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 0
+        y: 0
+        width: 56
+        height: 5
+      spriteId: 5dbd8cef19d37514fa40c6d268f6f0f6
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 56, y: 35}

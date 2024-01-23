@@ -17,8 +17,7 @@ public class CheckPointCtrl : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("TRIGGERED");
-        if(collision.gameObject.CompareTag("Player"))
+         if(collision.gameObject.CompareTag("Player"))
         {
             if(isCheckPointActive)
             {
