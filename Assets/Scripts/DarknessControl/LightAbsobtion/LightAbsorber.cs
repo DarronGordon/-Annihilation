@@ -23,7 +23,23 @@ public class LightAbsorber : MonoBehaviour
             absorbLight = true;
         }
     }
+    private void OnTriggerStay2D(Collider2D other) 
+    {
+            ILightAbsorber absorber = other.GetComponent<ILightAbsorber>();
 
+        if (absorber != null && canAbsorb)
+        {
+            absorber.ConsumeLight();
+
+            absorbLight = true;
+        }
+        else
+        {
+            absorber.StartLooseLight();
+
+            absorbLight = false;
+        }
+    }
     private void OnTriggerExit2D(Collider2D collision)
     {
         ILightAbsorber absorber = collision.GetComponent<ILightAbsorber>();

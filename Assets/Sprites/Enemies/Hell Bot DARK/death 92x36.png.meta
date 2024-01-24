@@ -139,10 +139,10 @@ TextureImporter:
       name: death 92x36_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 360
-        width: 92
-        height: 36
+        x: 3
+        y: 181
+        width: 37
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,10 +160,10 @@ TextureImporter:
       name: death 92x36_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 324
-        width: 92
-        height: 36
+        x: 3
+        y: 217
+        width: 37
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +181,10 @@ TextureImporter:
       name: death 92x36_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 288
-        width: 92
-        height: 36
+        x: 3
+        y: 253
+        width: 37
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,10 +202,10 @@ TextureImporter:
       name: death 92x36_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 252
-        width: 92
-        height: 36
+        x: 3
+        y: 289
+        width: 37
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,10 +223,10 @@ TextureImporter:
       name: death 92x36_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 216
-        width: 92
-        height: 36
+        x: 3
+        y: 325
+        width: 37
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,10 +244,10 @@ TextureImporter:
       name: death 92x36_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 180
-        width: 92
-        height: 36
+        x: 4
+        y: 361
+        width: 37
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,10 +265,10 @@ TextureImporter:
       name: death 92x36_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 144
-        width: 92
-        height: 36
+        x: 3
+        y: 109
+        width: 37
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,10 +286,10 @@ TextureImporter:
       name: death 92x36_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 108
-        width: 92
-        height: 36
+        x: 3
+        y: 145
+        width: 37
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,10 +307,10 @@ TextureImporter:
       name: death 92x36_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 72
-        width: 92
-        height: 36
+        x: 3
+        y: 73
+        width: 37
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,10 +328,10 @@ TextureImporter:
       name: death 92x36_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 36
-        width: 92
-        height: 36
+        x: 3
+        y: 37
+        width: 37
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,10 +349,10 @@ TextureImporter:
       name: death 92x36_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 92
-        height: 36
+        x: 3
+        y: 2
+        width: 37
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,6 +380,10 @@ TextureImporter:
       death 92x36_0: -1009369637
       death 92x36_1: 1785798773
       death 92x36_10: 2062534249
+      death 92x36_11: -1707217393
+      death 92x36_12: 1329775733
+      death 92x36_13: -751136402
+      death 92x36_14: -380752018
       death 92x36_2: 1264386311
       death 92x36_3: -1159084804
       death 92x36_4: 545781887

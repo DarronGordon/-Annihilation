@@ -244,7 +244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 329abd00518ab0741b370b71b3ab986c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocity: 2500
-  damage: 50
+  velocity: 1500
+  damage: 25
   lifeTime: 1.04
   explosionVFX: {fileID: 0}

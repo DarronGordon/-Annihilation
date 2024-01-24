@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class SceneManagerCtrl : MonoBehaviour
 {
+    public static SceneManagerCtrl Instance;
     [SerializeField]int sceneCheckPoints;
 
     [SerializeField]Vector2 currentSpawnPointPos;
@@ -20,6 +21,19 @@ public class SceneManagerCtrl : MonoBehaviour
 
     [SerializeField]List<CheckPointCtrl> checkPoints = new List<CheckPointCtrl>() ;
 
+    private void Awake() 
+    {
+
+        if(Instance==null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
+    }   
 
     private void OnEnable() {
         EventHandlerManager.onPlayerCheckPointActivateEvent +=SetCurrentCheckPoint;
@@ -90,7 +104,7 @@ public class SceneManagerCtrl : MonoBehaviour
     public void LoadLevel1Scene()
     {
         StartCoroutine(Fade(1f));
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Level#1");
     }
     public void LoadLevelScene(string sceneName)
     {
@@ -112,17 +126,26 @@ public class SceneManagerCtrl : MonoBehaviour
 
     #region [[FADE-IN FADE-OUT]]
 
+    public void LoadLastCheckPointAndFadeOut()
+    {
+        StartCoroutine(FadeAndLoadCheckPoint());
+        
+    }
+    public void FadeIn()
+    {
+        StartCoroutine(Fade(0f));
+    }
     IEnumerator Fade(float finalAlpha)
     {
         isFading = true;
 
         faderCanvasGroup.blocksRaycasts = true;
 
-        float fadeSpeed = Mathf.Abs(faderCanvasGroup.alpha - finalAlpha) / fadeDuration;
+        //float fadeSpeed = Mathf.Abs(faderCanvasGroup.alpha - finalAlpha) / fadeDuration;
 
         while(!Mathf.Approximately(faderCanvasGroup.alpha, finalAlpha))
         {
-            faderCanvasGroup.alpha = Mathf.MoveTowards(faderCanvasGroup.alpha, finalAlpha, fadeSpeed * Time.deltaTime);
+            faderCanvasGroup.alpha = Mathf.MoveTowards(faderCanvasGroup.alpha, finalAlpha, fadeDuration * Time.deltaTime);
 
             yield return null;
         }
@@ -131,8 +154,22 @@ public class SceneManagerCtrl : MonoBehaviour
 
         faderCanvasGroup.blocksRaycasts = false;
     }
+    IEnumerator FadeAndLoadCheckPoint()
+    {
 
-    
+        yield return StartCoroutine(Fade(1f));
+
+        LoadLastCheckPoint();
+        yield return new WaitForSeconds(1f);
+        player.GetComponent<PlayerMovementCtrl>().ResetPlayer();
+        yield return StartCoroutine(Fade(0f));
+    }
+    public void LoadLastCheckPoint()
+    {
+        SetCurrentSpawnPoint();
+    }
+
+
 
     #endregion
 }

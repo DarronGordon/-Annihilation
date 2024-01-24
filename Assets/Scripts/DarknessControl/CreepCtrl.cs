@@ -58,7 +58,51 @@ public class CreepCtrl : MonoBehaviour
 
     public void SetInnerLight(float innerLight)
     {
-        intensityAmount = innerLight /100;
-        powerAmount = innerLight /10;
+        powerAmount = (innerLight /10)- .1f;
+        SetIntensity(innerLight);
+    }
+
+    private void SetIntensity(float innerLight)
+    {
+
+        if(innerLight > 14)
+        {
+            intensityAmount = .1f;
+        }      
+        else if(innerLight < 14 && innerLight > 13)
+        {
+            intensityAmount = .2f;
+        }
+        else if(innerLight < 13 && innerLight > 12)
+        {
+            intensityAmount = .3f;
+        }
+        else if(innerLight < 12 && innerLight > 11)
+        {
+            intensityAmount = .5f;
+        }
+        else if(innerLight <11 && innerLight > 10)
+        {
+            intensityAmount = 0.7f;
+        }
+        else if(innerLight < 10 && innerLight > 8)
+        {
+            intensityAmount = .9f;
+        }
+        else if(innerLight < 8 && innerLight > 6)
+        {
+            intensityAmount = 1.1f;
+        }
+        else if(innerLight < 6 && innerLight > 4)
+        {
+            intensityAmount = 1.3f;
+        }
+        else if(innerLight < 4 && innerLight > 2)
+        {
+            intensityAmount = 1.5f;
+        }
+        else{
+            intensityAmount = 1.8f;
+        }
     }
 }

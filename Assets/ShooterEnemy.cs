@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class ShooterEnemy : MonoBehaviour
+public class ShooterEnemy : MonoBehaviour, IDamagable
 {
     #region [[[ VARS ]]]
 
@@ -108,6 +108,7 @@ bool canFireProjectile;
                rb.velocity = new Vector2(movementSpeed * Time.deltaTime, rb.velocity.y);
 
                transform.rotation = Quaternion.Euler(0,0,0);
+               
 
             }
             else if(currentPoint != wonderAreaB.transform && !isChasingPlayer)

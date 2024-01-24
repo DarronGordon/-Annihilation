@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6d1ad34505963458683e6f3cd42698, type: 3}
   m_Name: 2
   m_EditorClassIdentifier: 
-  dialogue: "Remember we use A and D to move, Space to Jump and ctrl to roll and
-    enter to fire. \nIf you need to pause press esc. \nBut procrastanation and defeat
-    is whaty got us here?!\n"
+  dialogue: "Use A and D to move, Space to Jump and Shift to roll and Enter to fire.
+    \nIf you need to pause press esc. \nBut procrastanation is what got us here?!\n"

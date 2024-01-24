@@ -1,10 +1,13 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.PlasticSCM.Editor.WebApi;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
+using UnityEngine.SceneManagement;
 
-public class PlayerMovementCtrl : MonoBehaviour,IPlayerDamageReceiver
+public class PlayerMovementCtrl : MonoBehaviour,IPlayerDamageReceiver,IJamJuice
 {
     //THIS IS ACTUALY PLAYER CTRL
 
@@ -43,8 +46,13 @@ public class PlayerMovementCtrl : MonoBehaviour,IPlayerDamageReceiver
 
     [Header("Inner-Light")]
     [SerializeField]Light2D playerLight;
-    #endregion
 
+    float currentExp;
+    float levelExpCap;
+    int level;
+
+
+    #endregion
     private void OnEnable()
     {
         EventHandlerManager.onPlayerJumpEvent += PlayerJumpInput;
@@ -65,8 +73,7 @@ public class PlayerMovementCtrl : MonoBehaviour,IPlayerDamageReceiver
         sr = GetComponentInChildren<SpriteRenderer>();
         anim = GetComponentInChildren<Animator>();
 
-        health = maxHealth;
-        UpdateHealthDisplay();
+        ResetPlayer();
     }
 
     private void FixedUpdate()
@@ -103,7 +110,15 @@ public class PlayerMovementCtrl : MonoBehaviour,IPlayerDamageReceiver
     #region [[ FACING DIRECTION ]]
     private void CheckFacingDirection()
     {
-
+                switch (PlayerInputControl.Instance.MoveDir)
+        {
+            case Vector2 vector when vector.Equals(Vector2.right):
+                gameObject.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
+                break;
+            case Vector2 vector when vector.Equals(Vector2.left):
+                gameObject.transform.rotation = Quaternion.Euler(new Vector3(0,  -180,0));
+                break;
+        }
     }
 #endregion
 
@@ -140,7 +155,8 @@ public class PlayerMovementCtrl : MonoBehaviour,IPlayerDamageReceiver
     {
         if (b)
         {
-            if (isGrounded)
+            
+            if (isGrounded )
             {
                 gameObject.layer = 16;
                 canTakeDmg = false;
@@ -184,6 +200,12 @@ public class PlayerMovementCtrl : MonoBehaviour,IPlayerDamageReceiver
     {
         health += _health;
 
+        if(health > maxHealth)
+        {
+            health = maxHealth;
+            UpdateHealthDisplay();
+        }
+
         UpdateHealthDisplay();
     }
 
@@ -200,13 +222,25 @@ public class PlayerMovementCtrl : MonoBehaviour,IPlayerDamageReceiver
         health -= dmg;
         UpdateHealthDisplay();
         if (health <= 0)
-        {
+        { // DEATH
+            SceneManagerCtrl.Instance.LoadLastCheckPointAndFadeOut();
             health = 0;
             UpdateHealthDisplay();
             anim.SetTrigger("Die");
+            
+            
         }
     }
+     public void ResetPlayer()
+     {
+        //Reset Health
+        health = maxHealth;
+        UpdateHealthDisplay();
 
+        //ResetInnerLight
+        EventHandlerManager.CallOnPlayerReSpawnEvent();
+
+     }
     #endregion  
 
     #region  [[[ INNER-LIGHT ]]]
@@ -221,4 +255,16 @@ public class PlayerMovementCtrl : MonoBehaviour,IPlayerDamageReceiver
         Gizmos.DrawWireCube(feet.transform.position, feetSize);
     }
 
+    public void IJamJuice(int healing, float exp)
+    {
+        Heal(healing);
+
+    }
+
+    public void AddToExp(float expToAdd)
+    {
+        currentExp += expToAdd;
+
+
+    }
 }

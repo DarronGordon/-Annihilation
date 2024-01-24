@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6d1ad34505963458683e6f3cd42698, type: 3}
   m_Name: 4
   m_EditorClassIdentifier: 
-  dialogue: 'First things first you gotta stay in the light... you see that bar in
-    the top right if that hits zero... well... don''t dont let it spread too much.
-    you can recharge yourself in the light.
+  dialogue: '
 
 '

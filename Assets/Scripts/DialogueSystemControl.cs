@@ -1,4 +1,4 @@
-using System;
+ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -10,6 +10,8 @@ public class DialogueSystemControl : MonoBehaviour
 {
 
     #region [[[[[ VARS ]]]]]
+
+    [SerializeField]SceneManagerControlerLevel1 smc;
 
     [Header("--NPC#1--")]
     [SerializeField] DialogueList_SO npcDialogue; 
@@ -83,28 +85,24 @@ public class DialogueSystemControl : MonoBehaviour
         
 
         SetNpcDialogue(0);
-        yield return new WaitUntil(() => Input.GetMouseButtonDown(0));
+        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Return));
         npcSpeachBubble.SetActive(false);
         yield return new WaitForSeconds(.5f);
         SetNpcDialogue(1);
-        yield return new WaitUntil(() => Input.GetMouseButtonDown(0));
+        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Return));
         npcSpeachBubble.SetActive(false);
         yield return new WaitForSeconds(.5f);
         SetNpcDialogue(2);
-        yield return new WaitUntil(() => Input.GetMouseButtonDown(0));
+        smc.FlickerIcon();
+        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Return));
         npcSpeachBubble.SetActive(false);
         yield return new WaitForSeconds(.5f);
 
         SetPlayerDialogue(0);
-        yield return new WaitUntil(() => Input.GetMouseButtonDown(0));
+        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Return));
         playerSpeachBubble.SetActive(false);
         yield return new WaitForSeconds(.5f);
 
-        SetNpcDialogue(3);
-        //Flash Darkness meter
-        yield return new WaitUntil(() => Input.GetMouseButtonDown(0));
-        npcSpeachBubble.SetActive(false);
-        yield return new WaitForSeconds(1f);
 
         player.SetMoveInd(1);
 
@@ -123,7 +121,7 @@ public class DialogueSystemControl : MonoBehaviour
     public IEnumerator Level2DialogueRoutine()
     {
         SetNpc1Dialogue(0);
-        yield return new WaitUntil(() => Input.GetMouseButtonDown(0));
+        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Return));
         npc1SpeachBubble.SetActive(false);
         yield return new WaitForSeconds(.5f);
 
@@ -142,11 +140,11 @@ public class DialogueSystemControl : MonoBehaviour
     public IEnumerator Level3DialogueRoutine()
     {
         SetNpc2Dialogue(0);
-        yield return new WaitUntil(() => Input.GetMouseButtonDown(0));
+        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Return));
         npc2SpeachBubble.SetActive(false);
         yield return new WaitForSeconds(.5f);
         SetNpc2Dialogue(1);
-        yield return new WaitUntil(() => Input.GetMouseButtonDown(0));
+        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Return));
         npc2SpeachBubble.SetActive(false);
         yield return new WaitForSeconds(.5f);
 
@@ -165,13 +163,15 @@ public class DialogueSystemControl : MonoBehaviour
     public IEnumerator Level4DialogueRoutine()
     {
         SetNpc3Dialogue(0);
-        yield return new WaitUntil(() => Input.GetMouseButtonDown(0));
+        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Return));
         npc3SpeachBubble.SetActive(false);
         yield return new WaitForSeconds(.5f); 
         SetNpc3Dialogue(1);
-        yield return new WaitUntil(() => Input.GetMouseButtonDown(0));
+        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Return));
         npc3SpeachBubble.SetActive(false);
         yield return new WaitForSeconds(.5f);
+
+         player.SetMoveInd(4);
     }
     #endregion
 

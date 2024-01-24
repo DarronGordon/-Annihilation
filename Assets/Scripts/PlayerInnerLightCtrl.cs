@@ -17,6 +17,14 @@ public class PlayerInnerLightCtrl : MonoBehaviour, ILightAbsorber
     PlayerMovementCtrl pmc;
     float dmgTimerCounter;
 
+    private void OnEnable() {
+        EventHandlerManager.onPlayerReSpawnEvent += ResetInnerLight;
+    }
+
+    private void OnDisable() {
+        EventHandlerManager.onPlayerReSpawnEvent -= ResetInnerLight;
+    }
+
     private void Start()
     {
         currentInnerLight = maxInnerLight;
@@ -58,6 +66,15 @@ public class PlayerInnerLightCtrl : MonoBehaviour, ILightAbsorber
                 
             }
         }
+        innerLightDisplay.value = currentInnerLight;
+        creep.SetInnerLight(currentInnerLight);
+        pmc.SetInnerLight(currentInnerLight);
+    }
+
+    public void ResetInnerLight()
+    {
+        currentInnerLight = maxInnerLight;
+
         innerLightDisplay.value = currentInnerLight;
         creep.SetInnerLight(currentInnerLight);
         pmc.SetInnerLight(currentInnerLight);

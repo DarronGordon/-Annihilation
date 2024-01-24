@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6d1ad34505963458683e6f3cd42698, type: 3}
   m_Name: 1
   m_EditorClassIdentifier: 
-  dialogue: As you can see even the animals are effected. Our actions and words carry
-    weight, you never know who is listening and you don't know everyone's story!
-    Be mindfull. The seeds one plants inside our own head grows to be positive not
-    toxic.
+  dialogue: As you can see even the animals are effected. Be mindfull, it is hard
+    to see in the darkness we surround ourselves in. Find the checkpoint under the
+    purple lights to help you along the way.

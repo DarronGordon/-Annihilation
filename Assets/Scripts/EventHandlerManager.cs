@@ -26,7 +26,12 @@ public class EventHandlerManager : MonoBehaviour
     public static Action<int, Vector2> onPlayerCheckPointActivateEvent;
     public static void CallOnPlayerCheckPointActivate(int id, Vector2 position)
     {
-            onPlayerCheckPointActivateEvent?.Invoke(id, position);
+        onPlayerCheckPointActivateEvent?.Invoke(id, position);
     }
 
+    public static Action onPlayerReSpawnEvent;
+    public static void CallOnPlayerReSpawnEvent()
+    {
+        onPlayerReSpawnEvent?.Invoke();
+    }
 }

@@ -10,7 +10,7 @@ public class EnemyProjectile : MonoBehaviour
     [SerializeField] float velocity;
     [SerializeField] int damage;
     float life;
-    [SerializeField] float lifeTime;
+    [SerializeField] float lifeTime = 3f;
     Rigidbody2D rb;
     [SerializeField] ParticleSystem explosionVFX;
     Vector3 dir;
@@ -20,8 +20,8 @@ public class EnemyProjectile : MonoBehaviour
 
     private void OnEnable()
     {
-        dir = Vector3.right;
         life = lifeTime;
+        dir = Vector2.right;
     }
     private void Start()
     {
@@ -31,6 +31,9 @@ public class EnemyProjectile : MonoBehaviour
     }
     void Update()
     {
+        
+        rb.velocity = dir * velocity*Time.deltaTime;
+
         life -= Time.deltaTime;
 
         if(life <= 0)
@@ -38,7 +41,6 @@ public class EnemyProjectile : MonoBehaviour
             ProjectileDeath();
         }
         
-        rb.velocity = (dir * velocity*Time.deltaTime);
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -57,7 +59,7 @@ public class EnemyProjectile : MonoBehaviour
     public void ProjectileDeath()
     {
         rb.velocity = Vector2.zero;
-        gameObject.SetActive(false);
+        Destroy(gameObject);
     }
 
     public void SetDir(float _dir)
