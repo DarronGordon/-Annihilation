@@ -54,6 +54,16 @@ public class Projectile : MonoBehaviour
 
     }
 
+    private void OnTriggerEnter2D(Collider2D other) {
+                anim.SetTrigger("Impact");
+        IDamagable enemy = other.gameObject.GetComponent<IDamagable>();
+
+        if (enemy != null)
+        {
+            enemy.TakeDamage(damage);
+        }
+    }
+
     public void ProjectileDeath()
     {
         rb.velocity = Vector2.zero;

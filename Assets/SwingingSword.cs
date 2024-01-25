@@ -9,12 +9,15 @@ public class SwingingSword : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
        // anim.SetTrigger("Impact");
-        IPlayerDamageReceiver player = collision.gameObject.GetComponent<IPlayerDamageReceiver>();
+
+
+    }
+    private void OnTriggerEnter2D(Collider2D other) {
+        IPlayerDamageReceiver player = other.gameObject.GetComponent<IPlayerDamageReceiver>();
 
         if (player != null)
         {
             player.ReceiveDamage(damage);
         }
-
     }
 }

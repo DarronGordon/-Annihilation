@@ -145,7 +145,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.014814302, y: -0.060000002}
@@ -164,8 +164,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocity: 2500
-  damage: 20
-  lifeTime: 0.65
+  damage: 50
+  lifeTime: 0.7
   explosionVFX: {fileID: 0}
 --- !u!95 &-9223184242774286470
 Animator:

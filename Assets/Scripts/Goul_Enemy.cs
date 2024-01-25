@@ -15,7 +15,7 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
     Animator anim;
     [SerializeField]Transform wonderAreaA, wonderAreaB;
     Transform currentPoint;
-    bool isChasingPlayer;
+    [SerializeField]bool isChasingPlayer;
     GameObject playerObject;
     [SerializeField] bool canStartMoving = false;
 
@@ -24,7 +24,9 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
     [SerializeField] float attackRate;
     [SerializeField] float attackDistance;
     [SerializeField] int dmg;
+    [SerializeField] LayerMask whatIsPlayer;
     float attackRateTimer;
+    Collider2D[] chaseColliders;
 
     [Header("--HEALTH--")]
     [SerializeField] int health;
@@ -37,19 +39,23 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
     [SerializeField] Vector2 edgeTriggerSize;
     [SerializeField] float edgeTriggerDistance;
     bool isLedge;
+    bool isWithinAttackRange= false;
+    bool isTouchingWall = false;
+    int dir;
     #endregion
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        sr = GetComponent<SpriteRenderer>();
+        sr = GetComponentInChildren<SpriteRenderer>();
         currentPoint = wonderAreaB.transform;
         attackRateTimer = attackRate;
+        
     }
 
     private void OnEnable()
     {
-        anim = GetComponent<Animator>();
+        anim = GetComponentInChildren<Animator>();
         ResetHealth();
         anim.SetTrigger("Spawn");
     }
@@ -65,49 +71,63 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
         { return; }
 
         #region [[[ PATROL ]]] 
-        isLedge = Physics2D.Raycast(triggerObject.position, Vector2.down, edgeTriggerDistance,whatIsGround);
+        isLedge = Physics2D.Raycast(triggerObject.position, Vector2.down, edgeTriggerDistance, whatIsGround);
+        Debug.DrawRay(triggerObject.position, Vector2.down * edgeTriggerDistance, Color.blue, edgeTriggerDistance);
 
-        if(!isLedge)
+        chaseColliders = Physics2D.OverlapBoxAll(triggerObject.position, edgeTriggerSize, 0f, whatIsPlayer);
+
+        isChasingPlayer = IsChasingPlayersCheck();
+
+        isWithinAttackRange = Physics2D.Raycast(transform.position, Vector2.right * dir, attackDistance, whatIsPlayer);
+        isTouchingWall = Physics2D.Raycast(transform.position, Vector2.right * dir, attackDistance, whatIsGround);
+        Debug.DrawRay(transform.position, Vector2.right * dir, Color.blue, .5f);
+
+        if (!isLedge)
         {
-             if(currentPoint == wonderAreaB)
+             Debug.Log("I Am At Ledge");
+
+            if (currentPoint == wonderAreaB)
             {
-                isChasingPlayer = false;
                 currentPoint = wonderAreaA.transform;
+                            isChasingPlayer = false;
             }
             else
             {
-                isChasingPlayer = false;
                 currentPoint = wonderAreaB.transform;
+                            isChasingPlayer = false;
             }
         }
-        else{
-             
-
+        else
+        {
             Debug.Log("I Am not At Ledge");
         }
 
         Vector2 point = currentPoint.position - transform.position;
-        if(currentPoint == wonderAreaB.transform && !isChasingPlayer) 
+        if (currentPoint == wonderAreaB.transform && !isChasingPlayer || currentPoint == wonderAreaB.transform && isTouchingWall)
         {
             anim.SetBool("Run", true);
+            dir =1;
             rb.velocity = new Vector2(movementSpeed * Time.deltaTime, rb.velocity.y);
 
-            transform.rotation = Quaternion.Euler(0,0,0);
+            transform.rotation = Quaternion.Euler(0, 0, 0);
 
         }
-        else if(currentPoint != wonderAreaB.transform && !isChasingPlayer)
+        else if (currentPoint != wonderAreaB.transform && !isChasingPlayer || currentPoint != wonderAreaB.transform && isTouchingWall)
         {
+            dir = -1;
             rb.velocity = new Vector2(movementSpeed * Time.deltaTime * -1, rb.velocity.y);
-            
-            transform.rotation = Quaternion.Euler(0,180,0);
+
+            transform.rotation = Quaternion.Euler(0, 180, 0);
         }
-      
-        if (Vector2.Distance(transform.position, currentPoint.position) < 0.8f && currentPoint == wonderAreaB.transform && !isChasingPlayer) 
+
+        if (Vector2.Distance(transform.position, currentPoint.position) < 0.8f && currentPoint == wonderAreaB.transform && !isChasingPlayer || currentPoint == wonderAreaB.transform && isTouchingWall)
         {
+            dir =1;
             currentPoint = wonderAreaA.transform;
         }
-        if (Vector2.Distance(transform.position,currentPoint.position) < 0.8f && currentPoint == wonderAreaA.transform && !isChasingPlayer) 
+        if (Vector2.Distance(transform.position, currentPoint.position) < 0.8f && currentPoint == wonderAreaA.transform && !isChasingPlayer || currentPoint == wonderAreaA.transform && isTouchingWall)
         {
+            dir =-1;
             currentPoint = wonderAreaB.transform;
         }
 
@@ -120,62 +140,58 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
 
     }
 
+    private bool IsChasingPlayersCheck()
+    {
+        for (int i = 0; i < chaseColliders.Length; i++)
+        {
+            Debug.Log(chaseColliders[i].name);
+            if (chaseColliders[i].gameObject.name == "Player")
+            {
+                playerObject = chaseColliders[i].gameObject;
+                return true;
+            }
+        }
+                return false;
+    }
+
     #region [[[ ATTACK AND CHASE PLAYER ]]]
     void ChasePlayer()
     {
 
-        if (Vector2.Distance(transform.position, playerObject.transform.position) > chaseDistance && isChasingPlayer)
+        if (Vector2.Distance(transform.position, playerObject.transform.position) > chaseDistance && isChasingPlayer )
         {
             if (transform.position.x > playerObject.transform.position.x )
             {
+                dir = -1;
                 rb.velocity = new Vector2(movementSpeed * Time.deltaTime * -1, rb.velocity.y);
                transform.rotation = Quaternion.Euler(0,180,0);
             }
             else
             {
+                dir =1;
                 rb.velocity = new Vector2(movementSpeed * Time.deltaTime, rb.velocity.y);
                  transform.rotation = Quaternion.Euler(0,0,0);
             }
         }
         else if (Vector2.Distance(transform.position, playerObject.transform.position) < attackDistance)
         {
+
             attackRateTimer -= Time.deltaTime;
 
-            if(attackRateTimer <= 0f)
+            if(attackRateTimer <= 0f && isWithinAttackRange)
             {
-                anim.SetTrigger("Attack");
                 attackRateTimer = attackRate;
+                anim.SetTrigger("Attack");
                 rb.velocity = Vector2.zero;
-                
-                
+                playerObject.GetComponent<PlayerMovementCtrl>().ReceiveDamage(dmg);
+            }
+            else{
+
             }
         }
     }
 
     #endregion
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.gameObject.CompareTag("Player")) 
-        {
-            playerObject = collision.gameObject;
-
-            isChasingPlayer = true;
-
-        }
-    }
-
-        private void OnCollisionEnter2D(Collision2D other) {
-                if(other.gameObject.CompareTag("Player")) 
-        {
-            playerObject = other.gameObject;
-
-            playerObject.GetComponent<PlayerMovementCtrl>().ReceiveDamage(dmg);
-
-            isChasingPlayer = true;
-
-        }
-    }
 
     private void OnDrawGizmos()
     {
@@ -213,6 +229,6 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
     public void DestroyGameObjectAfterAnim()
     {
 
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }
