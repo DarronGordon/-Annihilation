@@ -468,8 +468,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.8584, y: -0.2661, z: 0}
-    m_Extent: {x: 1.8574001, y: 1.2663, z: 0}
+    m_Center: {x: 0.8578, y: -0.26665, z: 0}
+    m_Extent: {x: 1.8575001, y: 1.26625, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -1354,8 +1354,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.021999955, y: -0.27935, z: 0}
-    m_Extent: {x: 1.7363, y: 0.72145, z: 0}
+    m_Center: {x: 0.02125001, y: -0.27905, z: 0}
+    m_Extent: {x: 1.73585, y: 0.72134995, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0.56
@@ -1684,8 +1684,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.84095, y: -1.40615, z: 0}
-    m_Extent: {x: 2.44155, y: 2.18195, z: 0}
+    m_Center: {x: -0.841, y: -1.40525, z: 0}
+    m_Extent: {x: 2.4424, y: 2.18235, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0.56
@@ -7259,6 +7259,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7296005650049125899, guid: b4996cc7d57c9f24691e0f02e6973a1a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: cea723540d8e1554490d0e1a6d5ad56d, type: 3}
     - target: {fileID: 8636393316855450663, guid: b4996cc7d57c9f24691e0f02e6973a1a, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -12429,8 +12433,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.25719994, y: -1.3161, z: 0}
-    m_Extent: {x: 1.7472999, y: 3.1641998, z: 0}
+    m_Center: {x: 0.25685006, y: -1.3165, z: 0}
+    m_Extent: {x: 1.7465501, y: 3.1638, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 1.04
