@@ -1,8 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.PlasticSCM.Editor.WebApi;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.SceneManagement;
@@ -24,10 +22,22 @@ public class PlayerMovementCtrl : MonoBehaviour,IPlayerDamageReceiver,IJamJuice
     [SerializeField] Vector2 feetSize;
     [SerializeField] float feetAngle;
 
-    [Header("JUMPING")]
+    [Header("--JUMPING--")]
+    [SerializeField]bool pressedJump = false;
+    [SerializeField]bool releasedJump = false;
+   [SerializeField] bool startJumpTimer = false;
+    [SerializeField]float jumpTimer;
+    [SerializeField]bool isJumping;
     [SerializeField] bool canDoubleJump;
     [SerializeField] float jumpingVelocity;
-    bool isJumping;
+    [SerializeField]int airJumps =1;
+    [SerializeField]int jumpsLeft;
+    private float gravityScale = 3f;
+    [SerializeField]float jumpTime;
+    [SerializeField]float startY;
+    [SerializeField]float maxJumpHeight = 5.5f;
+
+
 
     [Header("ROLLING & DASHING")]
     [SerializeField] bool isRolling;
@@ -50,12 +60,14 @@ public class PlayerMovementCtrl : MonoBehaviour,IPlayerDamageReceiver,IJamJuice
     float currentExp;
     float levelExpCap;
     int level;
+    [SerializeField]PlayerSoundCtrl playerSoundCtrl;
 
 
     #endregion
     private void OnEnable()
     {
         EventHandlerManager.onPlayerJumpEvent += PlayerJumpInput;
+        EventHandlerManager.onPlayerJumpReleaseEvent += PlayerJumpInputReleased;
         EventHandlerManager.onPlayerDashEvent += PlayerDashInput;
         EventHandlerManager.onPlayerShootEvent += PlayerShootInput;
     }
@@ -63,17 +75,45 @@ public class PlayerMovementCtrl : MonoBehaviour,IPlayerDamageReceiver,IJamJuice
     private void OnDisable()
     {
         EventHandlerManager.onPlayerJumpEvent -= PlayerJumpInput;
+        EventHandlerManager.onPlayerJumpReleaseEvent -= PlayerJumpInputReleased;
         EventHandlerManager.onPlayerDashEvent -= PlayerDashInput;
         EventHandlerManager.onPlayerShootEvent -= PlayerShootInput;
     }
 
     private void Start()
     {
+        playerSoundCtrl = GetComponent<PlayerSoundCtrl>();
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponentInChildren<SpriteRenderer>();
         anim = GetComponentInChildren<Animator>();
 
         ResetPlayer();
+        jumpsLeft = airJumps;
+        jumpTime = jumpTimer;
+    }
+
+    void PlayerJumpInput(bool b)
+    {
+        pressedJump = true;
+    }
+
+    void PlayerJumpInputReleased(bool b)
+    {
+        if(!canDoubleJump)
+        releasedJump = true;
+    }
+
+    private void Update() 
+    {
+
+        // if(startJumpTimer)
+        // {
+        //     jumpTime -= Time.deltaTime;
+        //     if(jumpTime <= 0){
+        //         pressedJump = false;
+        //         releasedJump = true;
+        //     }
+        // }
     }
 
     private void FixedUpdate()
@@ -81,6 +121,12 @@ public class PlayerMovementCtrl : MonoBehaviour,IPlayerDamageReceiver,IJamJuice
 
         #region [[[ PLAYER MOVEMENT CTRL ]]]
         isGrounded = Physics2D.OverlapBox(feet.position, feetSize, feetAngle, whatIsGround);
+
+        if(isGrounded)
+        {
+           isJumping = false;
+            canDoubleJump = true;
+        }
 
         if (PlayerInputControl.Instance.XDir != 0)
         {
@@ -106,7 +152,18 @@ public class PlayerMovementCtrl : MonoBehaviour,IPlayerDamageReceiver,IJamJuice
         }
 
         #endregion
+
+         if(pressedJump)
+         {
+            PrepareJump();
+         }
+         if(releasedJump || (transform.position.y - startY) > maxJumpHeight)
+         {
+            StopJump();
+         }
     }
+
+
     #region [[ FACING DIRECTION ]]
     private void CheckFacingDirection()
     {
@@ -124,29 +181,50 @@ public class PlayerMovementCtrl : MonoBehaviour,IPlayerDamageReceiver,IJamJuice
 
     #region [[[ JUMP CTRL ]]]
 
-    void PlayerJumpInput(bool b)
+    void PrepareJump()
     {
-        if (b)
+        if(isGrounded && !isJumping)
         {
-            if (isGrounded)
-            {
-                rb.AddForce(Vector2.up * jumpingVelocity);
-                isJumping = true;
-            }
+            StartJump();
+        }
+        else if(jumpsLeft > 0 && rb.velocity.y > 0f)
+        {
+            StartJump();
+        
+            jumpsLeft--;
 
-            if (!isGrounded && canDoubleJump && isJumping)
-            {
-                canDoubleJump = false;
-                rb.AddForce(Vector2.up * jumpingVelocity);
-
-                Invoke("ResetDoubleJump", 1.3f);
-            }
+            Invoke("ResetDoubleJump", 1.3f);
         }
     }
 
+     private void StartJump()
+     {
+        startY = transform.position.y;
+
+            startJumpTimer = true;
+            pressedJump = false;
+            rb.gravityScale = 0;
+            rb.AddForce(new Vector2(0,jumpingVelocity),ForceMode2D.Impulse);
+            isJumping = true;   
+     }
+
+     void StopJump()
+     {
+        Debug.Log("stopping jumping");
+        startJumpTimer = false;
+        rb.gravityScale = gravityScale;
+        pressedJump = false;
+        jumpTime = jumpTimer;
+        releasedJump = false;
+
+     }
+
+
+
     void ResetDoubleJump()
     {
-        canDoubleJump = true;
+            jumpsLeft = airJumps;
+              isJumping = false;
     }
     #endregion
 
@@ -185,6 +263,7 @@ public class PlayerMovementCtrl : MonoBehaviour,IPlayerDamageReceiver,IJamJuice
     {
         if (b)
         {
+            playerSoundCtrl.PlayAttackSound();
             gunAnim.SetTrigger("Fire");
             gun.Shoot();
         }
@@ -218,11 +297,16 @@ public class PlayerMovementCtrl : MonoBehaviour,IPlayerDamageReceiver,IJamJuice
     {
         if(!canTakeDmg)
         {return;}
+
+        playerSoundCtrl.PlayTakeDmg();
         anim.SetTrigger("TakeDmg");
         health -= dmg;
         UpdateHealthDisplay();
         if (health <= 0)
         { // DEATH
+
+            PlayerInputControl.Instance.StopMovement();
+            playerSoundCtrl.Die();
             SceneManagerCtrl.Instance.LoadLastCheckPointAndFadeOut();
             health = 0;
             UpdateHealthDisplay();
@@ -236,7 +320,7 @@ public class PlayerMovementCtrl : MonoBehaviour,IPlayerDamageReceiver,IJamJuice
         //Reset Health
         health = maxHealth;
         UpdateHealthDisplay();
-
+        PlayerInputControl.Instance.ResetMovement();
         //ResetInnerLight
         EventHandlerManager.CallOnPlayerReSpawnEvent();
 

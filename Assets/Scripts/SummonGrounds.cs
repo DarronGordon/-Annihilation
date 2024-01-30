@@ -7,7 +7,6 @@ using Random = UnityEngine.Random;
 public class SummonGrounds : MonoBehaviour
 {
     [SerializeField] Transform groundLevel;
-    [SerializeField] Vector2 summonGroundArea;
     [SerializeField] GameObject goulPrefab;
     [SerializeField] int maxGouls;
     [SerializeField][Range(-20,20)] float ranFactor;
@@ -36,6 +35,7 @@ public class SummonGrounds : MonoBehaviour
         {
             if(!goul.activeSelf)
             {
+                
                 anim.SetBool("Summon", true);    
                 ResetGoulPos(goul.transform);
                 goul.SetActive(true); 

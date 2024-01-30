@@ -47,8 +47,15 @@ public class BossCtrl : MonoBehaviour, IDamagable
     float takeDmgCounter;
     [SerializeField]bool canTakeDmg;
 
+    AudioSource audioSource;
+    [SerializeField]AudioClip takeDmgSouund;
+    [SerializeField]AudioClip DieSound;
+    [SerializeField]AudioClip attackSound;
+    [SerializeField]AudioClip groanSound;
+
     private void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponentInChildren<SpriteRenderer>();
         currentPoint = wonderAreaB.transform;
@@ -180,9 +187,10 @@ public class BossCtrl : MonoBehaviour, IDamagable
 
             if(attackRateTimer <= 0f )
             {
+                audioSource.PlayOneShot(attackSound);
                 attackRateTimer = attackRate;
                 anim.SetTrigger("Attack");
-                rb.velocity = Vector2.zero;
+                rb.velocity = Vector2.zero; 
             }
             else if(!isWithinAttackRange){
 
@@ -216,9 +224,10 @@ public class BossCtrl : MonoBehaviour, IDamagable
 
         health -= damage;
         UpdateHealthDisplay();
-
+        audioSource.PlayOneShot(takeDmgSouund);
         if(health <= 0)
         {
+            audioSource.PlayOneShot(DieSound);
             health = 0;
             canStartMoving = false;
             anim.SetTrigger("Die");

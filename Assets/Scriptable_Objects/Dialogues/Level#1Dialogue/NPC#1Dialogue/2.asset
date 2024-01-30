@@ -12,8 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6d1ad34505963458683e6f3cd42698, type: 3}
   m_Name: 2
   m_EditorClassIdentifier: 
-  dialogue: 'I ges you haven''t been told much! well no worries it''s nothing you
-    haven''t done before.
-
-    It''s spreading ... you started it ... and you can
-    stop it...'
+  dialogue: Your inner demons manifested in the form of you, these formidable adversaries
+    cloaked by the darkness, mirroring your own doubts and insecurities.

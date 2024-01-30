@@ -33,7 +33,7 @@ public class SceneManagerControlerLevel1 : MonoBehaviour
 
         faderCanvasGroup.alpha = 1f;
 
-        StartCoroutine(Fade(0f));
+        StartCoroutine(FadeInStart(0f));
     }
 
    
@@ -43,8 +43,7 @@ public class SceneManagerControlerLevel1 : MonoBehaviour
 
     public void LoadLevelScene(string sceneName)
     {
-        StartCoroutine(Fade(1f));
-        SceneManager.LoadScene(sceneName);
+        StartCoroutine(FadeToLevel(1f,sceneName));
     }
 
     public void ResetScene()
@@ -61,6 +60,47 @@ public class SceneManagerControlerLevel1 : MonoBehaviour
     public void FadeOut()
     {
         StartCoroutine(Fade(1f));
+    }
+
+        IEnumerator FadeToLevel(float finalAlpha, string sceneName)
+    {
+        isFading = true;
+
+        faderCanvasGroup.blocksRaycasts = true;
+
+        while(!Mathf.Approximately(faderCanvasGroup.alpha, finalAlpha))
+        {
+            faderCanvasGroup.alpha = Mathf.MoveTowards(faderCanvasGroup.alpha, finalAlpha, fadeDuration * Time.deltaTime);
+
+            yield return null;
+        }
+
+        isFading = false;
+
+        faderCanvasGroup.blocksRaycasts = false;
+
+         SceneManager.LoadScene(sceneName);
+    }
+
+        IEnumerator FadeInStart(float finalAlpha)
+    {
+        isFading = true;
+
+        faderCanvasGroup.blocksRaycasts = true;
+
+        yield return new WaitForSeconds(1f);
+
+        while(!Mathf.Approximately(faderCanvasGroup.alpha, finalAlpha))
+        {
+            faderCanvasGroup.alpha = Mathf.MoveTowards(faderCanvasGroup.alpha, finalAlpha, fadeDuration * Time.deltaTime);
+
+            yield return null;
+        }
+
+        isFading = false;
+
+        faderCanvasGroup.blocksRaycasts = false;
+
     }
     IEnumerator Fade(float finalAlpha)
     {

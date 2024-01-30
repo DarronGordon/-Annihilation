@@ -9,15 +9,24 @@ public class Summoner_Enemy : MonoBehaviour, IDamagable
     [SerializeField]float summonTimerMin, summonTimerMax;
 
     [Header("Health")]
-    [SerializeField] int health = 80;
-
+    [SerializeField] int health ;
+        [SerializeField] int maxHealth= 150;
+    AudioSource audioSource;
+    [SerializeField]AudioClip takeDmgSouund;
+    [SerializeField]AudioClip DieSound;
+    [SerializeField]AudioClip attackSound;
+    [SerializeField]AudioClip spawnSound;
+        [SerializeField] HealthBar hbar;
     Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
+        health = maxHealth;
+        audioSource = GetComponent<AudioSource>();
         anim = GetComponent<Animator>();
         InvokeRepeating("StartSummoning", summonTimerMin, Random.Range(summonTimerMin, summonTimerMax));
+        UpdateHealthDisplay();
     }
 
     void StartSummoning()
@@ -36,9 +45,13 @@ public class Summoner_Enemy : MonoBehaviour, IDamagable
     {
         anim.SetTrigger("TakeDmg");
         health -= damage;
+        audioSource.PlayOneShot(takeDmgSouund);
+        UpdateHealthDisplay();
 
         if (health <= 0)
         {
+            UpdateHealthDisplay();
+            audioSource.PlayOneShot(DieSound);
             health = 0;
             anim.SetTrigger("Die");
         }
@@ -46,6 +59,17 @@ public class Summoner_Enemy : MonoBehaviour, IDamagable
 
     public void DestroyGameObjectAfterAnim()
     {
-        Destroy(gameObject);
+        AudioTriggeredSound ats = GetComponent<AudioTriggeredSound>();
+        ats.PlaySound();
+        Destroy(gameObject,1f);
     }
+
+        private void UpdateHealthDisplay()
+    {
+        
+        hbar.UpdateHealthBar(health,maxHealth);
+    }
+
+
+
 }

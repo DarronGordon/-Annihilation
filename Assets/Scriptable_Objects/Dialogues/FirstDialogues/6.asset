@@ -12,7 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6d1ad34505963458683e6f3cd42698, type: 3}
   m_Name: 6
   m_EditorClassIdentifier: 
-  dialogue: 'Don''t loose sight, If we stay positive and in the LIGHT the Darkness
-    can spread faster then you think.
-
-    It''s all up to you.'
+  dialogue: It's Time!!!

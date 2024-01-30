@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6d1ad34505963458683e6f3cd42698, type: 3}
   m_Name: 4
   m_EditorClassIdentifier: 
-  dialogue: "If thats so, we not sure where or how it started just that it was small,
-    I ges it's different for everyone? , anyway it must have spead overtime and we
-    did not notice it in time. \n'You are our only hope'!"
+  dialogue: However, as you delved deeper into  your escape from reality, the darkness
+    within you grows stronger, feeding on your fears and uncertainties.

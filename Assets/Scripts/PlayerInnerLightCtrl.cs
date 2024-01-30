@@ -8,6 +8,9 @@ public class PlayerInnerLightCtrl : MonoBehaviour, ILightAbsorber
     [SerializeField] Slider innerLightDisplay;
     [SerializeField] float currentInnerLight;
 
+    AudioSource audioSource;
+    [SerializeField]AudioClip heartBeat;
+
 
     [Header("--DARKNESS CREEP--")]
     [SerializeField] CreepCtrl creep;
@@ -27,6 +30,7 @@ public class PlayerInnerLightCtrl : MonoBehaviour, ILightAbsorber
 
     private void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         currentInnerLight = maxInnerLight;
 
         pmc = GetComponent<PlayerMovementCtrl>();
@@ -69,6 +73,11 @@ public class PlayerInnerLightCtrl : MonoBehaviour, ILightAbsorber
         innerLightDisplay.value = currentInnerLight;
         creep.SetInnerLight(currentInnerLight);
         pmc.SetInnerLight(currentInnerLight);
+
+        if(currentInnerLight <= maxInnerLight/2)
+        {
+            audioSource.PlayOneShot(heartBeat);
+        }
     }
 
     public void ResetInnerLight()

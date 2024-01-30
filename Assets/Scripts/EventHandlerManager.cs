@@ -10,7 +10,11 @@ public class EventHandlerManager : MonoBehaviour
     {
         onPlayerJumpEvent?.Invoke(b);
     }
-
+    public static Action<bool> onPlayerJumpReleaseEvent;
+    public static void CallOnPlayerJumpRelease(bool b)
+    {
+        onPlayerJumpReleaseEvent?.Invoke(b);
+    }
     public static Action<bool> onPlayerDashEvent;
     public static void CallOnPlayerDash(bool b)
     {

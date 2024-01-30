@@ -4,20 +4,18 @@ using UnityEngine;
 
 public class NPC1Trigger : MonoBehaviour
 {
-    [SerializeField]GameObject dialogueObject;
 
-
+[SerializeField]WitchDialogue witchDialogue;
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.gameObject.CompareTag("Player"))
         {
-            dialogueObject.SetActive(true);
+            witchDialogue.StartDialogue();
         }
     }
 
     private void OnTriggerExit2D(Collider2D other) {
                 if(other.gameObject.CompareTag("Player"))
         {
-            dialogueObject.SetActive(false);
         }
     }
 }

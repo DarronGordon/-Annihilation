@@ -69,7 +69,7 @@ public partial class @Annihilation: IInputActionCollection2, IDisposable
                     ""id"": ""5af83255-9c65-4aa8-a906-8cb398c3782a"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": ""Press(behavior=2)"",
+                    ""interactions"": """",
                     ""initialStateCheck"": false
                 }
             ],
@@ -309,7 +309,7 @@ public partial class @Annihilation: IInputActionCollection2, IDisposable
                     ""name"": """",
                     ""id"": ""b6e77a97-c458-412d-9b78-a4773115a2b9"",
                     ""path"": ""<Keyboard>/space"",
-                    ""interactions"": ""Press(behavior=2)"",
+                    ""interactions"": ""Press"",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Jump"",

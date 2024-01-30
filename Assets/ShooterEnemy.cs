@@ -47,10 +47,16 @@ public class ShooterEnemy : MonoBehaviour, IDamagable
     bool isInRange;
     public float shootDir;
 
+    AudioSource audioSource;
+    [SerializeField]AudioClip takeDmgSouund;
+    [SerializeField]AudioClip DieSound;
+    [SerializeField]AudioClip attackSound;
+    [SerializeField]AudioClip groanSound;
     #endregion
 bool canFireProjectile;
     private void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         playerObject = FindObjectOfType<PlayerMovementCtrl>().gameObject;
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
@@ -161,6 +167,7 @@ bool canFireProjectile;
 
     public void FireProjectile(float shootDir)
     {
+        audioSource.PlayOneShot(attackSound);
 
         GameObject bullet = Instantiate(projectilePrefab,barrelTransform.position,quaternion.identity);
         bullet.GetComponent<EnemyProjectile>().SetDir(shootDir);
@@ -177,11 +184,13 @@ bool canFireProjectile;
 
     public void TakeDamage(int damage)
     {
+        audioSource.PlayOneShot(takeDmgSouund);
 
         health -= damage;
         UpdateHealthDisplay();
         if(health <= 0)
         {
+            audioSource.PlayOneShot(DieSound);
             health = 0;
             anim.SetTrigger("Die");
             UpdateHealthDisplay();

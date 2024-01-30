@@ -10,8 +10,12 @@ public class CheckPointCtrl : MonoBehaviour
     public int id;
     Animator anim;
 
+    [SerializeField]AudioClip checkPointFoundSound;
+    AudioSource audioS;
+
     void Start()
     {
+        audioS = GetComponent<AudioSource>();
         anim = GetComponent<Animator>();
     }
 
@@ -25,6 +29,7 @@ public class CheckPointCtrl : MonoBehaviour
             }
             else
             {
+                audioS.PlayOneShot(checkPointFoundSound);
                 anim.SetBool("Triggered", true);
                 isCheckPointActive = true;
                 SetLastCheckPointFound(id, transform.position);

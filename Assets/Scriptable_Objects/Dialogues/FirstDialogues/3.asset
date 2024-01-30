@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6d1ad34505963458683e6f3cd42698, type: 3}
   m_Name: 3
   m_EditorClassIdentifier: 
-  dialogue: '~~Well~~
-
-'
+  dialogue: At first, you brushed them aside, dismissing them as mere figments of
+    your imagination.

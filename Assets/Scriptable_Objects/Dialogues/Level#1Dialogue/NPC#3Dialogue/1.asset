@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6d1ad34505963458683e6f3cd42698, type: 3}
   m_Name: 1
   m_EditorClassIdentifier: 
-  dialogue: Finaly we are here to end this bleak existance crush the darkness and
-    stop it from spreading!! You will find Game-Jam juice around, use it it will
-    replenish health and some Inner light!
+  dialogue: With every victory, you grow stronger, your spirit shining brighter against
+    the encroaching darkness, as you stop it's spread. You will find Game-Jam juice
+    around, use it it will replenish health!

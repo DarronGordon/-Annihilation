@@ -5,9 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class OutroScenCrtl : MonoBehaviour
 {
+    [SerializeField]GameObject txt1;
+    [SerializeField]GameObject txt2;
     IEnumerator Start()
     {
-        yield return new WaitForSeconds(3f);
+        txt1.SetActive(true);
+        txt2.SetActive(false);
+        yield return new WaitForSeconds(10f);
+        txt1.SetActive(false);
+        txt2.SetActive(true);
+        yield return new WaitForSeconds(10f);
 
         SceneManager.LoadScene("MainMenu");
     }

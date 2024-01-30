@@ -246,5 +246,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocity: 1500
   damage: 25
-  lifeTime: 1.04
+  lifeTime: 2
   explosionVFX: {fileID: 0}

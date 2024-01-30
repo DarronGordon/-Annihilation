@@ -9,6 +9,8 @@ public class HealthPotion : MonoBehaviour
     float exp = 25f;
     [SerializeField]ParticleSystem healEffect;
 
+    [SerializeField]AudioTriggeredSound ats;
+
     private void OnTriggerEnter2D(Collider2D other) {
 
         IJamJuice potion = other.GetComponent<IJamJuice>();
@@ -16,8 +18,8 @@ public class HealthPotion : MonoBehaviour
         if(potion != null)
         {
             potion.IJamJuice(amountToHeal, exp);
-
-            Destroy(gameObject);
+            ats.PlaySound();
+            Destroy(gameObject,1f);
         }
     }
 }

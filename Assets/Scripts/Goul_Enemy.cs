@@ -44,6 +44,12 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
     int dir;
     #endregion
 
+    AudioSource audioSource;
+    [SerializeField]AudioClip takeDmgSouund;
+    [SerializeField]AudioClip DieSound;
+    [SerializeField]AudioClip attackSound;
+    [SerializeField]AudioClip spawnSound;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -58,6 +64,8 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
         anim = GetComponentInChildren<Animator>();
         ResetHealth();
         anim.SetTrigger("Spawn");
+        audioSource = GetComponent<AudioSource>();
+        audioSource.PlayOneShot(spawnSound);
     }
 
     public void HasSpawned()
@@ -80,8 +88,8 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
 
         isWithinAttackRange = Physics2D.Raycast(transform.position, Vector2.right * dir, attackDistance, whatIsPlayer);
         isTouchingWall = Physics2D.Raycast(transform.position, Vector2.right * dir, attackDistance, whatIsGround);
-        Debug.DrawRay(transform.position, Vector2.right * dir, Color.blue, .5f);
-
+        Debug.DrawRay(transform.position, Vector2.right * dir, Color.red, .1f);
+    
         if (!isLedge)
         {
              Debug.Log("I Am At Ledge");
@@ -102,8 +110,28 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
             Debug.Log("I Am not At Ledge");
         }
 
+        if (isTouchingWall)
+        {
+             Debug.Log("I Am Touching wall");
+
+            if (currentPoint == wonderAreaB)
+            {
+                currentPoint = wonderAreaA.transform;
+                            isChasingPlayer = false;
+            }
+            else
+            {
+                currentPoint = wonderAreaB.transform;
+                            isChasingPlayer = false;
+            }
+        }
+        else
+        {
+            Debug.Log("I Am not Touching Wall");
+        }
+
         Vector2 point = currentPoint.position - transform.position;
-        if (currentPoint == wonderAreaB.transform && !isChasingPlayer || currentPoint == wonderAreaB.transform && isTouchingWall)
+        if (currentPoint == wonderAreaB.transform && !isChasingPlayer )
         {
             anim.SetBool("Run", true);
             dir =1;
@@ -112,7 +140,7 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
             transform.rotation = Quaternion.Euler(0, 0, 0);
 
         }
-        else if (currentPoint != wonderAreaB.transform && !isChasingPlayer || currentPoint != wonderAreaB.transform && isTouchingWall)
+        else if (currentPoint != wonderAreaB.transform && !isChasingPlayer )
         {
             dir = -1;
             rb.velocity = new Vector2(movementSpeed * Time.deltaTime * -1, rb.velocity.y);
@@ -120,12 +148,12 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
             transform.rotation = Quaternion.Euler(0, 180, 0);
         }
 
-        if (Vector2.Distance(transform.position, currentPoint.position) < 0.8f && currentPoint == wonderAreaB.transform && !isChasingPlayer || currentPoint == wonderAreaB.transform && isTouchingWall)
+        if (Vector2.Distance(transform.position, currentPoint.position) < 0.8f && currentPoint == wonderAreaB.transform && !isChasingPlayer)
         {
             dir =1;
             currentPoint = wonderAreaA.transform;
         }
-        if (Vector2.Distance(transform.position, currentPoint.position) < 0.8f && currentPoint == wonderAreaA.transform && !isChasingPlayer || currentPoint == wonderAreaA.transform && isTouchingWall)
+        if (Vector2.Distance(transform.position, currentPoint.position) < 0.8f && currentPoint == wonderAreaA.transform && !isChasingPlayer)
         {
             dir =-1;
             currentPoint = wonderAreaB.transform;
@@ -144,7 +172,6 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
     {
         for (int i = 0; i < chaseColliders.Length; i++)
         {
-            Debug.Log(chaseColliders[i].name);
             if (chaseColliders[i].gameObject.name == "Player")
             {
                 playerObject = chaseColliders[i].gameObject;
@@ -180,15 +207,23 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
 
             if(attackRateTimer <= 0f && isWithinAttackRange)
             {
-                attackRateTimer = attackRate;
-                anim.SetTrigger("Attack");
-                rb.velocity = Vector2.zero;
-                playerObject.GetComponent<PlayerMovementCtrl>().ReceiveDamage(dmg);
+                Attack();
             }
-            else{
+            else
+            {
 
             }
         }
+    }
+
+    private void Attack()
+    {
+        audioSource.PlayOneShot(attackSound);
+
+        attackRateTimer = attackRate;
+        anim.SetTrigger("Attack");
+        rb.velocity = Vector2.zero;
+        playerObject.GetComponent<PlayerMovementCtrl>().ReceiveDamage(dmg);
     }
 
     #endregion
@@ -203,12 +238,14 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
 
     public void TakeDamage(int damage)
     {
-
+audioSource.PlayOneShot(takeDmgSouund);
         health -= damage;
         UpdateHealthDisplay();
 
         if(health <= 0)
         {
+            audioSource.PlayOneShot(DieSound);
+            rb.velocity=Vector2.zero;
             health = 0;
             canStartMoving = false;
             anim.SetTrigger("Die");
@@ -230,5 +267,12 @@ public class Goul_Enemy : MonoBehaviour, IDamagable
     {
 
         gameObject.SetActive(false);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) {
+        if(other.gameObject.CompareTag("Player"))
+        {
+            Attack();
+        }
     }
 }

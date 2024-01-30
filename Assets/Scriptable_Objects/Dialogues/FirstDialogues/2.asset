@@ -12,8 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6d1ad34505963458683e6f3cd42698, type: 3}
   m_Name: 2
   m_EditorClassIdentifier: 
-  dialogue: 'They don''t know who you are!,  they probably have no idea about the
-    Darkness they have created, it started small but has been spreading!
-
-    They
-    will need inductions!!'
+  dialogue: 'It began subtly, with small moments of doubt and insecurity creeping
+    into your mind. '
